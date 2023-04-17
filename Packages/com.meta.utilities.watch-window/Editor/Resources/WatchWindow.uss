@@ -1,0 +1,65 @@
+Button {
+    overflow: visible;
+    min-width: 16px;
+}
+
+.delete-button {
+    overflow: visible;
+    min-height: 5px;
+    background-image: var(--unity-icons-clear);
+}
+
+.graph-button {
+    overflow: visible;
+    min-height: 5px;
+    background-image: resource('graphs_Outline_24');
+}
+
+.settings-button {
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: resource('d_Settings');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 15px;
+    width: 20px;
+    border-width: 0;
+}
+
+.play-pause-button {
+    background-image: none;
+}
+
+.play-pause-button * {
+    background-image: none;
+}
+
+* .play-pause-button>* {
+    background-image: resource('PlayButton');
+}
+
+* .play-pause-button>*:hover {
+    background-image: resource('PlayButton On');
+}
+
+* .play-pause-button>*:checked {
+    background-image: resource('PauseButton');
+}
+
+* .play-pause-button>*:checked:hover {
+    background-image: resource('PauseButton On');
+}
+
+.text-only-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.text-only-button:hover {
+    color: white;
+}
+
+#ValueContainer Label {
+    background-color: rgba(0, 0, 0, 0.5);
+}

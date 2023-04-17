@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Commander_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 7
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>TASK: PROTECT STATION SYSTEMS</size></b></u></color>\n\nAs
+    the Commander, you are responsible for manning the mainframe and monitoring your
+    crew. From here, you can manually operate vital systems remotely and repair damage
+    all across the colony. \n\nTo view a specific station on the monitor, press one
+    of the labelled buttons to your left. Doing this selects the station:  once it
+    is visible on the monitor, tap the keyboard to repair any damage it may have
+    sustained through the night.\n\nKeep an eye out for any suspicious behavior at
+    each station: your colony depends on it."
+  m_alternateInstructions: 
+  m_moleInstructions: '<color=#FFFFFF><u><b><size=200%>TASK: HACK STATION SYSTEMS</size></b></u></color>
+
+
+    As
+    the Commander, you have access to the system''s mainframe, giving you direct
+    control over many aspects of the colony''s vital systems. You can observe the
+    crew as they work, as well as execute malicious software.
+
+
+    To view a specific
+    station on the monitor, press one of the labelled buttons to your left. Doing
+    this selects the station:  once it is visible on the monitor, tap the keyboard
+    to hack the station and cause damage.
+
+
+    Exercise restraint when hacking the
+    colony''s systems to avoid arousing suspicion.'
+  m_alternateMoleInstructions: 
+  m_instructionsAudio: {fileID: 0}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 0}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

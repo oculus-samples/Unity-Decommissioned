@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3780aba0a5d40be4b85094aab907f5e5, type: 3}
+  m_Name: HolodeckOcclusionExclusions
+  m_EditorClassIdentifier: 
+  <OcclusionExclusions>k__BackingField:
+  - {fileID: 2707145469229097498, guid: e6a0681eb4012574393a63b51e8f7f7a, type: 3}
+  - {fileID: 8049944243022126724, guid: 9af288d1ea3ed714f8a84a81d7faf2d8, type: 3}
+  - {fileID: 5104547359195196717, guid: 8d900273d40b2c34fbdf13ed69d538aa, type: 3}
+  - {fileID: 4663476880416261405, guid: a6ac391eaa748ce418deec9c1965bc2e, type: 3}
+  - {fileID: 3476819750090075462, guid: e41a528d92e53f340a002daa29fd81a1, type: 3}
+  - {fileID: 729002211798489556, guid: 3baa718888152654ab6935469b38b446, type: 3}
+  - {fileID: 5384300413219896404, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  - {fileID: 6042131560931491979, guid: 993e0da4399b8204dbd4c790154bbd60, type: 3}

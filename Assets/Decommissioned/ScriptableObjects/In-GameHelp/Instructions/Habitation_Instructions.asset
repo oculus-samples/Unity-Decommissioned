@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Habitation_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 5
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>TASK: RESTORE DATA</size></b></u></color>\n\nMany
+    of our most critical records have been lost due to station-wide malfunction.
+    This data has been backed up on specialized storage devices and must be reuploaded
+    in the correct sequence in order to fully restore them.\n\nThe monitor in front
+    of you is displaying the correct sequence of storage devices needed to restore
+    the records. Only your crewmate has access to the devices themselves. \n\nTo
+    complete your task, describe each device and the correct sequence to your crewmate
+    as clearly as possible. Once you have both verified that the sequence is correct,
+    pull the lever in front of you start the upload.\n\nWARNING: Submitting the wrong
+    devices in the wrong order may corrupt the data and damage the station!"
+  m_alternateInstructions: "<color=#FFFFFF><u><b><size=200%>TASK: RESTORE DATA</size></b></u></color>\n\nMany
+    of our most critical records have been lost due to station-wide malfunction.
+    This data has been backed up on specialized storage devices and must be reuploaded
+    in the correct sequence in order to fully restore them.\n\nTo complete your task,
+    insert the correct storage devices into the system in the order displayed on
+    the monitor on the opposite side of the room. Only your crewmate has access to
+    the correct sequence, so be sure to verify your attempts with them. \n\nOnce
+    you've inserted the devices required, notify your crewmate that you are ready
+    for submission.\n\nWARNING: Submitting the wrong devices in the wrong order may
+    corrupt the data and damage the station!"
+  m_moleInstructions: "<color=#FFFFFF><u><b><size=200%>TASK: DESTROY DATA</size></b></u></color>\n\nAll
+    that remains of the station's most critical records are contained on a set of
+    specialized storage devices. If these are uploaded in the wrong order, the data
+    will be corrupted beyond repair. Your job is to ensure that happens. \n\nThe
+    monitor in front of you is displaying the correct sequence of storage devices
+    needed to restore the records. Only the crew has access to the devices themselves.
+    \n\nIn order to complete your task, you must feed as much incorrect information
+    about the proper sequence as you can to the crew without arousing suspicion.
+    When ready, pull the lever in front of you to submit the data. The more data
+    you upload in the wrong order, the more damage you can do.\n\nBe sure to play
+    your part convincingly: they may be on to you."
+  m_alternateMoleInstructions: "<color=#FFFFFF><u><b><size=200%>TASK: DESTROY DATA</size></b></u></color>\n\nThe
+    storage devices in front of your are all that remains of the station's most critical
+    records. If they are uploaded in the wrong order, the data will be corrupted
+    beyond repair: your job is to ensure that happens. \n\nThe crew will give you
+    a detailed description of the correct sequence the devices must be inserted in.
+    Avoid using this sequence, but be sure to act the part convincingly enough to
+    ensure maximum losses.\n\nOnce you have inserted the devices, notify the crew
+    that they are ready for submission: the data will be corrupted once properly
+    uploaded."
+  m_instructionsAudio: {fileID: 0}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 0}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

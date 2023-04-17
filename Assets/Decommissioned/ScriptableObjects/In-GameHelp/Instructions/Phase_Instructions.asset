@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Phase_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 8
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>PHASES</size></b></u></color>\n\r\n-
+    Each day is divided into four phases indicated by the lights to your right: DISCUSS,
+    VOTE, PLAN, and WORK.\r\n\n- Pressing the orange button labeled \u201CSKIP\u201D
+    or waiting for the timer to reach zero will end the phase."
+  m_alternateInstructions: 
+  m_moleInstructions: "<color=#FFFFFF><u><b><size=200%>PHASES</size></b></u></color>\n\r\n-
+    Each day is divided into four phases indicated by the lights to your right: DISCUSS,
+    VOTE, PLAN, and WORK.\r\n\r\n- Pressing the orange button labeled \u201CSKIP\u201D
+    or waiting for the timer to reach zero will end the phase."
+  m_alternateMoleInstructions: 
+  m_instructionsAudio: {fileID: 8300000, guid: 0f568a380e88e1742af303e73caf0574, type: 3}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 8300000, guid: 0f568a380e88e1742af303e73caf0574, type: 3}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

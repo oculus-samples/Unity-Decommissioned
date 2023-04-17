@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &872257274952398382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872257274952398377}
+  - component: {fileID: 872257274952398376}
+  - component: {fileID: 872257274952398383}
+  m_Layer: 0
+  m_Name: Phase_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872257274952398377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872257274952398382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.807986, y: 11.68614, z: 4.208695}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &872257274952398376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872257274952398382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109b394392dd35a4fba73874c1640cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_phases:
+    m_values:
+    - {fileID: 0}
+    - {fileID: 7572870318217133688, guid: a375475cd269c5748819d3069e3a8bc3, type: 3}
+    - {fileID: 3080987511378369773, guid: 51aa1297b95f5fc409204268b01fb9de, type: 3}
+    - {fileID: 117961820674203514, guid: 05d88106d43019849b4f4e3fac82a184, type: 3}
+    - {fileID: 3506339172376383040, guid: a2bb34fffed5b0d45bd4dc5cebc3e7f2, type: 3}
+  m_onBeforePhaseEndEvent: {fileID: 11400000, guid: 7e7862bdc4ab777408ffd45f35466453, type: 2}
+  m_debugSkipAudio:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Debug Skip Audio
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3c16f453-6499-41d3-8b98-9a0929091829
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+--- !u!114 &872257274952398383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872257274952398382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2960177141
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

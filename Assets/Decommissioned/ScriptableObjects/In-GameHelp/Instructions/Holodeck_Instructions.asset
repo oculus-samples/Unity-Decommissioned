@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Holodeck_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 3
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>TASK: SATELLITE DEFENSE</size></b></u></color>\n\nWe
+    need to keep our satellite in orbit. Use the satellite's remote-controlled arms
+    to destroy incoming obstacles and minimize damage. \n\n<b>You must use the correct
+    tool to destroy each object:</b> debris must be burned with the laser, and asteroids
+    must be punched. Punching debris will jam the arms, and shooting asteroids will
+    only break them into even more asteroids: both will damage the satellite.\n\nKeep
+    your eyes open: they're coming from all directions!"
+  m_alternateInstructions: 
+  m_moleInstructions: '<color=#FFFFFF><u><b><size=200%>TASK: SABOTAGE SATELLITE</size></b></u></color>
+
+
+    We
+    must bring down the satellite. Use the satellite''s remote-controlled arms to
+    ensure maximum damage from incoming obstacles.
+
+
+    <b>You must use the correct
+    tool to damage the satellite:</b> punch debris to jam the satellite''s arms,
+    and shoot asteroids to break them into smaller pieces.
+
+
+    Be discreet; the
+    crew may be watching.'
+  m_alternateMoleInstructions: 
+  m_instructionsAudio: {fileID: 0}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 0}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

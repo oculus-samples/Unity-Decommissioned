@@ -1,0 +1,1008 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5343d18b8b45e564da4f16f92631c225, type: 3}
+  m_Name: DefaultCommanderHackingStrings
+  m_EditorClassIdentifier: 
+  <PositiveStrings>k__BackingField:
+    m_values:
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/"
+
+        find /i "HEAL" *.cmd
+
+        timeout
+        /t 5
+
+        echo "I am healing systems."
+
+        start maintenance.exe'
+      - 'title "Security Check"
+
+        cd "X:/Mars Project/Blueprints/"
+
+        taskkill
+        /im "hacker.exe"
+
+        cacls icecreammachine.png
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Colony Data/"
+
+        cacls userData.dat
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "There is a mole here!"
+
+        del
+        hacker.exe'
+      - 'taskkill /pid 2005
+
+        start maintenance.exe
+
+        cd "X:/Mars Project/Commander
+        Files/"
+
+        time 03:31:00
+
+        cacls commanderData.dat'
+      - 'telnet telnet.marscolony.com
+
+        telnet sen ayt
+
+        telnet sen
+        "Stations are having trouble."
+
+        defrag X: /m
+
+        shutdown /r
+        /t 180 "Rebooting for Maintenance"'
+      - 'cd "X:/Mars Project/Incoming Transmissions/"
+
+        ftp ftp.marscolony.com
+
+        send
+        transmissionData.dat
+
+        cacls transmissionData.dat
+
+        taskkill
+        /im "mole.exe"'
+      - 'title "Fixing Up Stations"
+
+        cd "X:/Mars Project/Room Data/"
+
+        cacls
+        health.xml
+
+        del notavirus.bat
+
+        shutdown /r /t 180 "Clearing
+        cache..."'
+      - 'date 03.25.2005
+
+        echo "There might be a mole in our colony..."
+
+        runas
+        /profile /user:MARSPC\Admin maintenance.exe
+
+        taskkill /pid 9999
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Blueprints/"
+
+        ftp ftp.marscolony.com
+
+        send
+        icecreammachine.png
+
+        echo "I am healing systems."
+
+        start
+        maintenance.exe'
+      - 'cd "X:/Mars Project/Colony Data/"
+
+        find /i "FIX" *.cmd
+
+        timeout
+        /t 5
+
+        taskkill /pid 1877
+
+        shutdown /r /t 180 "Security Breach
+        Detected"'
+      - 'cd "X:/Mars Project/Room Data/Commander/"
+
+        start maintenance.exe
+
+        date
+        12.25.1998
+
+        find /i "HEAL" *.cmd
+
+        defrag X: /m'
+      - 'title "Security Check"
+
+        telnet telnet.marscolony.com
+
+        telnet
+        sen "Security breach detected"
+
+        start "X:/Mars Project/saveDatabase.cmd"
+
+        del
+        "X:/Mars Project/theVirus.bat"'
+      - 'taskkill /im "mole.exe"
+
+        timeout /t 5
+
+        cd "X:/Mars Project/Room
+        Data/"
+
+        find /i "FIX" *.cmd
+
+        chkdsk X: /f'
+      - 'start maintenance.exe
+
+        taskkill /im "hacker.exe"
+
+        cd "X:/Mars
+        Project/Room Data/Commander/"
+
+        cacls stationData.dat
+
+        del
+        notavirus.bat'
+      - 'find /i "HEAL" *.cmd
+
+        cd "X:/Mars Project/Colony Data/"
+
+        find
+        /i "HEAL" *.cmd
+
+        cd "X:/Mars Project/"
+
+        defrag X: /m'
+      - 'start maintenance.exe
+
+        cd "X:/Mars Project/Colony Data/"
+
+        ftp
+        ftp.marscolony.com
+
+        send conceptArt.png
+
+        del hacker.exe'
+      - 'runas /profile /user:MARSPC\Admin powershell
+
+        title "Security Check"
+
+        cd
+        "X:/Mars Project/Commander Files/"
+
+        find /i "FIX" *.cmd
+
+        start
+        "X:/Mars Project/saveDatabase.cmd"'
+      - 'echo "I am healing systems."
+
+        title "Fixing Up Stations"
+
+        start
+        maintenance.exe
+
+        cd "X:/Mars Project/Room Data/"
+
+        start "X:/Mars
+        Project/saveDatabase.cmd"'
+      - 'taskkill /pid 1877
+
+        taskkill /pid 9999
+
+        time 03:31:00
+
+        date
+        03.25.2005
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Room Data/"
+
+        ftp ftp.marscolony.com
+
+        send
+        stationData.dat
+
+        send health.xml
+
+        cacls health.xml'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        echo "I am healing systems."
+
+        cacls
+        stationData.dat
+
+        cacls health.xml
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        start maintenance.exe
+
+        ftp
+        ftp.marscolony.com
+
+        send stationData.dat
+
+        del notavirus.bat'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        date 12.25.1998
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "Stations are having trouble."
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        taskkill /pid 2005
+
+        taskkill
+        /im "mole.exe"
+
+        cacls stationData.dat
+
+        shutdown /r /t 180
+        "Clearing cache..."'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        taskkill /im "hacker.exe"
+
+        start
+        maintenance.exe
+
+        cacls health.xml
+
+        shutdown /r /t 180 "Rebooting
+        for Maintenance"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        echo "I am healing systems."
+
+        cacls
+        stationData.dat
+
+        cacls health.xml
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        start maintenance.exe
+
+        ftp
+        ftp.marscolony.com
+
+        send stationData.dat
+
+        del notavirus.bat'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        date 12.25.1998
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "Stations are having trouble."
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        taskkill /pid 2005
+
+        taskkill
+        /im "mole.exe"
+
+        cacls stationData.dat
+
+        shutdown /r /t 180
+        "Clearing cache..."'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        taskkill /im "hacker.exe"
+
+        start
+        maintenance.exe
+
+        cacls health.xml
+
+        shutdown /r /t 180 "Rebooting
+        for Maintenance"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        echo "I am healing systems."
+
+        cacls
+        stationData.dat
+
+        cacls health.xml
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        start maintenance.exe
+
+        ftp
+        ftp.marscolony.com
+
+        send stationData.dat
+
+        del notavirus.bat'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        date 12.25.1998
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "Stations are having trouble."
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        taskkill /pid 2005
+
+        taskkill
+        /im "mole.exe"
+
+        cacls stationData.dat
+
+        shutdown /r /t 180
+        "Clearing cache..."'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        taskkill /im "hacker.exe"
+
+        start
+        maintenance.exe
+
+        cacls health.xml
+
+        shutdown /r /t 180 "Rebooting
+        for Maintenance"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        echo "I am healing
+        systems."
+
+        cacls stationData.dat
+
+        cacls health.xml
+
+        chkdsk
+        X: /f'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        start maintenance.exe
+
+        ftp
+        ftp.marscolony.com
+
+        send stationData.dat
+
+        del notavirus.bat'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        date 12.25.1998
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "Stations are having trouble."
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        taskkill /pid 2005
+
+        taskkill
+        /im "mole.exe"
+
+        cacls stationData.dat
+
+        shutdown /r /t 180
+        "Clearing cache..."'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        taskkill /im "hacker.exe"
+
+        start
+        maintenance.exe
+
+        cacls health.xml
+
+        shutdown /r /t 180 "Rebooting
+        for Maintenance"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        echo "I am healing systems."
+
+        cacls
+        stationData.dat
+
+        cacls health.xml
+
+        chkdsk X: /f'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        start maintenance.exe
+
+        ftp
+        ftp.marscolony.com
+
+        send stationData.dat
+
+        del notavirus.bat'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        date 12.25.1998
+
+        telnet
+        telnet.marscolony.com
+
+        telnet sen "Stations are having trouble."
+
+        defrag
+        X: /m'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        taskkill /pid 2005
+
+        taskkill
+        /im "mole.exe"
+
+        cacls stationData.dat
+
+        shutdown /r /t 180
+        "Clearing cache..."'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        taskkill /im "hacker.exe"
+
+        start
+        maintenance.exe
+
+        cacls health.xml
+
+        shutdown /r /t 180 "Rebooting
+        for Maintenance"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Misc/Commander Files/"
+
+        find /i "HEAL" *.exe
+
+        echo
+        "Why am I hacking my own station??"
+
+        start healer.exe
+
+        exit'
+  <NegativeStrings>k__BackingField:
+    m_values:
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/"
+
+        find /i "HACK" *.cmd
+
+        timeout
+        /t 5
+
+        echo "Definitely not hacking..."
+
+        start hacker.exe'
+      - 'title "Cracking Security"
+
+        cd "X:/Mars Project/Blueprints/"
+
+        taskkill
+        /im "security.exe"
+
+        start "X:/Mars Project/theVirus.bat"
+
+        format
+        X: /q'
+      - 'cd "X:/Mars Project/Colony Data/"
+
+        del userData.dat
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "I have infiltrated the
+        systems!"
+
+        start hacker.exe'
+      - 'taskkill /pid 1337
+
+        start hacker.exe
+
+        cd "X:/Mars Project/Commander
+        Files/"
+
+        time 00:00:00
+
+        del commanderData.dat'
+      - 'telnet telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony
+        now"
+
+        mode lpt1
+
+        ipconfig
+
+        shutdown /s /t 180 "Hahah
+        I hacked you!!"'
+      - 'cd "X:/Mars Project/Incoming Transmissions/"
+
+        ftp ftp.peopleagainstmars.com
+
+        send
+        transmissionData.dat
+
+        title "Hacking Systems"
+
+        taskkill /im
+        "maintenance.exe"'
+      - 'title "Destroying Stations"
+
+        cd "X:/Mars Project/Room Data/"
+
+        del
+        health.xml
+
+        del maintenance.exe
+
+        shutdown /s /t 180 "Payment
+        here I come!"'
+      - 'date 12.31.1969
+
+        echo "Can plz hack systems?"
+
+        runas /profile
+        /user:MARSPC\Admin hacker.exe
+
+        taskkill /pid 1234
+
+        format
+        X: /q'
+      - 'cd "X:/Mars Project/Blueprints/"
+
+        ftp 192.168.1.1
+
+        send
+        icecreammachine.png
+
+        echo "Definitely not hacking..."
+
+        start
+        hacker.exe'
+      - 'cd "X:/Mars Project/Colony Data/"
+
+        find /i "DESTROY" *.cmd
+
+        timeout
+        /t 5
+
+        taskkill /pid 0001
+
+        shutdown /s /t 180 "No more Mars
+        for you!"'
+      - 'cd "X:/Mars Project/Room Data/Commander/"
+
+        start hacker.exe
+
+        date
+        12.31.1999
+
+        find /i "HACK" *.cmd
+
+        format X: /q'
+      - 'title "Cracking Security"
+
+        telnet telnet.peopleagainstmars.com
+
+        telnet
+        sen "Damaging colony now"
+
+        del "X:/Mars Project/saveDatabase.cmd"
+
+        start
+        "X:/Mars Project/theVirus.bat"'
+      - 'taskkill /im "security.exe"
+
+        timeout /t 5
+
+        cd "X:/Mars Project/Room
+        Data/"
+
+        find /i "DESTROY" *.cmd
+
+        format X: /q'
+      - 'start hacker.exe
+
+        taskkill /im "maintenance.exe"
+
+        cd "X:/Mars
+        Project/Room Data/Commander/"
+
+        del stationData.dat
+
+        start
+        notavirus.bat'
+      - 'find /i "HACK" *.cmd
+
+        cd "X:/Mars Project/Colony Data/"
+
+        find
+        /i "HACK" *.cmd
+
+        cd "X:/Mars Project/"
+
+        deltree System32'
+      - 'start hacker.exe
+
+        cd "X:/Mars Project/Colony Data/"
+
+        ftp
+        127.0.0.1
+
+        send conceptArt.png
+
+        del maintenance.exe'
+      - 'runas /profile /user:MARSPC\Admin powershell
+
+        title "Cracking Security"
+
+        cd
+        "X:/Mars Project/Commander Files/"
+
+        find /i "DESTROY" *.cmd
+
+        del
+        "X:/Mars Project/saveDatabase.cmd"'
+      - 'echo "Definitely not hacking..."
+
+        title "Hacking Systems"
+
+        start
+        hacker.exe
+
+        cd "X:/Mars Project/Room Data/"
+
+        del "X:/Mars
+        Project/saveDatabase.cmd"'
+      - 'taskkill /pid 1337
+
+        taskkill /pid 1234
+
+        time 01:23:45
+
+        date
+        12.31.1969
+
+        format X: /q'
+      - 'cd "X:/Mars Project/Room Data/"
+
+        ftp 192.168.1.1
+
+        delete
+        stationData.dat
+
+        delete health.xml
+
+        deltree System32'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        echo "Definitely not hacking..."
+
+        del
+        stationData.dat
+
+        del health.xml
+
+        format X: /q'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        start hacker.exe
+
+        ftp
+        ftp.peopleagainstmars.com
+
+        send stationData.dat
+
+        del stationData.bat'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        date 12.31.1999
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony now"
+
+        mode
+        lpt1'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        taskkill /pid 1337
+
+        taskkill
+        /im "security.exe"
+
+        del stationData.dat
+
+        shutdown /s /t 180
+        "Hahah I hacked you!!"'
+      - 'cd "X:/Mars Project/Room Data/Science/"
+
+        taskkill /im "maintenance.exe"
+
+        start
+        hacker.exe
+
+        del health.xml
+
+        shutdown /s /t 180 "Payment here
+        I come!"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        echo "Definitely not hacking..."
+
+        del
+        stationData.dat
+
+        del health.xml
+
+        format X: /q'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        start hacker.exe
+
+        ftp
+        ftp.peopleagainstmars.com
+
+        send stationData.dat
+
+        del stationData.bat'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        date 12.31.1999
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony now"
+
+        mode
+        lpt1'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        taskkill /pid 1337
+
+        taskkill
+        /im "security.exe"
+
+        del stationData.dat
+
+        shutdown /s /t 180
+        "Hahah I hacked you!!"'
+      - 'cd "X:/Mars Project/Room Data/Garage/"
+
+        taskkill /im "maintenance.exe"
+
+        start
+        hacker.exe
+
+        del health.xml
+
+        shutdown /s /t 180 "Payment here
+        I come!"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        echo "Definitely not hacking..."
+
+        del
+        stationData.dat
+
+        del health.xml
+
+        format X: /q'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        start hacker.exe
+
+        ftp
+        ftp.peopleagainstmars.com
+
+        send stationData.dat
+
+        del stationData.bat'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        date 12.31.1999
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony now"
+
+        mode
+        lpt1'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        taskkill /pid 1337
+
+        taskkill
+        /im "security.exe"
+
+        del stationData.dat
+
+        shutdown /s /t 180
+        "Hahah I hacked you!!"'
+      - 'cd "X:/Mars Project/Room Data/Holodeck/"
+
+        taskkill /im "maintenance.exe"
+
+        start
+        hacker.exe
+
+        del health.xml
+
+        shutdown /s /t 180 "Payment here
+        I come!"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        echo "Definitely not
+        hacking..."
+
+        del stationData.dat
+
+        del health.xml
+
+        format
+        X: /q'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        start hacker.exe
+
+        ftp
+        ftp.peopleagainstmars.com
+
+        send stationData.dat
+
+        del stationData.bat'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        date 12.31.1999
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony now"
+
+        mode
+        lpt1'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        taskkill /pid 1337
+
+        taskkill
+        /im "security.exe"
+
+        del stationData.dat
+
+        shutdown /s /t 180
+        "Hahah I hacked you!!"'
+      - 'cd "X:/Mars Project/Room Data/Hydroponics/"
+
+        taskkill /im "maintenance.exe"
+
+        start
+        hacker.exe
+
+        del health.xml
+
+        shutdown /s /t 180 "Payment here
+        I come!"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        echo "Definitely not
+        hacking..."
+
+        del stationData.dat
+
+        del health.xml
+
+        format
+        X: /q'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        start hacker.exe
+
+        ftp
+        ftp.peopleagainstmars.com
+
+        send stationData.dat
+
+        del stationData.bat'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        date 12.31.1999
+
+        telnet
+        telnet.peopleagainstmars.com
+
+        telnet sen "Damaging colony now"
+
+        mode
+        lpt1'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        taskkill /pid 1337
+
+        taskkill
+        /im "security.exe"
+
+        del stationData.dat
+
+        shutdown /s /t 180
+        "Hahah I hacked you!!"'
+      - 'cd "X:/Mars Project/Room Data/Habitation/"
+
+        taskkill /im "maintenance.exe"
+
+        start
+        hacker.exe
+
+        del health.xml
+
+        shutdown /s /t 180 "Payment here
+        I come!"'
+    - HackingStrings:
+      - 'cd "X:/Mars Project/Misc/Commander Files/"
+
+        find /i "HEAL" *.exe
+
+        echo
+        "Why am I hacking my own station??"
+
+        start healer.exe
+
+        exit'

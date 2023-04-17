@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Main_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 1
+  m_instructions: '<color=#FFFFFF><u><b><size=200%>MISSION: SAVE THE COLONY</size></b></u></color>
+
+
+
+    -
+    The colony''s stations are failing. You must run them manually until the system
+    can reboot.
+
+
+
+    - The system will reboot in 5 days.
+
+
+
+    - Check the counter
+    on each wall. If it reaches zero before 5 days have passed, you lose!
+
+
+
+    -
+    To start the mission, press the orange button labeled "READY UP" in front of
+    you.'
+  m_alternateInstructions: 
+  m_moleInstructions: '<color=#FFFFFF><u><b><size=200%>MISSION: SABOTAGE THE COLONY</size></b></u></color>
+
+
+    -
+    The colony''s stations are failing. You must destroy enough of them to prevent
+    the system from rebooting.
+
+
+    - The system will reboot in 5 days.
+
+
+    -
+    Check the counter on each wall. If it reaches zero before 5 days have passed,
+    you win!
+
+
+    - To start the mission, press the orange button labeled "READY
+    UP" in front of you.'
+  m_alternateMoleInstructions: 
+  m_instructionsAudio: {fileID: 8300000, guid: c55310d4954fa354ba3f36d86d6899d0, type: 3}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 8300000, guid: a8ec79cba4a45224195e5de8325b2b96, type: 3}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

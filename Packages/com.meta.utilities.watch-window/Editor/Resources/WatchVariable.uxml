@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="WatchWindow.uss" />
+    <ui:VisualElement style="flex-direction: row; justify-content: flex-start;">
+        <ui:TextField name="Identifier" style="flex-grow: 1;" />
+        <uie:ObjectField name="Object" style="flex-grow: 1;" type="UnityEngine.Object, UnityEngine.CoreModule" allow-scene-objects="true" />
+        <ui:Button name="DeleteButton" text="" class="delete-button" />
+    </ui:VisualElement>
+</ui:UXML>

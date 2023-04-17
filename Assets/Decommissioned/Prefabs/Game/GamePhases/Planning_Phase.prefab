@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8115981637082162913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178361575214632282, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 639434490
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962734714480653040, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_Name
+      value: Planning_Phase
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3147374268518487294, guid: 747c711495fafe04a84ccacb78eaaa96, type: 3}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RaiseEventClientRpc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RaiseScriptableObjectEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      propertyPath: m_onTimerStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+--- !u!1 &1153299845457794065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6962734714480653040, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+  m_PrefabInstance: {fileID: 8115981637082162913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &-2575588468256888467
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153299845457794065}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6062508923845884016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153299845457794065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5758ca93461aeeb4589456a052b07d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showDebugFields: 0
+  _enableGizmoDebugging: 1
+  _debugColor: {r: 0, g: 1, b: 1, a: 1}
+  _previouslyRegisteredEvent: {fileID: 11400000, guid: 153e9a2709b38154cad76646d1408805, type: 2}
+  _event: {fileID: 11400000, guid: 153e9a2709b38154cad76646d1408805, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7572870318217133688}
+        m_TargetAssemblyTypeName: GamePhase, Assembly-CSharp
+        m_MethodName: SetPhaseAsEnding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7572870318217133688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153299845457794065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aeb549dca0d4ac3a432e92654aefe40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_config: {fileID: 11400000, guid: 6c1c6768f5774714882081d0d0f803b6, type: 2}
+  OnPhaseBegan:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: a1ff84c8f4665a3499452f6cedced4ba, type: 2}
+        m_TargetAssemblyTypeName: ScriptableObjectArchitecture.GameEventBase, ScriptableObject-Architecture
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnPhaseEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  m_phaseIsTimed: 1
+  m_preGameplaySteps:
+  - {fileID: 7698189762476926279, guid: 91e261c7e0a29e845b9db73c8b4d5441, type: 3}
+  - {fileID: 7502275045225452772, guid: 2c1cdde58cb420541898cefb5668b427, type: 3}
+  - {fileID: 8457376303774368994, guid: 598e163905b94ae4bae887847d8899f3, type: 3}
+  - {fileID: 3147374268518487294, guid: 747c711495fafe04a84ccacb78eaaa96, type: 3}
+  <Timer>k__BackingField: {fileID: 1340213276300279128}
+--- !u!114 &1340213276300279128 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7077589967668763577, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+  m_PrefabInstance: {fileID: 8115981637082162913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153299845457794065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda137b6a2d148a38c353c51003bd992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

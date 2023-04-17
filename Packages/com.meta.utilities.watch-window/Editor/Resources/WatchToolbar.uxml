@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="WatchWindow.uss" />
+    <uie:Toolbar>
+        <uie:ToolbarButton name="NewWatchButton" text="New Watch" />
+        <uie:ToolbarButton name="NewVariableButton" text="New Variable" />
+        <uie:ToolbarButton name="SettingsButton" class="settings-button" />
+    </uie:Toolbar>
+</ui:UXML>

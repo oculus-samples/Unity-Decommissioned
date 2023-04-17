@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Voting_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 9
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>VOTE PHASE: VOTERS</size></b></u></color>\n\r\n-
+    It\u2019s time to choose a Commander.\r\n\r\n- There are two candidates to choose
+    from, indicated by the blinking yellow nameplates. \r\n\r\n- To vote, point at
+    a candidate until your vote locks in.\r\n\r\n- You may change your vote at any
+    time until the VOTE phase ends.\r"
+  m_alternateInstructions: "<color=#FFFFFF><u><b><size=145%>VOTE PHASE: CANDIDATES</size></b></u></color>\n\n-
+    Congratulations! You\u2019ve been nominated to be a Commander.\r\n\r\n- Try to
+    convince everyone to vote for you.\r\n\r\n- If a Mole becomes the Commander,
+    they can do extra damage to the stations!"
+  m_moleInstructions: "<color=#FFFFFF><u><b><size=200%>VOTE PHASE: VOTERS</size></b></u></color>\n\r\n-
+    It\u2019s time to choose a Commander.\r\n\r\n- There are two candidates to choose
+    from, indicated by the blinking yellow nameplates. \r\n\r\n- To vote, point at
+    a candidate until your vote locks in.\r\n\r\n- You may change your vote at any
+    time until the VOTE phase ends.\r"
+  m_alternateMoleInstructions: "<color=#FFFFFF><u><b><size=145%>VOTE PHASE: CANDIDATES</size></b></u></color>\n\r\n-
+    Congratulations! You\u2019ve been nominated to be a Commander.\r\n\r\n- Try to
+    convince everyone to vote for you.\r\n\r\n- If you become Commander, you can
+    secretly do extra damage to the station!"
+  m_instructionsAudio: {fileID: 8300000, guid: 8a73ab72e982c2b40bea89535de52ba4, type: 3}
+  m_alternateInstructionsAudio: {fileID: 8300000, guid: b259633f0f33ad649b6f38b8f790d3c2, type: 3}
+  m_moleInstructionsAudio: {fileID: 8300000, guid: 8a73ab72e982c2b40bea89535de52ba4, type: 3}
+  m_alternateMoleInstructionsAudio: {fileID: 8300000, guid: 13425d18c08cb4144ab1ddf5dff6521a, type: 3}

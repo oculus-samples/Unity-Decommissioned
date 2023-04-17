@@ -1,0 +1,130 @@
+cd "X:/Mars Project/Blueprints/"
+cd "X:/Mars Project/Colony Data/"
+cd "X:/Mars Project/Commander Files/"
+cd "X:/Mars Project/Incoming Transmissions/"
+cd "X:/Mars Project/Sent Transmissions/"
+cd "X:/Mars Project/Room Data/"
+
+cd "X:/Mars Project/Room Data/Science/"
+cd "X:/Mars Project/Room Data/Garage/"
+cd "X:/Mars Project/Room Data/Holodeck/"
+cd "X:/Mars Project/Room Data/Hydroponics/"
+cd "X:/Mars Project/Room Data/Habitation/"
+cd "X:/Mars Project/Room Data/Commander/"
+
+date 03.25.2005
+date 12.25.1996
+date 12.31.1969
+date 12.31.1999
+
+echo "Definitely not hacking..."
+echo "Can plz hack systems?"
+echo "I am healing systems."
+echo "There might be a mole in our colony..."
+
+find /i "HACK" *.cmd
+find /i "DESTROY" *.cmd
+find /i "HEAL" *.cmd
+find /i "FIX" *.cmd
+
+runas /profile /user:MARSPC\Admin hacker.exe
+runas /profile /user:MARSPC\Admin maintenance.exe
+runas /profile /user:MARSPC\Admin powershell
+
+shutdown /r /t 180 "Rebooting for Maintenance"
+shutdown /r /t 180 "Security Breach Detected"
+shutdown /r /t 180 "Clearing cache..."
+shutdown /s /t 180 "Hahah I hacked you!!"
+shutdown /s /t 180 "No more Mars for you!"
+shutdown /s /t 180 "Payment here I come!"
+
+start hacker.exe
+start maintenance.exe
+start "X:/Mars Project/saveDatabase.cmd"
+start "X:/Mars Project/theVirus.bat"
+
+taskkill /pid 1877
+taskkill /pid 2005
+taskkill /pid 0001
+taskkill /pid 1337
+taskkill /pid 1234
+taskkill /pid 9999
+taskkill /im "hacker.exe"
+taskkill /im "mole.exe"
+taskkill /im "maintenance.exe"
+taskkill /im "security.exe"
+
+time 13:37:00
+time 00:00:00
+time 01:23:45
+time 03:31:00
+
+timeout /t 5
+
+title "Security Check"
+title "Checking For Hackers"
+title "Station Maintenance"
+title "Fixing Up Stations"
+title "Cracking Security"
+title "Hacking Systems"
+title "Destroying Stations"
+
+ftp ftp.marscolony.com
+ftp ftp.peopleagainstmars.com
+ftp 192.168.1.1
+ftp 127.0.0.1
+ftp send icecreammachine.png
+ftp send stationDesigns.png
+ftp send conceptArt.png
+ftp send userData.dat
+ftp send commanderData.dat
+ftp send stationData.dat
+ftp send health.xml
+ftp send transmissionData.dat
+ftp delete health.xml
+ftp delete stationData.dat
+ftp delete userData.dat
+
+cacls userData.dat
+cacls commanderData.dat
+cacls stationData.dat
+cacls health.xml
+cacls transmissionData.dat
+cacls icecreammachine.png
+
+ipconfig
+
+telnet telnet.marscolony.com
+telnet telnet.peopleagainstmars.com
+telnet 192.168.1.1
+telnet 127.0.0.1
+telnet sen ayt
+telnet sen "There is a mole here!"
+telnet sen "Stations are having trouble."
+telnet sen "Security breach detected"
+telnet sen "Damaging colony now"
+telnet sen "Successful virus upload."
+telnet sen "I have infiltrated the systems!"
+
+del hacker.exe
+del notavirus.bat
+del "X:/Mars Project/theVirus.bat"
+del maintenance.exe
+del "X:/Mars Project/saveDatabase.cmd"
+del userData.dat
+deltree System32
+
+chkdsk X: /f
+defrag X: /m
+format X: /q
+mode lpt1
+
+for %f in (*.dat) do send %f
+for %f in (*.dat) do del %f
+for %f in (*.dat) do hacker.exe %f
+
+cd "X:/Mars Project/Misc/Commander Files/"
+find /i "HEAL" *.exe
+echo "Why am I hacking my own station??"
+start healer.exe
+exit

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847c81c09a048714bb7471f4d41c0702, type: 3}
+  m_Name: Commander_VO
+  m_EditorClassIdentifier: 
+  <CrewAudioClips>k__BackingField:
+  - {fileID: 8300000, guid: 6ac4542e6c5f58042a6a3645dd2848d4, type: 3}
+  <MoleAudioClips>k__BackingField:
+  - {fileID: 8300000, guid: 825c89764937c5c4ca8337dc34cbda2a, type: 3}

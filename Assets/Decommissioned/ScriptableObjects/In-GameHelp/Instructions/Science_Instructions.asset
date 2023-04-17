@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Science_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 4
+  m_instructions: "<color=#FFFFFF><u><b><size=200%>TASK: REBALANCE CHEMICALS</size></b></u></color>\n\nThe
+    chemical composition of the station's life support must be rebalanced nightly.
+    The monitor above you is displaying a recipe for a specific chemical needed to
+    mantain the system. You must submit mixtures as close to it as possible by doing
+    the following:\n\n1: Fill the beaker: to do this, move it to the dispenser and
+    press and hold one of the colored buttons. Each notch on the beaker measures
+    to approximately 1 milliliter (mL).\n\n2: Heat the beaker: place the beaker on
+    the burner and hold down the button to activate it. The screen on the burner
+    indicates the beaker's current temperature.\n\n3: Mix the chemicals: to do this,
+    pick up the beaker and shake it. You may need to shake the beaker multiple times
+    to match the recipe.\n\nIf you make a mistake, move the beaker into the cleaning
+    machine labelled \"CLEAN\" on your right to clear out any chemicals inside of
+    it and start over.\n\nOnce you are finished, place the beaker inside the machine
+    labeled \"SUBMIT\". \n\nWARNING: Depositing the wrong mixture may damage your
+    station!"
+  m_alternateInstructions: 
+  m_moleInstructions: '<color=#FFFFFF><u><b><size=200%>TASK: SABOTAGE CHEMICALS</size></b></u></color>
+
+
+    The
+    chemical composition of the station''s life support is delicate and prime for
+    sabotage. The monitor above you is displaying a recipe for a specific chemical
+    needed to mantain it: the further from this recipe a mixture is, the more damage
+    it will do. You can accomplish this by doing the following:
+
+
+    1: Fill the
+    beaker. To do this, move it to the dispenser and press and hold one of the colored
+    buttons. Each notch on the beaker measures to approximately 1 milliliter (mL).
+
+
+    2:
+    Heat the beaker. Place the beaker on the burner and hold down the button to activate
+    it. The screen on the burner indicates the beaker''s current temperature; note
+    that hotter mixtures will do more damage than colder ones.
+
+
+    3: Mix the chemicals.
+    To do this, pick up the beaker and shake it. You may need to shake the beaker
+    multiple times to ensure maximum damage.
+
+
+    If you make a mistake, move the
+    beaker into the machine labelled "CLEAN" on your right to clear out any chemicals
+    inside of it and start over.
+
+
+    Once you are finished, place the beaker inside
+    the machine labeled "SUBMIT". '
+  m_alternateMoleInstructions: 
+  m_instructionsAudio: {fileID: 0}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 0}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

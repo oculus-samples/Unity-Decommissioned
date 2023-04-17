@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="WatchWindow.uss"/>
+    <ui:VisualElement name="RootElement" style="flex-direction: column; min-height: 20; flex-grow: 1;">
+        <ui:VisualElement style="flex-direction: row; flex-shrink: 0; flex-grow: 1;">
+            <ui:TwoPaneSplitView fixed-pane-index="0" fixed-pane-initial-size="100" orientation="horizontal" style="flex-grow: 1; flex-direction: row; min-height: 20;">
+                <ui:TextField picking-mode="Ignore" name="CodeText" multiline="true" style="white-space: normal;"/>
+                <ui:IMGUIContainer name="ValueContainer" style="flex-grow: 1;">
+                    <ui:ScrollView style="margin-top: auto; margin-bottom: auto; align-items: stretch; flex-grow: 5; flex-shrink: 0; position: absolute; width: 100%; height: 100%; justify-content: center; flex-direction: column;">
+                        <ui:VisualElement name="ValueContainer" style="align-items: center;">
+                            <ui:Label name="CodeLabel" style="white-space: normal; -unity-text-align: upper-left;"/>
+                        </ui:VisualElement>
+                    </ui:ScrollView>
+                    <ui:Button text="Select Object" name="SelectObjectButton"/>
+                    <ui:VisualElement name="GraphControls" style="flex-grow: 1; flex-shrink: 0; align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                        <ui:VisualElement style="height: 100%; flex-direction: row;">
+                            <ui:VisualElement style="flex-direction: column; height: 100%; justify-content: space-between; align-items: flex-end;">
+                                <ui:Label text="max" binding-path="MaxValue"/>
+                                <ui:Label text="min" binding-path="MinValue"/>
+                            </ui:VisualElement>
+                            <ui:VisualElement style="align-items: flex-start; height: 100%; flex-direction: column-reverse;">
+                                <ui:Button text="Editor" name="TimeModeButton" class="text-only-button"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement style="align-items: flex-end; flex-grow: 0; height: 100%; flex-direction: column-reverse;">
+                            <ui:Toggle name="PlayPauseButton" value="true" class="play-pause-button"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:IMGUIContainer>
+            </ui:TwoPaneSplitView>
+            <ui:VisualElement>
+                <ui:Button name="GraphToggle" tooltip="toggle graph" class="graph-button"/>
+                <ui:Button name="DeleteButton" tooltip="delete watch" class="delete-button"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DragLine" style="height: 4px; cursor: resize-vertical; color: rgb(255, 255, 255);"/>
+    </ui:VisualElement>
+</ui:UXML>

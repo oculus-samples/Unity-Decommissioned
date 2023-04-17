@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f261f8d52f3692d4aaf719aab72f68fa, type: 3}
+  m_Name: Hydroponics_Instructions
+  m_EditorClassIdentifier: 
+  m_instructionsKey: 6
+  m_instructions: '<color=#FFFFFF><u><b><size=200%>TASK: TEND PLANTS</size></b></u></color>
+
+
+    The
+    pumps you see control the water pressure of the hose on the level above you:
+    their color indicates which nutrient they will dispense into the water when used.
+    Only your crewmate can see which nutrient each plant needs.
+
+
+    The moisture
+    of all plants must remain within the specified threshold at all times.
+
+
+    To
+    complete your task, observe the readings on the board: if moisture is too low,
+    instruct your crewmate to water the correct plant on their side of the station
+    to raise it to the appropriate levels. Be sure to verify the correct nutrient
+    the plant needs with your crewmate before using the pumps.
+
+
+    WARNING: Watering
+    plants too little, excessively, or with the wrong nutrient may damage the station!'
+  m_alternateInstructions: "<color=#FFFFFF><u><b><size=200%>TASK: TEND PLANTS</size></b></u></color>\n\nThe
+    hose you see is used to water the plants beside you. The moisture of all plants
+    must remain within the specified threshold at all times. In additon, each plant
+    requires a specific nutrient that will change frequently, indicated by the colored
+    lights attached to each one. \n\nTo complete your task, use the water hose next
+    to you to water dehydrated plants as your crewmate specifies. Your crewmate must
+    pump the nutrient of matching color into the hose's water supply for each plant,
+    so be sure to communicate actively.\n\nWARNING: Watering plants too little, excessively,
+    or with the wrong nutrient may damage the station!"
+  m_moleInstructions: "<color=#FFFFFF><u><b><size=200%>TASK: SABOTAGE PLANTS</size></b></u></color>\n\nThe
+    pumps you see control the water pressure of the hose on the level above you:
+    their color indicates which nutrient they will dispense into the water when used.
+    These plants can only survive at specific moisture levels with specific nutrients;
+    this makes them a prime target for sabotage.\n\nObserve the readings on the board: 
+    instruct the crew to water the plants in such a way that the current moisture
+    precentage remains outside of the specified threshold without arousing suspicion.
+    The longer you keep the plants under or overwatered, the more damage you will
+    do. \n\nBear in mind that you are being constantly observed at this station:
+    discretion is paramount."
+  m_alternateMoleInstructions: '<color=#FFFFFF><u><b><size=200%>TASK: SABOTAGE PLANTS</size></b></u></color>
+
+
+    The
+    hose you see is used to water the plants beside you. These plants can only survive
+    at specific moisture levels with specific nutrients; this makes them a prime
+    target for sabotage.
+
+
+    Use the water hose next to you to water the plants
+    the crew specifices with the wrong nutrients. Because the required nutrient changes
+    frequently, this may require feeding innacruate information on the plant''s needs
+    to the crew to ensure maximum losses.
+
+
+    Bear in mind that you are being constantly
+    observed at this station: discretion is paramount.'
+  m_instructionsAudio: {fileID: 0}
+  m_alternateInstructionsAudio: {fileID: 0}
+  m_moleInstructionsAudio: {fileID: 0}
+  m_alternateMoleInstructionsAudio: {fileID: 0}

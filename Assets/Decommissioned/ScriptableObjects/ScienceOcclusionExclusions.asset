@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3780aba0a5d40be4b85094aab907f5e5, type: 3}
+  m_Name: ScienceOcclusionExclusions
+  m_EditorClassIdentifier: 
+  <OcclusionExclusions>k__BackingField:
+  - {fileID: 2707145469229097498, guid: e6a0681eb4012574393a63b51e8f7f7a, type: 3}
+  - {fileID: 5384300413219896404, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  - {fileID: 2196505612567072853, guid: 74ce6453651c00e4789a068e5ab33cf9, type: 3}
+  - {fileID: 4663476880416261405, guid: a6ac391eaa748ce418deec9c1965bc2e, type: 3}
+  - {fileID: 729002211798489556, guid: 3baa718888152654ab6935469b38b446, type: 3}
+  - {fileID: 6042131560931491979, guid: 993e0da4399b8204dbd4c790154bbd60, type: 3}
+  - {fileID: 4883993348613213784, guid: 15cfff34c37d8b84a8bd929fa394f514, type: 3}
