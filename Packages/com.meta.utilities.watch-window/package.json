@@ -1,7 +1,7 @@
 {
   "name": "com.meta.utilities.watch-window",
   "displayName": "Watch Window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2021.3",
   "description": "Tool to help track and visualize data while playing in the editor.",
   "keywords": [
@@ -11,6 +11,6 @@
     "debug"
   ],
   "dependencies": {
-    "com.unity.code-analysis": "0.1.0-preview.2"
+    "com.unity.code-analysis": "0.1.2-preview"
   }
 }
