@@ -75,7 +75,7 @@ git lfs install
 
 Then, clone this repo using the "Code" button above, or this command:
 ```sh
-git clone https://github.com/facebookexternal/QuestSocialGameplay.git
+git clone https://github.com/oculus-samples/Unity-Decommissioned.git
 ```
 
 # Where are the Meta Avatar SDK and Photon packages?
