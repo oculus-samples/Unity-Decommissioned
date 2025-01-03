@@ -17,7 +17,7 @@ namespace Meta.Decommissioned.Editor
 
         static DecommissionedTelemetry() => Collect();
 
-        [MenuItem("Oculus/Telemetry Settings")]
+        [MenuItem("Meta/Telemetry Settings")]
         private static void TelemetrySettings()
         {
             Collect(true);

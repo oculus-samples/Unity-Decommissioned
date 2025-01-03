@@ -1,10 +1,10 @@
 ﻿/************************************************************************************
 
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
+Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
 
-See SampleFramework license.txt for license terms.  Unless required by applicable law 
-or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR 
-CONDITIONS OF ANY KIND, either express or implied.  See the license for specific 
+See SampleFramework license.txt for license terms.  Unless required by applicable law
+or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the license for specific
 language governing permissions and limitations under the license.
 
 ************************************************************************************/
@@ -23,7 +23,7 @@ Shader "Oculus Sample/Procedural Gradient Skybox"
   SubShader
   {
     Tags{"RenderType" ="Background" "Queue" = "Background"}
-    ZWrite Off Cull Off 
+    ZWrite Off Cull Off
     Fog { Mode Off }
     LOD 100
 
@@ -32,24 +32,36 @@ Shader "Oculus Sample/Procedural Gradient Skybox"
       CGPROGRAM
       #pragma vertex vert
       #pragma fragment frag
-    
+
       #include "UnityCG.cginc"
 
       struct vertIn
       {
         float4 vertex : POSITION;
         float3 uv : TEXCOORD0;
+
+        // Single-pass instanced rendering
+        UNITY_VERTEX_INPUT_INSTANCE_ID
       };
 
       struct vertOut
       {
         float4 vertex : SV_POSITION;
         float3 uv: TEXCOORD0;
+
+        // Single-pass instanced rendering
+        UNITY_VERTEX_OUTPUT_STEREO
       };
-      
+
       vertOut vert (vertIn v)
       {
         vertOut o;
+
+        // Single-pass instanced rendering
+        UNITY_SETUP_INSTANCE_ID(v);
+        UNITY_INITIALIZE_OUTPUT(vertOut, o);
+        UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+
         o.vertex = UnityObjectToClipPos(v.vertex);
         o.uv = v.uv;
         return o;
@@ -61,9 +73,11 @@ Shader "Oculus Sample/Procedural Gradient Skybox"
       fixed4 _HorizonColor;
       fixed4 _BottomColor;
       half _AmplFactor;
-      
+
       fixed4 frag (vertOut i) : SV_Target
       {
+        UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
+
         float interpUv = normalize (i.uv).y;
         // top goes from 0->1 going down toward horizon
         float topLerp = 1.0f - pow (min (1.0f, 1.0f - interpUv), _TopExponent);

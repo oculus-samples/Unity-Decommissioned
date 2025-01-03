@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: PhotonAppSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime:
+    AppIdRealtime: 
     AppIdChat: 
-    AppIdVoice:
-    AppVersion: 1
+    AppIdVoice: 
+    AppVersion: 2
     UseNameServer: 1
     FixedRegion: usw
     Server: 
@@ -26,5 +26,5 @@ MonoBehaviour:
     EnableProtocolFallback: 1
     AuthMode: 0
     EnableLobbyStatistics: 0
-    NetworkLogging: 2
+    NetworkLogging: 3
   DisableAutoOpenWizard: 1

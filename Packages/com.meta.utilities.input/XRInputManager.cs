@@ -43,11 +43,13 @@ namespace Meta.Utilities.Input
 
         private void Start()
         {
-            if (BodyTracking != null)
+#if HAS_META_AVATARS
+            if (BodyTrackingContext is not null and OvrAvatarBodyTrackingContext ovrBodyTracking)
             {
-                BodyTracking.InputTrackingDelegate = new XRInputTrackingDelegate(m_ovrCameraRig, true);
-                BodyTracking.InputControlDelegate = new XRInputControlDelegate(m_controlActions);
+                ovrBodyTracking.InputTrackingDelegate = new XRInputTrackingDelegate(m_ovrCameraRig, true);
+                ovrBodyTracking.InputControlDelegate = new XRInputControlDelegate(m_controlActions);
             }
+#endif
         }
 
         protected override void OnDestroyCalled()
@@ -84,7 +86,12 @@ namespace Meta.Utilities.Input
 
         private void DrawTrackingLocations()
         {
-            var inputTrackingState = BodyTracking.InputTrackingState;
+            if (BodyTrackingContext is not OvrAvatarBodyTrackingContext ovrBodyTracking)
+            {
+                return;
+            }
+
+            var inputTrackingState = ovrBodyTracking.InputTrackingState;
 
             var radius = 0.2f;
             Quaternion orientation;

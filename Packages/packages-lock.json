@@ -34,7 +34,7 @@
       "source": "embedded",
       "dependencies": {
         "com.unity.netcode.gameobjects": "1.1.0",
-        "com.meta.xr.sdk.utilities": "1.1.0",
+        "com.meta.xr.sdk.core": "63.0.0",
         "com.community.netcode.transport.photon-realtime": "2.0.0",
         "com.photon.voice2": "2.51.0",
         "com.meta.utilities": "0.0.1"
@@ -52,7 +52,7 @@
       "source": "embedded",
       "dependencies": {
         "com.meta.utilities": "1.0.0",
-        "com.meta.xr.sdk.utilities": "",
+        "com.meta.xr.sdk.core": "63.0.0",
         "com.unity.xr.interaction.toolkit": "2.0.4"
       }
     },
@@ -61,21 +61,72 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.code-analysis": "0.1.0-preview.2"
+        "com.unity.code-analysis": "0.1.2-preview"
       }
     },
-    "com.meta.xr.sdk.utilities": {
-      "version": "49.0.1-preview",
+    "com.meta.xr.sdk.audio": {
+      "version": "71.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
-      "url": "https://npm.developer.oculus.com"
+      "url": "https://packages.unity.com"
     },
-    "com.oculus.integration.interaction": {
-      "version": "file:com.oculus.integration.interaction",
+    "com.meta.xr.sdk.avatars": {
+      "version": "31.0.0",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.meta.xr.sdk.core": "69.0.0",
+        "com.meta.xr.sdk.platform": "69.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.9",
+        "com.meta.xr.sdk.avatars.sample.assets": "31.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.avatars.sample.assets": {
+      "version": "31.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.core": {
+      "version": "71.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.interaction": {
+      "version": "71.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.interaction.ovr": {
+      "version": "71.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.meta.xr.sdk.core": "71.0.0",
+        "com.meta.xr.sdk.interaction": "71.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.platform": {
+      "version": "71.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.photon.voice2": {
       "version": "file:Photon",
@@ -83,12 +134,22 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.unity.ai.navigation": {
+      "version": "1.1.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
-      "version": "1.6.6",
+      "version": "1.8.15",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.mathematics": "1.2.1"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -117,11 +178,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.18",
+      "version": "3.0.28",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.22",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
       },
       "url": "https://packages.unity.com"
     },
@@ -133,7 +203,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.0",
+      "version": "1.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -153,11 +223,11 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.profiling.core": "1.0.0-pre.1",
-        "com.unity.nuget.newtonsoft-json": "2.0.0",
-        "com.unity.nuget.mono-cecil": "1.10.1",
         "com.unity.collections": "1.1.0",
-        "com.unity.modules.uielements": "1.0.0"
+        "com.unity.profiling.core": "1.0.0-pre.1",
+        "com.unity.nuget.mono-cecil": "1.10.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -171,14 +241,14 @@
       }
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.10.1",
+      "version": "1.11.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -192,34 +262,37 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "git+https://github.com/Oculus-VR/Unity-Graphics.git?path=/com.unity.render-pipelines.core#2021.2/oculus-app-spacewarp",
+      "version": "https://github.com/Oculus-VR/Unity-Graphics.git?path=/Packages/com.unity.render-pipelines.core#2022.3/14.0.10-oculus-app-spacewarp",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
-      "hash": "535468dd5e2fc5310de227ebfa01183299f29bb8"
+      "hash": "364c880ca86d5ee24b291fb0f414da9633442ec1"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "git+https://github.com/Oculus-VR/Unity-Graphics.git?path=/com.unity.render-pipelines.universal#2021.2/oculus-app-spacewarp",
+      "version": "https://github.com/Oculus-VR/Unity-Graphics.git?path=/Packages/com.unity.render-pipelines.universal#2022.3/14.0.10-oculus-app-spacewarp",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
-        "com.unity.burst": "1.5.0",
-        "com.unity.render-pipelines.core": "12.1.6",
-        "com.unity.shadergraph": "12.1.6"
+        "com.unity.burst": "1.8.9",
+        "com.unity.render-pipelines.core": "14.0.10",
+        "com.unity.shadergraph": "14.0.10",
+        "com.unity.render-pipelines.universal-config": "14.0.9"
       },
-      "hash": "535468dd5e2fc5310de227ebfa01183299f29bb8"
+      "hash": "fc4e880c595e170e2499827fb1236136c0ed7023"
     },
-    "com.unity.search.extensions": {
-      "version": "https://github.com/Unity-Technologies/com.unity.search.extensions.git?path=package",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "12f447a7638af7a4a3b337df32f1343aad232b99"
+    "com.unity.render-pipelines.universal-config": {
+      "version": "14.0.10",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.10"
+      }
     },
     "com.unity.searcher": {
       "version": "4.9.2",
@@ -229,21 +302,28 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "git+https://github.com/Oculus-VR/Unity-Graphics.git?path=/com.unity.shadergraph#2021.2/oculus-app-spacewarp",
+      "version": "https://github.com/Oculus-VR/Unity-Graphics.git?path=/Packages/com.unity.shadergraph#2022.3/14.0.10-oculus-app-spacewarp",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.render-pipelines.core": "12.1.6",
-        "com.unity.searcher": "4.9.1"
+        "com.unity.render-pipelines.core": "14.0.10",
+        "com.unity.searcher": "4.9.2"
       },
-      "hash": "535468dd5e2fc5310de227ebfa01183299f29bb8"
+      "hash": "364c880ca86d5ee24b291fb0f414da9633442ec1"
     },
-    "com.unity.subsystemregistration": {
-      "version": "1.1.2",
-      "depth": 0,
+    "com.unity.sysroot": {
+      "version": "2.0.10",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sysroot.linux-x86_64": {
+      "version": "2.0.9",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
+        "com.unity.sysroot": "2.0.10"
       },
       "url": "https://packages.unity.com"
     },
@@ -267,13 +347,23 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.toolchain.win-x86_64-linux-x86_64": {
+      "version": "2.0.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.transport": {
-      "version": "1.3.1",
+      "version": "1.4.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.collections": "1.2.4",
         "com.unity.burst": "1.6.6",
+        "com.unity.collections": "1.2.4",
         "com.unity.mathematics": "1.2.6"
       },
       "url": "https://packages.unity.com"
@@ -288,16 +378,17 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "12.1.10",
+      "version": "https://github.com/Oculus-VR/Unity-Graphics.git?path=/Packages/com.unity.visualeffectgraph#2022.3/14.0.10-oculus-app-spacewarp",
       "depth": 0,
-      "source": "builtin",
+      "source": "git",
       "dependencies": {
-        "com.unity.shadergraph": "12.1.10",
-        "com.unity.render-pipelines.core": "12.1.10"
-      }
+        "com.unity.shadergraph": "14.0.10",
+        "com.unity.render-pipelines.core": "14.0.10"
+      },
+      "hash": "364c880ca86d5ee24b291fb0f414da9633442ec1"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.0.1",
+      "version": "2.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -306,17 +397,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "2.2.0",
+      "version": "2.5.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.inputsystem": "1.3.0",
         "com.unity.ugui": "1.0.0",
-        "com.unity.xr.core-utils": "2.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.8",
+        "com.unity.inputsystem": "1.7.0",
+        "com.unity.mathematics": "1.2.6",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.physics": "1.0.0"
+        "com.unity.xr.core-utils": "2.2.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.10"
       },
       "url": "https://packages.unity.com"
     },
@@ -331,24 +423,23 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.2.1",
+      "version": "4.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7",
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "3.2.3",
+      "version": "4.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.management": "4.2.0"
+        "com.unity.xr.management": "4.4.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -358,6 +449,12 @@
       "source": "git",
       "dependencies": {},
       "hash": "2607606c9978c48a1b20e7bf8e7ec6b7f8a7a851"
+    },
+    "com.unity.modules.ai": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.modules.androidjni": {
       "version": "1.0.0",
@@ -455,17 +552,6 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.uielementsnative": "1.0.0"
-      }
-    },
-    "com.unity.modules.uielementsnative": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
@@ -528,6 +614,16 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
       }
     },
     "com.unity.modules.vr": {

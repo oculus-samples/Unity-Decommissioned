@@ -2,8 +2,10 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 namespace Meta.Decommissioned.UI
@@ -36,6 +38,16 @@ namespace Meta.Decommissioned.UI
             m_leaving = false;
             TransitionalFade.Instance.FadeFromBlack();
             if (m_leavingCoroutine != null) { StopCoroutine(m_leavingCoroutine); }
+        }
+
+        private void Update()
+        {
+#if UNITY_EDITOR
+            if (Keyboard.current.qKey.wasPressedThisFrame)
+            {
+                StartLeaveProcess();
+            }
+#endif
         }
 
         private IEnumerator LeaveProcess()

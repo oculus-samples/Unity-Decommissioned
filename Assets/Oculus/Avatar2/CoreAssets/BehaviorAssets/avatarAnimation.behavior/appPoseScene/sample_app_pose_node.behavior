@@ -1,0 +1,29 @@
+{
+  "graphs": [
+    {
+      "name": "main",
+      "type": "dataflow",
+      "outputs": [
+        {
+          "name": "pose",
+          "type": "pose"
+        }
+      ],
+      "nodes": [
+        {
+          "type": "getDefaultPose",
+          "name": "defaultPose"
+        },
+        {
+          "type": "appPose",
+          "name": "appPoseFullOverride",
+          "funcName": "ovrAvatar2_fullOverride"
+        }
+      ],
+      "links": [
+        [ "defaultPose:outputPose", "appPoseFullOverride:inputPose" ],
+        [ "appPoseFullOverride:outputPose", ":pose" ]
+      ]
+    }
+  ]
+}

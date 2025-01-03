@@ -118,7 +118,7 @@ namespace Meta.Multiplayer.Avatar
                 _creationInfo.features |= ovrAvatar2EntityFeatures.Animation;
 
                 var body = CameraRigRef.Instance.AvatarInputManager;
-                SetBodyTracking(body);
+                SetInputManager(body);
 
                 m_lipSync.gameObject.SetActive(true);
                 SetLipSync(m_lipSync);
@@ -132,17 +132,11 @@ namespace Meta.Multiplayer.Avatar
             {
                 _creationInfo.features &= ~ovrAvatar2EntityFeatures.Animation;
 
-                SetBodyTracking(null);
+                SetInputManager(null);
                 SetFacePoseProvider(null);
                 SetEyePoseProvider(null);
                 SetLipSync(null);
             }
-
-            var activeView = isOwner ? ovrAvatar2EntityViewFlags.FirstPerson : ovrAvatar2EntityViewFlags.ThirdPerson;
-
-            CreateEntity();
-
-            SetActiveView(activeView);
 
             await m_setUpAccessTokenTask;
 
@@ -150,6 +144,8 @@ namespace Meta.Multiplayer.Avatar
                 return;
 
             OnNetworkingInit?.Invoke();
+
+            var activeView = isOwner ? ovrAvatar2EntityViewFlags.FirstPerson : ovrAvatar2EntityViewFlags.ThirdPerson;
 
             if (IsLocal)
             {
@@ -165,7 +161,8 @@ namespace Meta.Multiplayer.Avatar
                 }
 
                 OnNetworkingUserIdSet?.Invoke(_userId);
-
+                CreateEntity();
+                SetActiveView(activeView);
                 LoadUser();
 
                 if (m_enableCameraTracking)
@@ -176,6 +173,13 @@ namespace Meta.Multiplayer.Avatar
             }
             else if (_userId != 0)
             {
+                await CheckForUserAvatar();
+
+                if (this == null)
+                    return;
+
+                CreateEntity();
+                SetActiveView(activeView);
                 LoadUser();
             }
         }
@@ -208,7 +212,8 @@ namespace Meta.Multiplayer.Avatar
             if (_userId != userId)
             {
                 _userId = userId;
-                LoadUser();
+                // LoadUser();
+                Initialize();
             }
         }
 

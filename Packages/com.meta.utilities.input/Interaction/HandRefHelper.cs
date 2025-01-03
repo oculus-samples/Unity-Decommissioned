@@ -2,8 +2,8 @@
 
 #if HAS_META_INTERACTION
 
-using Meta.Utilities;
 using Oculus.Interaction.Input;
+using Oculus.Interaction.PoseDetection;
 
 namespace Meta.Utilities.Input
 {
@@ -18,6 +18,14 @@ namespace Meta.Utilities.Input
         public HandRef LeftHandAnchor;
         [UnityEngine.Serialization.FormerlySerializedAs("m_rightHandAnchor")]
         public HandRef RightHandAnchor;
+
+        public FingerFeatureStateProvider LeftFingerFeatSP;
+        public TransformFeatureStateProvider LeftTransformFeatSP;
+        public JointDeltaProvider LeftJointDeltaProvider;
+
+        public FingerFeatureStateProvider RightFingerFeatSP;
+        public TransformFeatureStateProvider RightTransformFeatSP;
+        public JointDeltaProvider RightJointDeltaProvider;
     }
 }
 

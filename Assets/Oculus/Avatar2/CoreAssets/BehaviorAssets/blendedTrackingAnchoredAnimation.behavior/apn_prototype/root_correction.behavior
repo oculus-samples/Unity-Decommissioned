@@ -1,0 +1,76 @@
+{
+    "version": 2,
+    "graphs": [
+        {
+            "name": "main",
+            "type": "dataflow",
+            "outputs": [
+                {
+                    "name": "RootCorrectionTransformOut",
+                    "type": "transform"
+                }
+            ],
+            "nodes": [
+                {
+                    "name": "RootTransform",
+                    "type": "makeTransform"
+                },
+                {
+                    "name": "RootAngleCorrectionInput",
+                    "type": "getDynamicStoreValueFloat",
+                    "members": {
+                        "key": "avatarSDK_rootAngleCorrection"
+                    }
+                },
+                {
+                    "name": "RootAngleToRad",
+                    "type": "mathExpression",
+                    "members": {
+                        "expression": "ContRootAngle * (3.14159/180)"
+                    }
+                },
+                {
+                    "name": "RootAngleCorrectionVector",
+                    "type": "makeVec3"
+                },
+                {
+                    "name": "RootCorrectionQuaternion",
+                    "type": "eulerToQuat"
+                },
+                {
+                    "name": "RootTranslationCorrectionInput",
+                    "type": "getDynamicStoreValueVec3",
+                    "members": {
+                        "key": "avatarSDK_rootTranslationCorrection"
+                    }
+                }
+            ],
+            "links": [
+                [
+                    "RootAngleCorrectionInput:outputValue",
+                    "RootAngleToRad:ContRootAngle"
+                ],
+                [
+                    "RootAngleToRad:value",
+                    "RootAngleCorrectionVector:inputY"
+                ],
+                [
+                    "RootAngleCorrectionVector:outputVec3",
+                    "RootCorrectionQuaternion:inputEuler"
+                ],
+                [
+                    "RootCorrectionQuaternion:outputQuat",
+                    "RootTransform:rotation"
+                ],
+                [
+                    "RootTransform:transform",
+                    ":RootCorrectionTransformOut"
+                ],
+                [
+                    "RootTranslationCorrectionInput:outputValue",
+                    "RootTransform:position"
+                ]
+            ]
+        }
+    ]
+}

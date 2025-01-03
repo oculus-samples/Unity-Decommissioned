@@ -86,7 +86,7 @@ namespace Meta.Multiplayer.Avatar
 
         private void OnUserIdChanged(ulong previousValue, ulong newValue)
         {
-            if (newValue != 0 && m_entity.IsCreated)
+            if (newValue != 0/* && m_entity.IsCreated*/)
                 m_entity.LoadUser(newValue);
         }
 
@@ -113,7 +113,7 @@ namespace Meta.Multiplayer.Avatar
         {
             base.OnLostOwnership();
 
-            m_entity.Teardown();
+            // m_entity.Teardown();
             m_entity.Initialize();
         }
 
@@ -121,7 +121,7 @@ namespace Meta.Multiplayer.Avatar
         {
             base.OnGainedOwnership();
 
-            m_entity.Teardown();
+            // m_entity.Teardown();
             m_entity.Initialize();
         }
 

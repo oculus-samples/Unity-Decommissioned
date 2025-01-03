@@ -65,7 +65,9 @@ namespace Meta.Decommissioned
                         var playerObject = SpawnPlayer(clientId, Vector3.zero, Quaternion.identity, true);
                         var playerEntity = playerObject.GetComponent<AvatarEntity>();
 
+
                         yield return new WaitUntil(() => IsAvatarEntityReady(playerEntity) || !playerObject.GetOwnerPlayerId().HasValue);
+
                     }
 
                     if (m_playerJoinRequests.Contains(clientId))
@@ -103,6 +105,7 @@ namespace Meta.Decommissioned
         {
             if (spawn)
             {
+
                 var player = Spawner.SpawnPlayer(clientId, position, rotation);
                 OnSpawnClient(player);
                 return player;

@@ -169,7 +169,6 @@ namespace Meta.Utilities.Input
             Config.Handedness = m_handedness;
             Config.TrackingToWorldTransformer = TrackingToWorldTransformer;
             Config.HandSkeleton = m_skeleton;
-            Config.HmdData = HmdData;
         }
 
         protected override void UpdateData()

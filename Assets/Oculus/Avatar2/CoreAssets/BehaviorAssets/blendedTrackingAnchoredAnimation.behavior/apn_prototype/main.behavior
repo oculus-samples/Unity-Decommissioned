@@ -1,0 +1,194 @@
+{
+    "version": 2,
+    "graphs": [
+        {
+            "name": "main",
+            "type": "dataflow",
+            "inputs": [
+                {
+                    "name": "trackingPose",
+                    "type": "pose",
+                    "defaultLink": "ovrAvatar2/default_root:pose"
+                },
+                {
+                    "name": "RootCorrectionTransform",
+                    "type": "transform",
+                    "defaultLink": "apn_prototype/root_correction:RootCorrectionTransformOut"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "pose",
+                    "type": "pose"
+                },
+                {
+                    "name": "pose3P",
+                    "type": "pose"
+                }
+            ],
+            "nodes": [
+                {
+                    "name": "defaultPose",
+                    "type": "getDefaultPose"
+                },
+                {
+                    "name": "appPoseFullOverride",
+                    "type": "appPose",
+                    "members": {
+                        "funcName": "ovrAvatar2_fullOverride"
+                    }
+                },
+                {
+                    "name": "featherBlend",
+                    "type": "featherBlend"
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_hip",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_SpineStart",
+                        "blendSpace": "character",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "makeArray_hipBlend",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "clonePose_anim",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet_animClone",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                },
+                {
+                    "name": "trackingBlendWeight",
+                    "type": "constFloat",
+                    "members": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_head",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_Head",
+                        "blendSpace": "local",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "facialBlendFactor",
+                    "type": "constFloat",
+                    "members": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "name": "makeArray_leftArm_1",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "featherBlend_head",
+                    "type": "featherBlend"
+                }
+            ],
+            "links": [
+                [
+                    "makeObject_featherBlend_blendPoses_hip:output",
+                    "makeArray_hipBlend:0"
+                ],
+                [
+                    "makeArray_hipBlend:output",
+                    "featherBlend:blendPoses"
+                ],
+                [
+                    "clonePose_anim:forwardedOutput",
+                    "featherBlend:inputPose"
+                ],
+                [
+                    "clonePose_anim:clonedOutputs",
+                    "arrayGet_animClone:input"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:jointBaseWeight"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:floatWeight"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:eventWeight"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:jointBaseWeight"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:floatWeight"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:eventWeight"
+                ],
+                [
+                    "makeObject_featherBlend_blendPoses_head:output",
+                    "makeArray_leftArm_1:0"
+                ],
+                [
+                    "makeArray_leftArm_1:output",
+                    "featherBlend_head:blendPoses"
+                ],
+                [
+                    "arrayGet_animClone:output",
+                    "featherBlend_head:inputPose"
+                ],
+                [
+                    ":trackingPose",
+                    "makeObject_featherBlend_blendPoses_hip:inputPose"
+                ],
+                [
+                    ":trackingPose",
+                    "appPoseFullOverride:inputPose"
+                ],
+                [
+                    "appPoseFullOverride:outputPose",
+                    "clonePose_anim:input"
+                ],
+                [
+                    "featherBlend_head:outputPose",
+                    ":pose3P"
+                ],
+                [
+                    "featherBlend:outputPose",
+                    "makeObject_featherBlend_blendPoses_head:inputPose"
+                ],
+                [
+                    ":trackingPose",
+                    ":pose"
+                ]
+            ]
+        }
+    ]
+}

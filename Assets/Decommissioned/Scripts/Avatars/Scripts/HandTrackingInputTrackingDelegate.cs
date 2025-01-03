@@ -36,7 +36,7 @@ namespace Oculus.Interaction.AvatarIntegration
             PoseUtils.Invert(ref worldToRootPose);
 
             var hasData = false;
-            if (_hmd.GetRootPose(out var headPose))
+            if (_hmd.TryGetRootPose(out var headPose))
             {
                 inputTrackingState.headsetActive = true;
                 inputTrackingState.headset =

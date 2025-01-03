@@ -28,6 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6697775241635953393}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,7 +36,6 @@ Transform:
   m_Children:
   - {fileID: 5765091252785137565}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!114 &7304784352324586597
 MonoBehaviour:
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1697742855
+  GlobalObjectIdHash: 3554637931
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
@@ -72,18 +72,20 @@ MonoBehaviour:
       manifestationFlags: 2
       viewFlags: 3
       subMeshInclusionFlags: 2047
-      highQualityFlags: 0
+      quality: 1
+      loadRigZipFromGlb: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
+  _validateCache: 1
   _activeView: 2
   _activeManifestation: 2
   _activeSubMeshes: 2047
   _activeSubMeshesIncludeUntyped: 1
-  _activeHighQuality: 0
-  _bodyTracking: {fileID: 0}
+  _inputManager: {fileID: 0}
   _facePoseBehavior: {fileID: 0}
   _eyePoseBehavior: {fileID: 0}
   _lipSync: {fileID: 0}
   _criticalJointTypes: 1300000017000000
-  _useExperimentalFeatures: -1
+  _useCriticalJointJobs: 0
   _debugDrawing:
     drawTrackingPose: 0
     drawBoneNames: 0
@@ -92,12 +94,8 @@ MonoBehaviour:
     drawSkinTransformsInGame: 0
     drawCriticalJoints: 0
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
-  LoadingStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  EntityLoadingStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
+    drawGazePos: 0
+    gazePosColor: {r: 1, g: 0, b: 1, a: 1}
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -119,7 +117,6 @@ MonoBehaviour:
   OnLoadFailedEvent:
     m_PersistentCalls:
       m_Calls: []
-  SkinningType: 0
   MotionSmoothingSettings: 0
   _hidden: 0
   useRenderLods: 1
@@ -199,13 +196,19 @@ MonoBehaviour:
   lodImportance: 0
   updateImportance: 0
   dynamicStreamLod: 0
+  stickyLOD: 0
+  stickyLODTimeDelay: 1.6
+  skipDelayedLodSwitchingCountdown: 1
+  isOutOfSight: 0
   lastUpdateAgeSeconds: 0
+  lastUpdateAgeTicks: 0
   previousUpdateAgeWindowSeconds: 0
 --- !u!1001 &8195218208172880659
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6697775241635718865}
     m_Modifications:
     - target: {fileID: 2430523750807860354, guid: c019572605bc29e42b3ed5a058599618, type: 3}
@@ -237,6 +240,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c019572605bc29e42b3ed5a058599618, type: 3}
 --- !u!114 &5765091252785137564 stripped
 MonoBehaviour:

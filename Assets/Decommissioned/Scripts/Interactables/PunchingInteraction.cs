@@ -6,6 +6,7 @@ using System.Collections;
 using Meta.Decommissioned.Input;
 using Meta.Utilities.Input;
 using Oculus.Interaction.Input;
+using Oculus.Interaction.PoseDetection;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -34,6 +35,11 @@ namespace Meta.Decommissioned.Interactables
         [SerializeField] private HandRef m_leftHandRockPoseRef;
         [SerializeField] private HandRef m_rightHandRockPoseRef;
 
+        [SerializeField] private ShapeRecognizerActiveState m_leftShapeRecognizer;
+        [SerializeField] private ShapeRecognizerActiveState m_rightShapeRecognizer;
+        [SerializeField] private TransformRecognizerActiveState m_leftTransformRecognizer;
+        [SerializeField] private TransformRecognizerActiveState m_rightTransformRecognizer;
+
         private Hand m_leftHand;
         private Hand m_rightHand;
         private Transform m_activeLeftHand;
@@ -57,6 +63,12 @@ namespace Meta.Decommissioned.Interactables
 
             m_leftHandRockPoseRef.InjectHand(m_leftHand);
             m_rightHandRockPoseRef.InjectHand(m_rightHand);
+
+            m_leftShapeRecognizer.InjectFingerFeatureStateProvider(HandRefHelper.Instance.LeftFingerFeatSP);
+            m_rightShapeRecognizer.InjectFingerFeatureStateProvider(HandRefHelper.Instance.RightFingerFeatSP);
+
+            m_leftTransformRecognizer.InjectTransformFeatureStateProvider(HandRefHelper.Instance.LeftTransformFeatSP);
+            m_rightTransformRecognizer.InjectTransformFeatureStateProvider(HandRefHelper.Instance.RightTransformFeatSP);
 
             m_activeLeftHand = m_leftHand.transform;
             m_activeRightHand = m_rightHand.transform;

@@ -47,15 +47,29 @@ namespace Oculus.Interaction.AvatarIntegration
         {
             if (!_setupBodyTracking)
             {
-                if (BodyTracking == null)
+                if (BodyTrackingContext == null)
                 {
                     return;
                 }
 
-                BodyTracking.InputTrackingDelegate =
+                if (BodyTrackingContext is not OvrAvatarBodyTrackingContext ovrBodyTracking)
+                {
+                    return;
+                }
+
+                ovrBodyTracking.InputTrackingDelegate =
                     new HandTrackingInputTrackingDelegate(transform, LeftHand, RightHand, Hmd);
-                BodyTracking.HandTrackingDelegate = new HandTrackingDelegate(transform, LeftHand, RightHand);
+                ovrBodyTracking.HandTrackingDelegate = new HandTrackingDelegate(transform, LeftHand, RightHand);
                 _setupBodyTracking = true;
+
+                _inputTrackingProvider =
+                    new OvrAvatarInputTrackingDelegatedProvider(ovrBodyTracking
+                        .InputTrackingDelegate);
+                _handTrackingProvider =
+                    new OvrAvatarHandTrackingDelegatedProvider(ovrBodyTracking
+                        .HandTrackingDelegate);
+
+                InitializeBodyTracking();
             }
         }
 

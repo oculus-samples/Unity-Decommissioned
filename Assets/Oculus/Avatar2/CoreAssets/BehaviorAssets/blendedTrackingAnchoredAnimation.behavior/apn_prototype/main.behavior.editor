@@ -1,0 +1,111 @@
+{
+    "@generated": true,
+    "graphs": {
+        "{main}": {
+            "comments": [],
+            "inputNodeId": "{main}||inputs",
+            "outputNodeId": "{main}||outputs"
+        }
+    },
+    "nodes": {
+        "{main.appPoseFullOverride}": {
+            "position": {
+                "x": 325.0,
+                "y": 300.0
+            },
+            "displayMode": "full"
+        },
+        "{main.arrayGet_animClone}": {
+            "position": {
+                "x": 775.0,
+                "y": 525.0
+            },
+            "displayMode": "full"
+        },
+        "{main.clonePose_anim}": {
+            "position": {
+                "x": 775.0,
+                "y": 375.0
+            },
+            "displayMode": "full"
+        },
+        "{main.defaultPose}": {
+            "position": {
+                "x": -150.0,
+                "y": 25.0
+            },
+            "displayMode": "full"
+        },
+        "{main.facialBlendFactor}": {
+            "position": {
+                "x": 1750.0,
+                "y": 725.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.featherBlend_head}": {
+            "position": {
+                "x": 2675.0,
+                "y": 375.0
+            },
+            "displayMode": "full"
+        },
+        "{main.featherBlend}": {
+            "position": {
+                "x": 1025.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{main.makeArray_hipBlend}": {
+            "position": {
+                "x": 650.0,
+                "y": 175.0
+            },
+            "displayMode": "full"
+        },
+        "{main.makeArray_leftArm_1}": {
+            "position": {
+                "x": 2225.0,
+                "y": 675.0
+            },
+            "displayMode": "full"
+        },
+        "{main.makeObject_featherBlend_blendPoses_head}": {
+            "position": {
+                "x": 2225.0,
+                "y": 475.0
+            },
+            "displayMode": "full"
+        },
+        "{main.makeObject_featherBlend_blendPoses_hip}": {
+            "position": {
+                "x": 650.0,
+                "y": -25.0
+            },
+            "displayMode": "full"
+        },
+        "{main.trackingBlendWeight}": {
+            "position": {
+                "x": -50.0,
+                "y": -100.0
+            },
+            "displayMode": "full"
+        },
+        "{main}||inputs": {
+            "position": {
+                "x": -25.0,
+                "y": -325.0
+            },
+            "displayMode": "full"
+        },
+        "{main}||outputs": {
+            "position": {
+                "x": 3075.0,
+                "y": 150.0
+            },
+            "displayMode": "full"
+        }
+    }
+}

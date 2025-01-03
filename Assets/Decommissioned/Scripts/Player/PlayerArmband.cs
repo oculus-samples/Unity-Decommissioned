@@ -122,7 +122,7 @@ namespace Meta.Decommissioned.Player
                     return;
                 }
 
-                if (!m_avatarMeshQuery.HasMeshData)
+                if (!m_avatarMeshQuery.HasMeshData || m_avatarMeshQuery.VertexCount <= 0)
                 {
                     Debug.LogError("Player mesh was not captured correctly! Unable to measure the player's arm, using default values...");
                 }
@@ -151,7 +151,7 @@ namespace Meta.Decommissioned.Player
 
         private IEnumerator CalculateArmWidth()
         {
-            if (!m_avatarMeshQuery.VertexCount.HasValue || m_avatarMeshQuery.VertexCount is null or 0)
+            if (m_avatarMeshQuery.VertexCount is null or 0)
             {
                 Debug.LogError("Tried to measure a player's arm size while unable to get the mesh vertices!");
                 yield break;
@@ -171,30 +171,23 @@ namespace Meta.Decommissioned.Player
                 yield break;
             }
 
-            m_avatarEntity.SetBodyTracking(null);
+            m_avatarEntity.SetInputManager(null);
 
             yield return null;//Wait a frame to allow the avatar to return to bind pose for measurements
 
             var armDetails = m_avatarMeshQuery.GetArmDetails(true, m_upperPercent, m_lowerPercent);
 
-            var space = m_avatarMeshQuery.GetJointTransform(ovrAvatar2JointType.LeftArmLower).localToWorldMatrix * m_avatarMeshQuery.GetBoneInfo(ovrAvatar2JointType.LeftArmLower).Value.inverseBindPose;
-            var localSpace = transform.GetChild(0);
-            var frontStrapPoint = space.MultiplyPoint(armDetails.LowerBottom);
-            var backStrapPoint = space.MultiplyPoint(armDetails.UpperBottom);
             m_armOffset.Value = armDetails.UpperRadius * m_measurementOffsetScalar + m_measurementOffsetOrigin;
 
             var lowerTopOnUpperLine = Vector3.Project(armDetails.LowerTop - armDetails.UpperBottom, armDetails.UpperTop - armDetails.UpperBottom) + armDetails.UpperBottom;
             m_armRotation.Value = Vector3.Angle(armDetails.UpperTop - armDetails.LowerTop, lowerTopOnUpperLine - armDetails.LowerTop);
-
             UpdateArmbandTransform();//Update transforms again to ensure newly measured values get updated
 
-            backStrapPoint = localSpace.InverseTransformPoint(backStrapPoint);
-            m_backStrapScalePoint.Value = backStrapPoint.y;
-            frontStrapPoint = localSpace.InverseTransformPoint(frontStrapPoint);
-            m_frontStrapScalePoint.Value = frontStrapPoint.y;
+            m_backStrapScalePoint.Value = (armDetails.UpperRadius + 0.01f) * 2; // Use arm upper radius to scale back strap, diameter = radius * 2
+            m_frontStrapScalePoint.Value = armDetails.LowerRadius * 2; // same for front strap
             UpdateArmbandSize();
 
-            m_avatarEntity.SetBodyTracking(userTracking);
+            m_avatarEntity.SetInputManager(userTracking);
         }
 
         public void UpdateArmband()
@@ -215,8 +208,8 @@ namespace Meta.Decommissioned.Player
 
         private void UpdateArmbandSize()
         {
-            m_strapScalarPoints[0].localPosition = new Vector3(m_strapScalars[0].transform.localPosition.x, m_frontStrapScalePoint.Value, 0);
-            m_strapScalarPoints[1].localPosition = new Vector3(m_strapScalars[1].transform.localPosition.x, m_backStrapScalePoint.Value, 0);
+            m_strapScalarPoints[0].localPosition = new Vector3(m_strapScalars[0].transform.localPosition.x, m_frontStrapScalePoint.Value + m_strapScalars[0].transform.localPosition.y, 0); // end point = start point + arm diameter * vec3(0, 1, 0)
+            m_strapScalarPoints[1].localPosition = new Vector3(m_strapScalars[1].transform.localPosition.x, m_backStrapScalePoint.Value + m_strapScalars[1].transform.localPosition.y, 0);
             m_strapScalars[0].UpdateObjectScale();
             m_strapScalars[1].UpdateObjectScale();
         }

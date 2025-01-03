@@ -174,7 +174,7 @@ namespace Meta.Decommissioned
                         if (IsPlayerPressingRightTrigger())
                         {
                             m_onInfoLoggedCallbacks?.Invoke(OPENING_USER_AVATAR_UI);
-                            AvatarEditorDeeplink.LaunchAvatarEditor();
+                            Oculus.Platform.Avatar.LaunchAvatarEditor();
                             hasPressedTrigger = true;
                         }
                         else if (IsPlayerPressingLeftTrigger()
@@ -257,6 +257,7 @@ namespace Meta.Decommissioned
                 return;
             }
 
+
             SetUpUser(message.Data.ID);
         }
 
@@ -268,7 +269,6 @@ namespace Meta.Decommissioned
             // Platform.Users.Get(ulong userID) returns the display name.
             var user = await Users.Get(id).Gen();
             PlayerManager.SetLocalUsername(user.Data.DisplayName);
-
             SetUpOvrAvatar();
         }
 
@@ -364,6 +364,8 @@ namespace Meta.Decommissioned
             _ = SceneManager.SetActiveScene(emptyScene);
 
             TransitionalFade.Instance.FadeToBlack();
+
+            ClearAllAvatarLODsFromManager();
 
             yield return new WaitForSecondsRealtime(1.0f);
             yield return SceneManager.UnloadSceneAsync(LOBBY_SCENE);

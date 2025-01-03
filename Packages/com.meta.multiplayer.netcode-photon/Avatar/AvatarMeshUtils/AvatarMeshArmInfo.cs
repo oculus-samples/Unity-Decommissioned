@@ -27,6 +27,11 @@ namespace Meta.Multiplayer.Avatar
             UpperRadius = upperRadius;
             LowerRadius = lowerRadius;
         }
+
+        public override string ToString()
+        {
+            return $"UpperTop: {UpperTop}, UpperBottom: {UpperBottom}, LowerTop: {LowerTop}, LowerBottom: {LowerBottom}, UpperRadius: {UpperRadius}, LowerRadius: {LowerRadius}";
+        }
     }
 
     public static class AvatarMeshArmInfo
@@ -45,11 +50,20 @@ namespace Meta.Multiplayer.Avatar
             var wristBoneInfo = avatarMeshQuery.GetBoneInfo(wristBone);
 
             if (upperBoneInfo == null || !upperBoneInfo.HasValue)
+            {
+                Debug.LogError("upperBoneInfo is missing values!");
                 return null;
+            }
             if (lowerBoneInfo == null || !lowerBoneInfo.HasValue)
+            {
+                Debug.LogError("lowerBoneInfo is missing values!");
                 return null;
+            }
             if (wristBoneInfo == null || !wristBoneInfo.HasValue)
+            {
+                Debug.LogError("wristBoneInfo is missing values!");
                 return null;
+            }
 
             var upperPose = upperBoneInfo.Value.inverseBindPose.inverse;
             var lowerPose = lowerBoneInfo.Value.inverseBindPose.inverse;
@@ -59,7 +73,10 @@ namespace Meta.Multiplayer.Avatar
             var normal = lowerPose.MultiplyVector(Vector3.right);
             var planePoints = avatarMeshQuery.GetPlanePoints(verts, point, normal).ToList();
             if (planePoints.Count == 0)
+            {
+                Debug.LogError("planePoints count is zero!");
                 return null;
+            }
 
             var edge = planePoints.MaxByOrDefault(p => (p - point).sqrMagnitude);
             var up = lowerPose.MultiplyVector(Vector3.forward);
@@ -74,6 +91,7 @@ namespace Meta.Multiplayer.Avatar
         {
             if (!avatarMeshQuery.VertexCount.HasValue)
             {
+                Debug.LogError("AvatarMeshQuery has no vertex count!");
                 return new ArmDetails();
             }
 
@@ -83,11 +101,21 @@ namespace Meta.Multiplayer.Avatar
             return new ArmDetails(upperTop, upperBottom, lowerTop, lowerBottom, upperRadius, lowerRadius);
         }
 
-        public static IEnumerable<Vector3> GetArmVertices(this AvatarMeshQuery avatarMeshQuery, bool leftArm) =>
-            GetArmVertices(avatarMeshQuery, leftArm ? LEFT_ARM_BONE_PREFIX : RIGHT_ARM_BONE_PREFIX);
+        public static IEnumerable<Vector3> GetArmVertices(this AvatarMeshQuery avatarMeshQuery, bool leftArm)
+        {
+            var handedness = leftArm ? "left" : "right";
+            var allVerts = avatarMeshQuery.GetAllVertices();
+            List<Vector3> positions = new();
+            foreach (var (boneName, vertPosition, _) in allVerts)
+            {
+                var bn = boneName.ToLowerInvariant();
+                if ((bn.Contains("arm") || bn.Contains("elbow") || bn.Contains("wrist")) && bn.Contains(handedness))
+                {
+                    positions.Add(vertPosition);
+                }
+            }
 
-        private static IEnumerable<Vector3> GetArmVertices(this AvatarMeshQuery avatarMeshQuery, string boneNamePrefix) =>
-            avatarMeshQuery.GetAllVertices().
-            Where(vert => vert.BoneName.StartsWith(boneNamePrefix)).Select(vert => vert.VertPosition);
+            return positions;
+        }
     }
 }

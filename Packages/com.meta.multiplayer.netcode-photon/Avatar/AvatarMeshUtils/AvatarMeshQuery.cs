@@ -53,7 +53,10 @@ namespace Meta.Multiplayer.Avatar
         }
         private void OnDisable()
         {
-            AvatarMeshCache.Instance.OnMeshLoaded -= OnMeshLoaded;
+            if (AvatarMeshCache.Instance != null)
+            {
+                AvatarMeshCache.Instance.OnMeshLoaded -= OnMeshLoaded;
+            }
         }
 
         private void OnMeshLoaded(OvrAvatarPrimitive loadedPrim)

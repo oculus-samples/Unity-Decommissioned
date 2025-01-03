@@ -1,0 +1,56 @@
+{
+    "graphs": {},
+    "nodes": {
+        "{main.RootTransform}": {
+            "position": {
+                "x": 1276.4375,
+                "y": 47.6640625
+            }
+        },
+        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||inputs": {
+            "position": {
+                "x": 1536.8125,
+                "y": 188.9921875
+            }
+        },
+        "{main.RootTranslationCorrectionInput}": {
+            "position": {
+                "x": 779.8489074707024,
+                "y": -24.343761444091798
+            },
+            "macroName": null
+        },
+        "{main.RootAngleToRad}": {
+            "position": {
+                "x": 393.3125,
+                "y": 133.328125
+            }
+        },
+        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||outputs": {
+            "position": {
+                "x": 1536.8125,
+                "y": 75.6640625
+            }
+        },
+        "{main.RootAngleCorrectionInput}": {
+            "position": {
+                "x": 0.0,
+                "y": 151.328125
+            }
+        },
+        "{main.RootAngleCorrectionVector}": {
+            "position": {
+                "x": 666.96875,
+                "y": 123.328125
+            }
+        },
+        "{main.RootCorrectionQuaternion}": {
+            "position": {
+                "x": 969.71875,
+                "y": 113.328125
+            }
+        }
+    },
+    "edges": {},
+    "properties": {}
+}

@@ -1,0 +1,408 @@
+{
+    "version": 2,
+    "graphs": [
+        {
+            "name": "main",
+            "type": "dataflow",
+            "inputs": [
+                {
+                    "name": "trackingPose",
+                    "type": "pose",
+                    "defaultLink": "ovrAvatar2/default_root:pose"
+                },
+                {
+                    "name": "RootCorrectionTransform",
+                    "type": "transform",
+                    "defaultLink": "apn_prototype/root_correction:RootCorrectionTransformOut"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "pose",
+                    "type": "pose"
+                },
+                {
+                    "name": "pose3P",
+                    "type": "pose"
+                }
+            ],
+            "nodes": [
+                {
+                    "name": "defaultPose",
+                    "type": "getDefaultPose"
+                },
+                {
+                    "name": "appPoseFullOverride",
+                    "type": "appPose",
+                    "members": {
+                        "funcName": "ovrAvatar2_fullOverride"
+                    }
+                },
+                {
+                    "name": "featherBlend",
+                    "type": "featherBlend"
+                },
+                {
+                    "name": "rootCorrectionSetJoint",
+                    "type": "setJointTransform",
+                    "members": {
+                        "jointName": "RTRig_Root",
+                        "coordinateSpace": "character"
+                    }
+                },
+                {
+                    "name": "makeArray_rightArm",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_hip",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_SpineStart",
+                        "blendSpace": "character",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_leftArm",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_R_Clavicle",
+                        "blendSpace": "character",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_rightArm",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_L_Clavicle",
+                        "blendSpace": "character",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "clonePose_animWithTracking",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet_animWithTrackingClone",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                },
+                {
+                    "name": "rightArmBlendFactor",
+                    "type": "getDynamicStoreValueCachedFloat",
+                    "members": {
+                        "key": "avatarSDK_rightArmBlendFactor",
+                        "defaultValue": 1.0
+                    }
+                },
+                {
+                    "name": "leftArmBlendFactor",
+                    "type": "getDynamicStoreValueCachedFloat",
+                    "members": {
+                        "key": "avatarSDK_leftArmBlendFactor",
+                        "defaultValue": 1.0
+                    }
+                },
+                {
+                    "name": "makeArray_hipBlend",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "makeArray_leftArm",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "featherBlend_leftArm",
+                    "type": "featherBlend"
+                },
+                {
+                    "name": "clonePose_anim",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet_animClone",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                },
+                {
+                    "name": "featherBlend_rightArm",
+                    "type": "featherBlend"
+                },
+                {
+                    "name": "trackingBlendWeight",
+                    "type": "constFloat",
+                    "members": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "name": "clonePose_animWithTracking_2",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet_animWithTracking_2",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                },
+                {
+                    "name": "clonePose_animWithTracking2",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                },
+                {
+                    "name": "makeObject_featherBlend_blendPoses_head",
+                    "type": "makeObject",
+                    "members": {
+                        "elementType": "blendPoses",
+                        "blendJoint": "RTRig_Head",
+                        "blendSpace": "local",
+                        "depth": 1,
+                        "featherWeightsDefault": []
+                    }
+                },
+                {
+                    "name": "facialBlendFactor",
+                    "type": "constFloat",
+                    "members": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "name": "makeArray_leftArm_1",
+                    "type": "makeArray",
+                    "members": {
+                        "length": 1,
+                        "elementType": "blendPoses"
+                    }
+                },
+                {
+                    "name": "featherBlend_head",
+                    "type": "featherBlend"
+                },
+                {
+                    "name": "clonePose_tracking",
+                    "type": "clonePose"
+                },
+                {
+                    "name": "arrayGet_trackingClone",
+                    "type": "arrayGet",
+                    "members": {
+                        "index": 0,
+                        "elementType": "pose"
+                    }
+                }
+            ],
+            "links": [
+                [
+                    "defaultPose:outputPose",
+                    "appPoseFullOverride:inputPose"
+                ],
+                [
+                    "appPoseFullOverride:outputPose",
+                    "rootCorrectionSetJoint:inputPose"
+                ],
+                [
+                    ":RootCorrectionTransform",
+                    "rootCorrectionSetJoint:inputTransform"
+                ],
+                [
+                    "featherBlend:outputPose",
+                    "clonePose_animWithTracking:input"
+                ],
+                [
+                    "rightArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_rightArm:jointBaseWeight"
+                ],
+                [
+                    "rightArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_rightArm:floatWeight"
+                ],
+                [
+                    "rightArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_rightArm:eventWeight"
+                ],
+                [
+                    "leftArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_leftArm:jointBaseWeight"
+                ],
+                [
+                    "leftArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_leftArm:floatWeight"
+                ],
+                [
+                    "leftArmBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_leftArm:eventWeight"
+                ],
+                [
+                    "makeObject_featherBlend_blendPoses_rightArm:output",
+                    "makeArray_rightArm:0"
+                ],
+                [
+                    "makeObject_featherBlend_blendPoses_leftArm:output",
+                    "makeArray_leftArm:0"
+                ],
+                [
+                    "makeArray_leftArm:output",
+                    "featherBlend_leftArm:blendPoses"
+                ],
+                [
+                    "makeObject_featherBlend_blendPoses_hip:output",
+                    "makeArray_hipBlend:0"
+                ],
+                [
+                    "makeArray_hipBlend:output",
+                    "featherBlend:blendPoses"
+                ],
+                [
+                    "rootCorrectionSetJoint:outputPose",
+                    "clonePose_anim:input"
+                ],
+                [
+                    "clonePose_anim:forwardedOutput",
+                    "featherBlend:inputPose"
+                ],
+                [
+                    "clonePose_anim:clonedOutputs",
+                    "arrayGet_animClone:input"
+                ],
+                [
+                    "featherBlend_leftArm:outputPose",
+                    "featherBlend_rightArm:inputPose"
+                ],
+                [
+                    "makeArray_rightArm:output",
+                    "featherBlend_rightArm:blendPoses"
+                ],
+                [
+                    "featherBlend_rightArm:outputPose",
+                    ":pose3P"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:jointBaseWeight"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:floatWeight"
+                ],
+                [
+                    "trackingBlendWeight:outputValue",
+                    "makeObject_featherBlend_blendPoses_hip:eventWeight"
+                ],
+                [
+                    "clonePose_animWithTracking_2:forwardedOutput",
+                    "makeObject_featherBlend_blendPoses_leftArm:inputPose"
+                ],
+                [
+                    "clonePose_animWithTracking_2:clonedOutputs",
+                    "arrayGet_animWithTracking_2:input"
+                ],
+                [
+                    "arrayGet_animWithTracking_2:output",
+                    "makeObject_featherBlend_blendPoses_rightArm:inputPose"
+                ],
+                [
+                    "clonePose_animWithTracking:clonedOutputs",
+                    "arrayGet:input"
+                ],
+                [
+                    "arrayGet:output",
+                    "clonePose_animWithTracking2:input"
+                ],
+                [
+                    "clonePose_animWithTracking2:forwardedOutput",
+                    "clonePose_animWithTracking_2:input"
+                ],
+                [
+                    "clonePose_animWithTracking2:clonedOutputs",
+                    "arrayGet_animWithTrackingClone:input"
+                ],
+                [
+                    "arrayGet_animWithTrackingClone:output",
+                    "makeObject_featherBlend_blendPoses_head:inputPose"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:jointBaseWeight"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:floatWeight"
+                ],
+                [
+                    "facialBlendFactor:outputValue",
+                    "makeObject_featherBlend_blendPoses_head:eventWeight"
+                ],
+                [
+                    "makeObject_featherBlend_blendPoses_head:output",
+                    "makeArray_leftArm_1:0"
+                ],
+                [
+                    "makeArray_leftArm_1:output",
+                    "featherBlend_head:blendPoses"
+                ],
+                [
+                    "arrayGet_animClone:output",
+                    "featherBlend_head:inputPose"
+                ],
+                [
+                    "featherBlend_head:outputPose",
+                    "featherBlend_leftArm:inputPose"
+                ],
+                [
+                    ":trackingPose",
+                    "clonePose_tracking:input"
+                ],
+                [
+                    "clonePose_tracking:forwardedOutput",
+                    "makeObject_featherBlend_blendPoses_hip:inputPose"
+                ],
+                [
+                    "clonePose_tracking:clonedOutputs",
+                    "arrayGet_trackingClone:input"
+                ],
+                [
+                    "arrayGet_trackingClone:output",
+                    ":pose"
+                ]
+            ]
+        }
+    ]
+}

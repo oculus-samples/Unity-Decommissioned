@@ -1,0 +1,168 @@
+{
+  "events": [
+    {
+      "name": "avatarSDK_rootAngleCorrection",
+      "type": "float"
+    },
+    {
+      "name": "avatarSDK_rootTranslationCorrection",
+      "type": "vec3"
+    },
+    {
+      "name": "avatarSDK_leftArmBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "avatarSDK_rightArmBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_SpawnIn",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_SpawnOut",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_StandUp",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_SitDown",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_JumpStart",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_JumpEnd",
+      "type": "void"
+    },
+    {
+      "name": "locomotion_prototype_WeightShiftBiasX",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_WeightShiftBiasY",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_MovementVelocity",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_MovementAngle",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_Crouch",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_TrackingUpperBlend",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_HipXOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_HipZOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RootRotationOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RootTranslationOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_EyeGazeHorizontalOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_EyeGazeVerticalOffset",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LockLeftFoot",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LockRightFoot",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootTX",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootTY",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootTZ",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootRX",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootRY",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftFootRZ",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootTX",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootTY",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootTZ",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootRX",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootRY",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightFootRZ",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_TargetLeftStepAngle",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_TargetRightStepAngle",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_LeftStepBlend",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_RightStepBlend",
+      "type": "float"
+    },
+    {
+      "name": "locomotion_prototype_FootStepInputPhase",
+      "type": "float"
+    }
+  ]
+}

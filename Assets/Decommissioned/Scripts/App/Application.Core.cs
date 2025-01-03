@@ -104,10 +104,7 @@ namespace Meta.Decommissioned
 
         protected void Log(string log)
         {
-            if (EnableLogging)
-            {
-                Debug.Log($"[{nameof(Application)}] {log}", this);
-            }
+            Debug.Log($"[{nameof(Application)}] {log}", this);
         }
 
         protected new void OnEnable()
@@ -151,6 +148,7 @@ namespace Meta.Decommissioned
             m_pendingConnections[request.ClientNetworkId] = response;
             _ = StartCoroutine(JoinQueueTimeout(request.ClientNetworkId));
             response.Approved = true;
+
             StartPlayerQueueRoutine();
         }
 
@@ -267,6 +265,7 @@ namespace Meta.Decommissioned
                 yield break;
 
             yield return OculusPlatformInitialization.ToRoutine();
+
             var accessToken = Users.GetAccessToken().Gen();
             yield return accessToken.ToRoutine();
             OvrAvatarEntitlement.SetAccessToken(accessToken.Result.Data);
@@ -294,6 +293,7 @@ namespace Meta.Decommissioned
             NetworkLayer.Init(room, null);
 
             OnLeavingStartup?.Invoke();
+
         }
 
 
@@ -315,6 +315,15 @@ namespace Meta.Decommissioned
             return SwitchRoom("Game", null, isHosting);
         }
 
+        private void ClearAllAvatarLODsFromManager()
+        {
+            var avatarLODs = AvatarLODManager.Instance.GetActiveAvatarLODs();
+            foreach (var avatarLOD in avatarLODs.ToList())
+            {
+                AvatarLODManager.RemoveLOD(avatarLOD);
+            }
+        }
+
         public void GoToMainMenu()
         {
             Log("GOING TO MAIN MENU");
@@ -322,6 +331,8 @@ namespace Meta.Decommissioned
             NetworkLayer.Leave();
 
             CancelRoutines();
+
+            ClearAllAvatarLODsFromManager();
 
             SceneLoader.LoadScene(MAIN_MENU_SCENE, false);
         }
@@ -343,6 +354,7 @@ namespace Meta.Decommissioned
 
         protected new Routine StartCoroutine(IEnumerator routine)
         {
+            Log($"Trying to start coroutine: {routine}");
             var wrapped = new Routine { Inner = routine };
             _ = m_routines.Add(wrapped);
             Log($"Starting coroutine {wrapped}");

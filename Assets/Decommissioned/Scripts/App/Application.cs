@@ -28,6 +28,7 @@ namespace Meta.Decommissioned
 
         protected new void Awake()
         {
+            EnableLogging = true;
             base.Awake();
 
             var frequencies = OVRPlugin.systemDisplayFrequenciesAvailable.Where(f => f < 91);
@@ -110,6 +111,7 @@ namespace Meta.Decommissioned
 
                 IEnumerator TeleportWhenLoaded()
                 {
+
                     yield return new WaitUntil(() => playerObject.IsSpawned);
 
                     if (playerObject.TryGetComponent<AvatarEntity>(out var avatarEntity))

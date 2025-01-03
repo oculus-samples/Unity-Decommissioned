@@ -38,11 +38,17 @@ namespace Meta.Multiplayer.Avatar
 
         private void OnAvatarMeshLoadedCallback(OvrAvatarManager mgr, OvrAvatarPrimitive prim, OvrAvatarManager.MeshData mesh)
         {
-            if (mesh.BoneWeights.Length > 0 && mesh.Positions.Length > 0)
+            MeshData meshData = new();
+            if (mesh.Positions is { Length: > 0 })
             {
-                m_meshes[(int)prim.assetId] = new() { Positions = mesh.Positions.ToArray(), Weights = mesh.BoneWeights.ToArray() };
-                OnMeshLoaded?.Invoke(prim);
+                meshData.Positions = mesh.Positions.ToArray();
             }
+            if (mesh.BoneWeights is { Length: > 0 })
+            {
+                meshData.Weights = mesh.BoneWeights.ToArray();
+            }
+            m_meshes[(int)prim.assetId] = meshData;
+            OnMeshLoaded?.Invoke(prim);
         }
 
         public MeshData? GetMeshData(OvrAvatarPrimitive prim) =>
