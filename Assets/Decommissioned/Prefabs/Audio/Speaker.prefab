@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5208097008446752057}
   - component: {fileID: 5208097008446752058}
   - component: {fileID: 5208097008446752059}
-  - component: {fileID: 5748003231185098654}
   - component: {fileID: 7180660633387322858}
   m_Layer: 0
   m_Name: Speaker
@@ -27,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5208097008446752060}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5208097008446752058
 AudioSource:
@@ -158,26 +157,6 @@ MonoBehaviour:
     Max: 1000
     SpeedUpPerc: 5
   restartOnDeviceChange: 1
---- !u!114 &5748003231185098654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5208097008446752060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enableSpatialization: 1
-  gain: 24
-  useInvSqr: 0
-  near: 5
-  far: 500
-  volumetricRadius: 0
-  reverbSend: 0
-  enableRfl: 0
 --- !u!114 &7180660633387322858
 MonoBehaviour:
   m_ObjectHideFlags: 0
