@@ -16,7 +16,7 @@ namespace Meta.Decommissioned.Game.MiniGames
         [field: SerializeField, AutoSet] public ClientNetworkTransform NetTransform { private set; get; }
         [field: SerializeField, AutoSet] public NetworkObject NetObject { private set; get; }
         [field: SerializeField, AutoSet] public Grabbable Grabbable { private set; get; }
-        [field: SerializeField, AutoSet] public PhysicsGrabbable PhysicsGrabbable { private set; get; }
+        [field: SerializeField, AutoSet] public RigidbodyKinematicLocker RigidbodyKinematicLocker { private set; get; }
         [field: SerializeField, AutoSet] public Rigidbody Rigidbody { private set; get; }
         [field: SerializeField, AutoSet] public Collider Collider { private set; get; }
     }

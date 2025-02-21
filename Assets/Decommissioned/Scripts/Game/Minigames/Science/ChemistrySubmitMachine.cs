@@ -51,7 +51,7 @@ namespace Meta.Decommissioned.Game.MiniGames
 
             m_isVialInSubmission = true;
             m_vialInfo.Grabbable.enabled = false;
-            m_vialInfo.PhysicsGrabbable.enabled = false;
+            m_vialInfo.RigidbodyKinematicLocker.enabled = false;
             m_vialInfo.Collider.enabled = false;
             m_animator.SetTrigger(m_submitVialTrigger);
             _ = StartCoroutine(SubmitSolutionAfterTime());
@@ -74,7 +74,7 @@ namespace Meta.Decommissioned.Game.MiniGames
         {
             yield return m_vialReleaseWaitTime;
             m_vialInfo.Grabbable.enabled = true;
-            m_vialInfo.PhysicsGrabbable.enabled = true;
+            m_vialInfo.RigidbodyKinematicLocker.enabled = true;
             m_vialInfo.Collider.enabled = true;
         }
     }

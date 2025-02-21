@@ -75,7 +75,7 @@ namespace Meta.Decommissioned.Game.MiniGames
             if (m_vialInfo.Grabbable.SelectingPointsCount > 0) { return; }
             m_canInsertVial = false;
             m_vialInfo.Grabbable.enabled = false;
-            m_vialInfo.PhysicsGrabbable.enabled = false;
+            m_vialInfo.RigidbodyKinematicLocker.enabled = false;
             m_vialInfo.Collider.enabled = false;
             m_vialInfo.Rigidbody.isKinematic = true;
             _ = StartCoroutine(InsertVial());
@@ -94,7 +94,7 @@ namespace Meta.Decommissioned.Game.MiniGames
             m_vialInfo.NetTransform.Teleport(vialPosition.position, vialPosition.rotation, m_vialInfo.NetTransform.transform.lossyScale);
 
             m_vialInfo.Grabbable.enabled = true;
-            m_vialInfo.PhysicsGrabbable.enabled = true;
+            m_vialInfo.RigidbodyKinematicLocker.enabled = true;
             m_vialInfo.Collider.enabled = true;
             m_vialInfo.Rigidbody.isKinematic = false; // must be not kinematic so that the PhysicsGrabbable will drop it
             m_newVialReady = true;

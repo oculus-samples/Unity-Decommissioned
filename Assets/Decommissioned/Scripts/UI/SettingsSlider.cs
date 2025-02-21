@@ -24,7 +24,7 @@ namespace Meta.Decommissioned.UI
     /// <summary>
     /// Defines a grabbable slider that behaves to interface with a specified player setting.
     /// </summary>
-    public class SettingsSlider : OneGrabFreeTransformer, ITransformer
+    public class SettingsSlider : GrabFreeTransformer, ITransformer
     {
         [SerializeField] private string m_settingName = "";
         [SerializeField] private SliderAxis m_axis = SliderAxis.X;

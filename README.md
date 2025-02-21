@@ -8,7 +8,7 @@ This codebase is available both as a reference and as a template for multiplayer
 The majority of Decommissioned is licensed under [MIT LICENSE](./LICENSE), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), [Photon SDK](./Assets/Photon/LICENSE), and [Photon Voice](./Packages/Photon/Photon/license.txt), are licensed under their respective licensing terms.
 
 
-You can play it on Meta Quest through the Store - [Decommissioned](https://www.meta.com/en-gb/experiences/decommissioned/5756827011021749).
+You can play it on Meta Quest through the Horizon Store - [Decommissioned](https://www.meta.com/en-gb/experiences/decommissioned/5756827011021749).
 
 ## Project Description
 This project is an application for the Meta Quest devices that demonstrates a social deduction game that can be played with friends or strangers. It shows how to integrate connection between users joining random games or specific private rooms, and how to invite friends to specific matches using the [Oculus Platform API](https://developer.oculus.com/documentation/unity/ps-platform-intro/).

@@ -5,7 +5,7 @@
 using System.Linq;
 using Meta.Utilities;
 using Oculus.Interaction;
-using Oculus.Interaction.HandGrab;
+using Oculus.Interaction.Throw;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -23,15 +23,16 @@ namespace Meta.Decommissioned.Interactables
 
         private void FixedUpdate()
         {
-            var interactor = m_interactableGroupView.SelectingInteractorViews.OfType<HandGrabInteractor>().FirstOrDefault();
+            var ransacVelocity = m_interactableGroupView.SelectingInteractorViews.OfType<RANSACVelocity>().FirstOrDefault();
 
-            if (interactor == null)
+            if (ransacVelocity == null)
             {
                 return;
             }
 
-            var linearVelocity = interactor.VelocityCalculator.CalculateThrowVelocity(interactor.Interactable.transform).LinearVelocity.magnitude;
-            var angularVelocity = interactor.VelocityCalculator.CalculateThrowVelocity(interactor.Interactable.transform).AngularVelocity.magnitude;
+            ransacVelocity.GetVelocities(out var velocity, out var torque);
+            var linearVelocity = velocity.magnitude;
+            var angularVelocity = torque.magnitude;
 
             if (linearVelocity >= m_shakeVelocityThreshold && angularVelocity >= m_shakeVelocityThreshold && m_interactableGroupView.State == InteractableState.Select)
             {
