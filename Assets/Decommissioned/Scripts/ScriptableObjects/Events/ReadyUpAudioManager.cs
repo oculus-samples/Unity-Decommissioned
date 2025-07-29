@@ -18,17 +18,24 @@ namespace Meta.Decommissioned.ScriptableObjects
         [SerializeField] private AudioClip m_playerReadyAudioClip;
         [SerializeField] private AudioClip m_playerUnreadyAudioClip;
 
+        private bool m_lastReadyStatus = false;
+
         public void PlayAudioForReadyStatus(ReadyUp.ReadyStatus readyStatus)
         {
             if (m_readyUpAudio == null || m_playerReadyAudioClip == null | m_playerUnreadyAudioClip == null) { return; }
-
+            
+           if(m_lastReadyStatus == readyStatus.IsPlayerReady)
+                return;
+            
             if (!readyStatus.IsPlayerReady)
             {
                 m_readyUpAudio.PlayOneShot(m_playerUnreadyAudioClip);
+                m_lastReadyStatus = false;
                 return;
             }
 
             m_readyUpAudio.PlayOneShot(m_playerReadyAudioClip);
+            m_lastReadyStatus = true;
         }
     }
 }
