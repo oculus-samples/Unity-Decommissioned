@@ -40,7 +40,7 @@ Players use [Meta Avatars](https://developers.meta.com/horizon/documentation/uni
 
 This project uses the following plugins and software:
 
-- [Unity](https://unity.com/download) 2022.3.32f1 or newer
+- [Unity](https://unity.com/download) 6000.0.50f1
 - [Meta Avatars SDK](https://assetstore.unity.com/packages/tools/integration/meta-avatars-sdk-271958)
 - [Meta XR Audio SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-audio-sdk-264557)
 - [Meta XR Core](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169)
