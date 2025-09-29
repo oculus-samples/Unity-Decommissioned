@@ -29,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4870205409715631027}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4870205409715631024
 MonoBehaviour:
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b47856a33046ce40862a2fddb86623b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   MaxConcurrentAvatarsLoading: 64
   MaxConcurrentResourcesLoading: 2
   _minSliceWorkPerFrameMS: 2
@@ -80,14 +80,12 @@ MonoBehaviour:
   assetVersionQuest2: 10
   streamingAssetFileExtension: .glb.zst
   ovrAvatar2AssetFolder: Oculus
-  _defaultModelColor: {r: 0.11764706, g: 0.6156863, b: 1, a: 1}
   ShaderManager: {fileID: 0}
   _useCriticalJointJobs: 0
   TimesliceBudgetStrategy: 1
   FastLoadAvatarEnabled: 0
   AllowExperimentalSystemsOverride: 0
   _ovrLogLevel: 3
-  UseExperimentalSystems: 0
   _enableFootPlantingDebugVisualizations: 0
   _footPlantingLocationVisualizationDuration: 5
   OnAvatarFootFall:
@@ -96,7 +94,7 @@ MonoBehaviour:
   disableMeshOptimization: 0
   automaticallyRequestPermissions: 1
   _skinningType: 8
-  _skinQualityPerLOD:
+  _skinQualityPerLOD: 
   _filterMode: 2
   _anisoLevel: 1
 --- !u!114 &114428096727327266
@@ -109,8 +107,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f892af86578f82443a9682973148029a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   enableNativeManager: 0
   MinLodLevel: 0
   MaxLodLevel: 4
@@ -143,8 +141,7 @@ MonoBehaviour:
   firstPersonAvatarLod: {fileID: 0}
   firstPersonAvatarLodLevel: 0
   firstPersonUpdateImportance: 10000
-  avatarLodDebugCanvas: {fileID: 1316326085530136, guid: 6c859d5f04a0b2d478aeb2732044266c,
-    type: 3}
+  avatarLodDebugCanvas: {fileID: 1316326085530136, guid: 6c859d5f04a0b2d478aeb2732044266c, type: 3}
   debug:
     sceneViewCamera: 1
     displayLODLabels: 0
@@ -162,8 +159,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd1062ecb075db4a83f03b03ba8100d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   QualityPerLOD: 0400000004000000040000000400000004000000
   SourceMorphFormat: 1
   CombinedMorphFormat: 1
@@ -174,12 +171,9 @@ MonoBehaviour:
   SkinningPositionOutputNormalizationBias: -1.1
   SupportApplicationSpaceWarp: 0
   MotionSmoothing: 0
-  _CombineMorphTargetsShader: {fileID: 4800000, guid: bef2973cf0137a04fbdd59ed0bab09bc,
-    type: 3}
-  _SkinToTextureShader: {fileID: 4800000, guid: ee1f1406edf162945868fafc408691aa,
-    type: 3}
-  _morphAndSkinningComputeShader: {fileID: 7200000, guid: 6593496738c8e8045badc49f0ef2917a,
-    type: 3}
+  _CombineMorphTargetsShader: {fileID: 4800000, guid: bef2973cf0137a04fbdd59ed0bab09bc, type: 3}
+  _SkinToTextureShader: {fileID: 4800000, guid: ee1f1406edf162945868fafc408691aa, type: 3}
+  _morphAndSkinningComputeShader: {fileID: 7200000, guid: 6593496738c8e8045badc49f0ef2917a, type: 3}
 --- !u!114 &2817231646188770880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,8 +184,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6937544d08e2ba34da6ff4ab90cbfd84, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   _bodyTrackingMode: 0
   _useAsyncBodySolver: 0
   _enableHipLock: 0
@@ -209,8 +203,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0330898740b1e4ca2071e639e5ecbd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5321690086557552827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,5 +215,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 488cfafa131933046a924063017e8372, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 

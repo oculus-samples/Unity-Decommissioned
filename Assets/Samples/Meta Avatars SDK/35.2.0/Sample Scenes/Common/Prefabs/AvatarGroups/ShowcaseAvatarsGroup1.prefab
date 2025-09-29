@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803721280920188134}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 4, y: 0.5, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &648041123743142986
 MonoBehaviour:
@@ -53,8 +53,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -76,7 +75,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -112,6 +110,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &1396242425075152213
 GameObject:
@@ -137,6 +136,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396242425075152213}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -152,7 +152,6 @@ Transform:
   - {fileID: 5270651527924072525}
   - {fileID: 2530771540446606009}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8756396006020964970
 MonoBehaviour:
@@ -194,13 +193,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396242425182533276}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -2, y: 0.5, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1396242425182533273
 MonoBehaviour:
@@ -223,8 +222,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -246,7 +244,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -282,6 +279,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &1396242425329006251
 GameObject:
@@ -307,13 +305,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396242425329006251}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -1, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1396242425329006248
 MonoBehaviour:
@@ -336,8 +334,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -359,7 +356,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -395,6 +391,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &1396242426695299694
 GameObject:
@@ -420,13 +417,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396242426695299694}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.5, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1396242426695299691
 MonoBehaviour:
@@ -449,8 +446,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -472,7 +468,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -508,6 +503,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &1396242426929053972
 GameObject:
@@ -533,13 +529,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396242426929053972}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 1, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1396242426929053969
 MonoBehaviour:
@@ -562,8 +558,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -585,7 +580,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -621,6 +615,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &5779059046781471357
 GameObject:
@@ -646,13 +641,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5779059046781471357}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: -3, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4237050325572324052
 MonoBehaviour:
@@ -675,8 +670,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -698,7 +692,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -734,6 +727,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &6216749447788287993
 GameObject:
@@ -759,13 +753,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6216749447788287993}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8007250017700924530
 MonoBehaviour:
@@ -788,8 +782,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -811,7 +804,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -847,6 +839,7 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1 &8928388040547110969
 GameObject:
@@ -872,13 +865,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8928388040547110969}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 2, y: 0.5, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1396242425075152212}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &2785419835470461344
 MonoBehaviour:
@@ -901,8 +894,7 @@ MonoBehaviour:
       subMeshInclusionFlags: -1
       quality: 1
       loadRigZipFromGlb: 1
-      overrideProfile: 00000000000000000000000000000000000000000000000000000000000000
-      uncombinedMeshes: 0
+      reserved: 0000000000000000000000000000000000000000000000000000000000000000
   _validateCache: 1
   _activeView: 2
   _activeManifestation: 1
@@ -924,7 +916,6 @@ MonoBehaviour:
     skeletonColor: {r: 1, g: 0, b: 0, a: 1}
     drawGazePos: 0
     gazePosColor: {r: 1, g: 0, b: 1, a: 1}
-  IntentionalityWeight: 1
   OnCreatedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -960,79 +951,71 @@ MonoBehaviour:
   _underscorePostfix: 1
   _overridePostfix: 
   _autoCdnRetry: 1
+  _enablePollingForAvatarCreation: 1
   _changeCheckInterval: 8
 --- !u!1001 &1559549408105462325
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1396242425075152212}
     m_Modifications:
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8334773074039846814, guid: 548156b48d05cd54f901563c0dcc9900,
-        type: 3}
+    - target: {fileID: 8334773074039846814, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
       propertyPath: m_Name
       value: Cylinders
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
 --- !u!4 &2530771540446606009 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 3943951107066628236, guid: 548156b48d05cd54f901563c0dcc9900, type: 3}
   m_PrefabInstance: {fileID: 1559549408105462325}
   m_PrefabAsset: {fileID: 0}

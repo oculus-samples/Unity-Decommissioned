@@ -141,6 +141,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -220,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 4123580873370205799}
     - target: {fileID: 1642360434857506608, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 496347334
+      value: 314000905
       objectReference: {fileID: 0}
     - target: {fileID: 1737190715650465774, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
       propertyPath: _physicsGrabbable
@@ -271,15 +274,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4781911788762251200, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[2]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[2]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4781911788762251200, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[3]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[3]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4781911788762251200, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[4]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[4]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4781911788762251200, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
@@ -567,15 +570,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
     - target: {fileID: 6056340447244979933, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[2]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[2]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6056340447244979933, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[3]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[3]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6056340447244979933, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
-      propertyPath: _targetHandPose._fingersFreedom.Array.data[4]
+      propertyPath: '_targetHandPose._fingersFreedom.Array.data[4]'
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6056340447244979933, guid: 19852eea86a2e89478cf594de17c6940, type: 3}
@@ -976,11 +979,11 @@ PrefabInstance:
       value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4359360144626187297, guid: 3f1f4111d3c2d40409b82b3337b00b63, type: 3}
-      propertyPath: _audioClips.Array.data[0]
+      propertyPath: '_audioClips.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 3356c69032b97d247a1b80d93d5609e5, type: 3}
     - target: {fileID: 4359360144626187297, guid: 3f1f4111d3c2d40409b82b3337b00b63, type: 3}
-      propertyPath: _audioClips.Array.data[1]
+      propertyPath: '_audioClips.Array.data[1]'
       value: 
       objectReference: {fileID: 8300000, guid: cbaf8af418050074d94500378f012f45, type: 3}
     - target: {fileID: 4359360144626187297, guid: 3f1f4111d3c2d40409b82b3337b00b63, type: 3}

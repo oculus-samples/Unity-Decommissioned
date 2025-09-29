@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521069079111808936}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.87756157, y: 0.92855585, z: 3.0310526}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 949638209237266487}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6527155740320416530
 MonoBehaviour:
@@ -52,9 +52,7 @@ MonoBehaviour:
   - m_tutorialAnimators:
     - {fileID: 0}
     <IsQueued>k__BackingField: 0
-    IsActivated: 1
     <AnimationName>k__BackingField: Grab 1
-    HasBeenPlayed: 0
 --- !u!114 &4090720840749207087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +154,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7768488915234677401}
     m_Modifications:
     - target: {fileID: 357651956426133860, guid: d9ecb798008696d4ba96ae55c4a3baec, type: 3}
@@ -207,6 +206,9 @@ PrefabInstance:
       value: ConveyorBelts_Instructions_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ecb798008696d4ba96ae55c4a3baec, type: 3}
 --- !u!4 &949638209237266487 stripped
 Transform:

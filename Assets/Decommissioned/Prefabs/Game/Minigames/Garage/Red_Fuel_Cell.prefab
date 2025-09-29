@@ -100,6 +100,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -556211135857487012, guid: c7c4b5326bfe6b84f996bb33e1b138ae, type: 2}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -478,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2715680579
+  GlobalObjectIdHash: 1217132104
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 1
   AutoObjectParentSync: 1
@@ -1038,6 +1039,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1153,7 +1157,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1652907366692030926, guid: 4bd3fa35c0c02c043b76c34146b8aa9d, type: 3}
-      propertyPath: _audioClips.Array.data[0]
+      propertyPath: '_audioClips.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: cd7bf20021898404980b98446bc03d7b, type: 3}
     - target: {fileID: 1736176348233688898, guid: 4bd3fa35c0c02c043b76c34146b8aa9d, type: 3}

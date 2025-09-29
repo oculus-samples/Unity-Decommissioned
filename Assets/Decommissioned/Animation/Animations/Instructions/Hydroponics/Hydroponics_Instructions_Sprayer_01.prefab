@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720612203386610012}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.9190397, y: 0.62076294, z: 4.059}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -30,13 +31,13 @@ Transform:
   m_Children:
   - {fileID: 3009159394908696845}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3334941893970794214
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1426105979007446632}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -88,10 +89,13 @@ PrefabInstance:
       value: human-hand-with-rig
       objectReference: {fileID: 0}
     - target: {fileID: 6128140153830238031, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cdad7f91a27900b4d80ae2299d4be6b1, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
 --- !u!4 &3009159394908696845 stripped
 Transform:

@@ -206,6 +206,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -556211135857487012, guid: c7c4b5326bfe6b84f996bb33e1b138ae, type: 2}
   m_audioClip: {fileID: 8300000, guid: 30295d9d78b648249ba35e63caa1035d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 30295d9d78b648249ba35e63caa1035d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -334,6 +335,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -556211135857487012, guid: c7c4b5326bfe6b84f996bb33e1b138ae, type: 2}
   m_audioClip: {fileID: 8300000, guid: 64b2fa54d1b69904cad63097c459ddcf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 64b2fa54d1b69904cad63097c459ddcf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -596,27 +598,27 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[2]
+      propertyPath: '_criticalJointTypes.Array.data[2]'
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[3]
+      propertyPath: '_criticalJointTypes.Array.data[3]'
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[4]
+      propertyPath: '_criticalJointTypes.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[5]
+      propertyPath: '_criticalJointTypes.Array.data[5]'
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[6]
+      propertyPath: '_criticalJointTypes.Array.data[6]'
       value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
-      propertyPath: _criticalJointTypes.Array.data[7]
+      propertyPath: '_criticalJointTypes.Array.data[7]'
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 453862449296571400, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
@@ -993,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7304784352324586597, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 1994178804
+      value: 475095144
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4731063292531775646, guid: afc7ddbca7f21e748b4cf1231c303b9c, type: 3}
@@ -1636,7 +1638,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359360144626187297, guid: 3f1f4111d3c2d40409b82b3337b00b63, type: 3}
-      propertyPath: _audioClips.Array.data[0]
+      propertyPath: '_audioClips.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 93bce314afe663a448bd7d099626362a, type: 3}
     - target: {fileID: 8883469226951354076, guid: 3f1f4111d3c2d40409b82b3337b00b63, type: 3}

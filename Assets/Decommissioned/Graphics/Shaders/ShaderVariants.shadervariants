@@ -8,6 +8,23 @@ ShaderVariantCollection:
   m_PrefabAsset: {fileID: 0}
   m_Name: ShaderVariants
   m_Shaders:
+  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: INSTANCING_ON STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
   - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
     second:
       variants:
@@ -99,18 +116,60 @@ ShaderVariantCollection:
         passType: 0
       - keywords: _DEPTH_MSAA_2 _USE_DRAW_PROCEDURAL
         passType: 0
-  - first: {fileID: 4800000, guid: 4431b1f1f743fbf4eb310a967890cbea, type: 3}
+  - first: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
     second:
       variants:
       - keywords: 
-        passType: 0
-      - keywords: XR_OCCLUSION_MESH_COMBINED
-        passType: 0
-  - first: {fileID: 4800000, guid: d5a307c014552314b9f560906d708772, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON
+          _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHT_SHADOWS _EMISSION
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS _NORMALMAP
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
+          _RECEIVE_SHADOWS_OFF
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _RECEIVE_SHADOWS_OFF
+        passType: 13
+      - keywords: STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+        passType: 13
   - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
     second:
       variants:
@@ -264,57 +323,7 @@ ShaderVariantCollection:
       - keywords: _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS _METALLICSPECGLOSSMAP
           _NORMALMAP _OCCLUSIONMAP
         passType: 13
-  - first: {fileID: 4800000, guid: 57c328e70d404164ab9b23ac6fc12df6, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON
-        passType: 0
-  - first: {fileID: 4800000, guid: c26a73fa4d4517c4da30333333bf50c2, type: 3}
-    second:
-      variants:
-      - keywords: DEBUG_TINT LIGHTPROBE_SH MATERIAL_MODE_TEXTURE STEREO_MULTIVIEW_ON
-          _LIGHTING_SYSTEM_UNITY _SHADER_TYPE_SUBMESH
-        passType: 13
-      - keywords: DEBUG_TINT LIGHTPROBE_SH MATERIAL_MODE_TEXTURE _LIGHTING_SYSTEM_UNITY
-          _SHADER_TYPE_SUBMESH
-        passType: 13
   - first: {fileID: 4800000, guid: a26f6c3a227968248908d2fc42ae06e9, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON
-        passType: 0
-  - first: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON
-        passType: 0
-  - first: {fileID: 4800000, guid: aa036555f994254439916b491dc5c60d, type: 3}
-    second:
-      variants:
-      - keywords: INSTANCING_ON
-        passType: 8
-      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
-          _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
-        passType: 13
-  - first: {fileID: 4800000, guid: e03ad77781c41da4092efe96d548a1f7, type: 3}
     second:
       variants:
       - keywords: 
@@ -382,17 +391,43 @@ ShaderVariantCollection:
       - keywords: LIGHTMAP_SHADOW_MIXING _ENVIRONMENTREFLECTIONS_OFF _OCCLUSIONMAP
           _SPECULARHIGHLIGHTS_OFF _SPECULAR_SETUP _SURFACE_TYPE_TRANSPARENT
         passType: 13
-  - first: {fileID: 4800000, guid: ee1f1406edf162945868fafc408691aa, type: 3}
-    second:
-      variants:
-      - keywords: OVR_SKINNING_QUALITY_4_BONES
-        passType: 0
   - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
       - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 4431b1f1f743fbf4eb310a967890cbea, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: XR_OCCLUSION_MESH_COMBINED
+        passType: 0
+  - first: {fileID: 4800000, guid: d5a307c014552314b9f560906d708772, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 57c328e70d404164ab9b23ac6fc12df6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: ee1f1406edf162945868fafc408691aa, type: 3}
+    second:
+      variants:
+      - keywords: OVR_SKINNING_QUALITY_4_BONES
         passType: 0
   - first: {fileID: -6465566751694194690, guid: b620d72feaff3884b848a8eb11d9dc08, type: 3}
     second:
@@ -401,53 +436,28 @@ ShaderVariantCollection:
         passType: 0
       - keywords: 
         passType: 8
-  - first: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+  - first: {fileID: 4800000, guid: c26a73fa4d4517c4da30333333bf50c2, type: 3}
     second:
       variants:
-      - keywords: 
-        passType: 8
+      - keywords: DEBUG_TINT LIGHTPROBE_SH MATERIAL_MODE_TEXTURE STEREO_MULTIVIEW_ON
+          _LIGHTING_SYSTEM_UNITY _SHADER_TYPE_SUBMESH
+        passType: 13
+      - keywords: DEBUG_TINT LIGHTPROBE_SH MATERIAL_MODE_TEXTURE _LIGHTING_SYSTEM_UNITY
+          _SHADER_TYPE_SUBMESH
+        passType: 13
+  - first: {fileID: 4800000, guid: aa036555f994254439916b491dc5c60d, type: 3}
+    second:
+      variants:
       - keywords: INSTANCING_ON
         passType: 8
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON
-          _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON
-          _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS
-          _EMISSION _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
-          _EMISSION _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHT_SHADOWS _EMISSION
-          _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
-          _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: INSTANCING_ON LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS
-          _EMISSION _MAIN_LIGHT_SHADOWS _NORMALMAP
-        passType: 13
       - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
           _MAIN_LIGHT_SHADOWS
         passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS
-          _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF
-        passType: 13
       - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-        passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING STEREO_MULTIVIEW_ON _MAIN_LIGHT_SHADOWS
-          _RECEIVE_SHADOWS_OFF
         passType: 13
       - keywords: LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
         passType: 13
-      - keywords: LIGHTMAP_SHADOW_MIXING _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
-          _RECEIVE_SHADOWS_OFF
+      - keywords: LIGHTMAP_SHADOW_MIXING _MAIN_LIGHT_SHADOWS
         passType: 13
       - keywords: STEREO_MULTIVIEW_ON _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
         passType: 13
@@ -455,20 +465,10 @@ ShaderVariantCollection:
         passType: 13
       - keywords: _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
         passType: 13
-  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+  - first: {fileID: 4800000, guid: e03ad77781c41da4092efe96d548a1f7, type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
-      - keywords: INSTANCING_ON
-        passType: 0
-      - keywords: INSTANCING_ON STEREO_MULTIVIEW_ON
-        passType: 0
       - keywords: STEREO_MULTIVIEW_ON
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _SURFACE_TYPE_TRANSPARENT
         passType: 0

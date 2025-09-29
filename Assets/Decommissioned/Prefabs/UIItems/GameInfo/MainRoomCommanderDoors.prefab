@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5816061679886769238}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -37,13 +38,13 @@ Transform:
   - {fileID: 376554452433622103}
   - {fileID: 3404691218090015195}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1321028502509511676
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -95,6 +96,9 @@ PrefabInstance:
       value: AssignBoardDoor1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &64679817584714018 stripped
 Transform:
@@ -106,6 +110,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -157,6 +162,9 @@ PrefabInstance:
       value: AssignBoardDoor5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &316352219383415880 stripped
 Transform:
@@ -168,6 +176,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -219,6 +228,9 @@ PrefabInstance:
       value: AssignBoardDoor7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &376554452433622103 stripped
 Transform:
@@ -230,6 +242,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -281,6 +294,9 @@ PrefabInstance:
       value: AssignBoardDoor4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &920319645789523224 stripped
 Transform:
@@ -292,6 +308,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -343,6 +360,9 @@ PrefabInstance:
       value: AssignBoardDoor2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &4500554736329889514 stripped
 Transform:
@@ -354,6 +374,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -405,6 +426,9 @@ PrefabInstance:
       value: AssignBoardDoor8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &3404691218090015195 stripped
 Transform:
@@ -416,6 +440,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -467,6 +492,9 @@ PrefabInstance:
       value: AssignBoardDoor3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &5393046458055469703 stripped
 Transform:
@@ -478,6 +506,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4627838942364525477}
     m_Modifications:
     - target: {fileID: 1346846351991292638, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
@@ -529,6 +558,9 @@ PrefabInstance:
       value: AssignBoardDoor6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854bfc3e8e80e524bacb609eabb40712, type: 3}
 --- !u!4 &8316647620680704433 stripped
 Transform:

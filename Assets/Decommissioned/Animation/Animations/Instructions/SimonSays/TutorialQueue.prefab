@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601541159530987150}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -36.463573, y: 0.7582438, z: -9.215057}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 5233671542528894886}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &517684687612358780
 MonoBehaviour:
@@ -52,15 +52,11 @@ MonoBehaviour:
   - m_tutorialAnimators:
     - {fileID: 9127907376028779062}
     <IsQueued>k__BackingField: 0
-    IsActivated: 1
     <AnimationName>k__BackingField: Placer
-    HasBeenPlayed: 0
   - m_tutorialAnimators:
     - {fileID: 9127907376028779062}
     <IsQueued>k__BackingField: 0
-    IsActivated: 1
     <AnimationName>k__BackingField: Speaker
-    HasBeenPlayed: 0
 --- !u!114 &841817221583833992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +189,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734348915599695697}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -201,11 +198,10 @@ Transform:
   - {fileID: 7227885156305822252}
   - {fileID: 4763132627708109183}
   m_Father: {fileID: 7702644657864664774}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9127907376028779062
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -219,10 +215,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3793843291031212413
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +244,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3793843291031212413}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -253,7 +252,6 @@ Transform:
   m_Children:
   - {fileID: 8749996156050729090}
   m_Father: {fileID: 5233671542528894886}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8201332011567886975
 GameObject:
@@ -278,6 +276,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8201332011567886975}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -285,13 +284,13 @@ Transform:
   m_Children:
   - {fileID: 3657398409999450466}
   m_Father: {fileID: 5233671542528894886}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3840173022609008265
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7227885156305822252}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -343,6 +342,9 @@ PrefabInstance:
       value: human-hand-with-rig-fbx
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
 --- !u!4 &3657398409999450466 stripped
 Transform:
@@ -354,6 +356,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4763132627708109183}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -405,6 +408,9 @@ PrefabInstance:
       value: human-hand-with-rig-fbx
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
 --- !u!4 &8749996156050729090 stripped
 Transform:

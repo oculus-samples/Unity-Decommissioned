@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 990517881241786102, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
@@ -76,6 +77,18 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6962734714480653040, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6041611383263452023}
+    - targetCorrespondingSourceObject: {fileID: 6962734714480653040, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3080987511378369773}
+    - targetCorrespondingSourceObject: {fileID: 6962734714480653040, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3293300575706067624}
   m_SourcePrefab: {fileID: 100100000, guid: 18edaa8694c6a6a45884c802002ef146, type: 3}
 --- !u!1 &3304131724646973759 stripped
 GameObject:
@@ -93,6 +106,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

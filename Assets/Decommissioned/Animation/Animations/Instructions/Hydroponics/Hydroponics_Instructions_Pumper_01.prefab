@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4956413171662957337}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.10186581, z: -0, w: 0.9947982}
   m_LocalPosition: {x: -0.764, y: 2.926, z: -0.024}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,13 +32,13 @@ Transform:
   - {fileID: 5168824413504097094}
   - {fileID: 2823277472566447761}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -11.693, z: 0}
 --- !u!1001 &2352271650110761338
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4675558844431770669}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -145,7 +146,7 @@ PrefabInstance:
       value: human-hand-with-rig_01
       objectReference: {fileID: 0}
     - target: {fileID: 6128140153830238031, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cdad7f91a27900b4d80ae2299d4be6b1, type: 2}
     - target: {fileID: 8037286828281266093, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -173,6 +174,9 @@ PrefabInstance:
       value: -0.112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
 --- !u!4 &2823277472566447761 stripped
 Transform:
@@ -184,6 +188,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4675558844431770669}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -299,7 +304,7 @@ PrefabInstance:
       value: human-hand-with-rig
       objectReference: {fileID: 0}
     - target: {fileID: 6128140153830238031, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cdad7f91a27900b4d80ae2299d4be6b1, type: 2}
     - target: {fileID: 8037286828281266093, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
@@ -327,6 +332,9 @@ PrefabInstance:
       value: -0.112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b69a85c51665014aa237ba112d312cf, type: 3}
 --- !u!4 &5168824413504097094 stripped
 Transform:

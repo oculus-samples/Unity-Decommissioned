@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3793349410189236046}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8814721, y: 0.7808059, z: 3.79037}
   m_LocalScale: {x: -1, y: 1, z: 1}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 9064131000502770994}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3858302543492757496
 MonoBehaviour:
@@ -52,9 +52,7 @@ MonoBehaviour:
   - m_tutorialAnimators:
     - {fileID: 3020381935102055796}
     <IsQueued>k__BackingField: 0
-    IsActivated: 1
     <AnimationName>k__BackingField: Combined Instructions
-    HasBeenPlayed: 0
 --- !u!114 &6806723144127048086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +173,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6381156182187385565}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -183,11 +182,10 @@ Transform:
   - {fileID: 4040541924698414632}
   - {fileID: 8319500182126986411}
   m_Father: {fileID: 6421189754651388884}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3020381935102055796
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -201,15 +199,18 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &6971086802924251843
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 9064131000502770994}
     m_Modifications:
     - target: {fileID: 1426105979007446632, guid: da6810f75eac71f4eab3f78c90188cfd, type: 3}
@@ -261,10 +262,13 @@ PrefabInstance:
       value: Hydroponics_Instructions_Sprayer_01
       objectReference: {fileID: 0}
     - target: {fileID: 8882102301346066857, guid: da6810f75eac71f4eab3f78c90188cfd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cdad7f91a27900b4d80ae2299d4be6b1, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da6810f75eac71f4eab3f78c90188cfd, type: 3}
 --- !u!4 &8319500182126986411 stripped
 Transform:
@@ -276,6 +280,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 9064131000502770994}
     m_Modifications:
     - target: {fileID: 2823277472566447761, guid: 67a0dbebcb2f23d4db43390ec1f75458, type: 3}
@@ -335,6 +340,9 @@ PrefabInstance:
       value: Hydroponics_Instructions_Pumper_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67a0dbebcb2f23d4db43390ec1f75458, type: 3}
 --- !u!4 &4040541924698414632 stripped
 Transform:

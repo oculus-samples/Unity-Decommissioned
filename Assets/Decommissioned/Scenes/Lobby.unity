@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -299,6 +296,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2502,6 +2502,36 @@ SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4470775837985284467, guid: e41a528d92e53f340a002daa29fd81a1, type: 3}
   m_PrefabInstance: {fileID: 3476819749432435881}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999647 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6601640409365209220, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999648 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7411112493882460101, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999649 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5748509109793820795, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999650 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4442347759477771402, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999651 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4424564710393307684, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &443999652 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8199154010935883411, guid: b7bc836eb6e9b4149baad614b21e39de, type: 3}
+  m_PrefabInstance: {fileID: 5384300413871021223}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &445003369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3948,6 +3978,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3b3f04ac18184468bedd999e5a6688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &787419272 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3903751511937411037, guid: 993e0da4399b8204dbd4c790154bbd60, type: 3}
+  m_PrefabInstance: {fileID: 6042131560506562765}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &789278765
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,41 +4212,42 @@ MonoBehaviour:
   - {fileID: 1864303109}
   - {fileID: 1864303110}
   m_occludableComponentsInZone:
-  - {fileID: 374873046}
   - {fileID: 374873047}
   - {fileID: 374873048}
-  - {fileID: 374873049}
-  - {fileID: 374873050}
-  - {fileID: 374873051}
-  - {fileID: 1189193236}
-  - {fileID: 1189193238}
-  - {fileID: 1189193239}
-  - {fileID: 1189193240}
   - {fileID: 1189193241}
+  - {fileID: 374873050}
+  - {fileID: 1189193236}
+  - {fileID: 374873046}
+  - {fileID: 1189193239}
+  - {fileID: 1189193238}
+  - {fileID: 374873049}
   - {fileID: 1189193242}
+  - {fileID: 374873051}
+  - {fileID: 1189193240}
   m_occludeAudioSources: 1
   m_occludableAudioInZone:
-  - {fileID: 503897255}
+  - {fileID: 1189193231}
+  - {fileID: 1189193235}
   - {fileID: 1189193216}
-  - {fileID: 1189193217}
-  - {fileID: 1189193218}
-  - {fileID: 1189193219}
-  - {fileID: 1189193220}
+  - {fileID: 1189193232}
+  - {fileID: 1189193230}
   - {fileID: 1189193221}
-  - {fileID: 1189193222}
-  - {fileID: 1189193223}
-  - {fileID: 1189193224}
-  - {fileID: 1189193225}
-  - {fileID: 1189193226}
-  - {fileID: 1189193227}
   - {fileID: 1189193228}
   - {fileID: 1189193229}
-  - {fileID: 1189193230}
-  - {fileID: 1189193231}
-  - {fileID: 1189193232}
-  - {fileID: 1189193233}
+  - {fileID: 1189193227}
   - {fileID: 1189193234}
-  - {fileID: 1189193235}
+  - {fileID: 1189193233}
+  - {fileID: 1189193223}
+  - {fileID: 1189193218}
+  - {fileID: 503897255}
+  - {fileID: 1189193220}
+  - {fileID: 1189193224}
+  - {fileID: 1189193226}
+  - {fileID: 1424700500}
+  - {fileID: 1189193219}
+  - {fileID: 1189193217}
+  - {fileID: 1189193225}
+  - {fileID: 1189193222}
   m_onOcclusion:
     m_PersistentCalls:
       m_Calls: []
@@ -7206,44 +7242,50 @@ MonoBehaviour:
   - {fileID: 2019471249}
   - {fileID: 2019471250}
   m_occludableComponentsInZone:
+  - {fileID: 447969909}
+  - {fileID: 837545937}
   - {fileID: 447969907}
   - {fileID: 447969908}
-  - {fileID: 447969909}
-  - {fileID: 447969910}
-  - {fileID: 837545935}
-  - {fileID: 837545937}
+  - {fileID: 2004711223}
+  - {fileID: 2004711222}
   - {fileID: 837545938}
   - {fileID: 2004711221}
-  - {fileID: 2004711222}
-  - {fileID: 2004711223}
+  - {fileID: 447969910}
+  - {fileID: 837545935}
   m_occludeAudioSources: 1
   m_occludableAudioInZone:
-  - {fileID: 238015388}
-  - {fileID: 238015389}
-  - {fileID: 837545917}
-  - {fileID: 837545918}
-  - {fileID: 837545919}
-  - {fileID: 837545920}
   - {fileID: 837545921}
-  - {fileID: 837545922}
-  - {fileID: 837545923}
-  - {fileID: 837545924}
-  - {fileID: 837545925}
-  - {fileID: 837545926}
-  - {fileID: 837545933}
-  - {fileID: 837545934}
-  - {fileID: 1326880673}
-  - {fileID: 1326880674}
-  - {fileID: 1326880675}
-  - {fileID: 1326880676}
-  - {fileID: 1326880677}
-  - {fileID: 1326880678}
-  - {fileID: 2004711215}
-  - {fileID: 2004711216}
-  - {fileID: 2004711217}
-  - {fileID: 2004711218}
-  - {fileID: 2004711219}
   - {fileID: 2004711220}
+  - {fileID: 837545919}
+  - {fileID: 1326880676}
+  - {fileID: 837545926}
+  - {fileID: 443999652}
+  - {fileID: 837545925}
+  - {fileID: 2004711217}
+  - {fileID: 837545920}
+  - {fileID: 837545918}
+  - {fileID: 837545922}
+  - {fileID: 443999651}
+  - {fileID: 443999650}
+  - {fileID: 238015389}
+  - {fileID: 1326880678}
+  - {fileID: 1326880675}
+  - {fileID: 837545923}
+  - {fileID: 443999649}
+  - {fileID: 443999648}
+  - {fileID: 2004711215}
+  - {fileID: 837545917}
+  - {fileID: 238015388}
+  - {fileID: 2004711216}
+  - {fileID: 837545924}
+  - {fileID: 2004711219}
+  - {fileID: 1326880674}
+  - {fileID: 1326880673}
+  - {fileID: 443999647}
+  - {fileID: 837545933}
+  - {fileID: 2004711218}
+  - {fileID: 837545934}
+  - {fileID: 1326880677}
   m_onOcclusion:
     m_PersistentCalls:
       m_Calls: []
@@ -10735,6 +10777,11 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3999889889075101636, guid: a6ac391eaa748ce418deec9c1965bc2e, type: 3}
   m_PrefabInstance: {fileID: 4663476880152993833}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1424700500 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8475233640198070842, guid: e41a528d92e53f340a002daa29fd81a1, type: 3}
+  m_PrefabInstance: {fileID: 3476819749432435881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!82 &1441819387 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7485043952931938055, guid: aed37c4a0162f2f4b99f5e4e13ba2a2d, type: 3}
@@ -13275,76 +13322,77 @@ MonoBehaviour:
   - {fileID: 1850575795}
   - {fileID: 1850575796}
   m_occludableComponentsInZone:
-  - {fileID: 1206000234}
-  - {fileID: 1206000235}
-  - {fileID: 1206000236}
-  - {fileID: 1206000237}
-  - {fileID: 1269198053}
-  - {fileID: 1269198055}
-  - {fileID: 1269198057}
-  - {fileID: 1269198059}
-  - {fileID: 1269198061}
-  - {fileID: 1269198063}
-  - {fileID: 1269198065}
-  - {fileID: 1269198067}
-  - {fileID: 1269198069}
   - {fileID: 1269198071}
-  - {fileID: 1269198073}
-  - {fileID: 1269198075}
-  - {fileID: 1269198077}
-  - {fileID: 1269198079}
-  - {fileID: 1269198081}
-  - {fileID: 1269198083}
-  - {fileID: 1269198085}
-  - {fileID: 1269198086}
+  - {fileID: 1269198067}
   - {fileID: 1269198087}
+  - {fileID: 1269198053}
+  - {fileID: 1269198083}
+  - {fileID: 1269198075}
+  - {fileID: 1206000236}
+  - {fileID: 1206000235}
+  - {fileID: 1269198079}
+  - {fileID: 1269198086}
+  - {fileID: 1269198085}
+  - {fileID: 1206000234}
+  - {fileID: 1206000237}
+  - {fileID: 1269198061}
+  - {fileID: 1269198073}
+  - {fileID: 1269198077}
+  - {fileID: 1269198065}
+  - {fileID: 1269198069}
+  - {fileID: 1269198081}
+  - {fileID: 1269198063}
+  - {fileID: 1269198059}
+  - {fileID: 1269198057}
+  - {fileID: 1269198055}
   m_occludeAudioSources: 1
   m_occludableAudioInZone:
-  - {fileID: 1013588510}
-  - {fileID: 1013588511}
-  - {fileID: 1269198009}
-  - {fileID: 1269198011}
-  - {fileID: 1269198012}
-  - {fileID: 1269198013}
-  - {fileID: 1269198014}
-  - {fileID: 1269198015}
-  - {fileID: 1269198016}
-  - {fileID: 1269198017}
-  - {fileID: 1269198018}
+  - {fileID: 1269198042}
+  - {fileID: 1269198040}
+  - {fileID: 1269198046}
   - {fileID: 1269198019}
-  - {fileID: 1269198020}
-  - {fileID: 1269198021}
-  - {fileID: 1269198022}
-  - {fileID: 1269198023}
-  - {fileID: 1269198024}
-  - {fileID: 1269198025}
-  - {fileID: 1269198026}
-  - {fileID: 1269198027}
-  - {fileID: 1269198028}
-  - {fileID: 1269198029}
-  - {fileID: 1269198030}
-  - {fileID: 1269198031}
-  - {fileID: 1269198032}
-  - {fileID: 1269198033}
+  - {fileID: 1269198047}
   - {fileID: 1269198034}
   - {fileID: 1269198035}
-  - {fileID: 1269198036}
-  - {fileID: 1269198037}
-  - {fileID: 1269198038}
-  - {fileID: 1269198039}
-  - {fileID: 1269198040}
-  - {fileID: 1269198041}
-  - {fileID: 1269198042}
-  - {fileID: 1269198043}
+  - {fileID: 1269198023}
+  - {fileID: 1269198024}
+  - {fileID: 1269198009}
   - {fileID: 1269198044}
   - {fileID: 1269198045}
-  - {fileID: 1269198046}
-  - {fileID: 1269198047}
-  - {fileID: 1269198048}
-  - {fileID: 1269198049}
-  - {fileID: 1269198050}
+  - {fileID: 1269198021}
+  - {fileID: 1269198038}
   - {fileID: 1269198051}
+  - {fileID: 1269198017}
+  - {fileID: 1269198015}
+  - {fileID: 1269198043}
+  - {fileID: 1269198013}
+  - {fileID: 1269198031}
+  - {fileID: 1269198025}
+  - {fileID: 1269198027}
+  - {fileID: 787419272}
+  - {fileID: 1269198030}
+  - {fileID: 1013588511}
+  - {fileID: 1269198039}
+  - {fileID: 1269198029}
+  - {fileID: 1269198020}
+  - {fileID: 1269198011}
+  - {fileID: 1269198033}
+  - {fileID: 1269198018}
+  - {fileID: 1269198041}
+  - {fileID: 1269198012}
+  - {fileID: 1269198032}
+  - {fileID: 1269198050}
   - {fileID: 1269198052}
+  - {fileID: 1269198036}
+  - {fileID: 1269198037}
+  - {fileID: 1269198014}
+  - {fileID: 1013588510}
+  - {fileID: 1269198049}
+  - {fileID: 1269198022}
+  - {fileID: 1269198026}
+  - {fileID: 1269198016}
+  - {fileID: 1269198048}
+  - {fileID: 1269198028}
   m_onOcclusion:
     m_PersistentCalls:
       m_Calls: []
@@ -17906,7 +17954,7 @@ PrefabInstance:
       value: 2690870397
       objectReference: {fileID: 0}
     - target: {fileID: 5184172680212824655, guid: aed37c4a0162f2f4b99f5e4e13ba2a2d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 4799231880773981880, guid: b69ea1093d764454094aad1bbdd6b3d7, type: 2}
     - target: {fileID: 5219399887066852245, guid: aed37c4a0162f2f4b99f5e4e13ba2a2d, type: 3}

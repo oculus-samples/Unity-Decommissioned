@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SimonSays_Tutorial_idle
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -1297,7 +1297,8 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1316,7 +1317,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1335,7 +1338,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1354,7 +1359,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1373,6 +1380,7 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -1388,6 +1396,8 @@ AnimationClip:
       typeID: 137
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3110359974
       attribute: 3305885265
@@ -1395,6 +1405,8 @@ AnimationClip:
       typeID: 137
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1209665074
       attribute: 1
@@ -1402,6 +1414,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1584011039
       attribute: 1
@@ -1409,6 +1423,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2194965828
       attribute: 1
@@ -1416,6 +1432,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4029080817
       attribute: 1
@@ -1423,6 +1441,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2504590926
       attribute: 1
@@ -1430,6 +1450,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3631726303
       attribute: 1
@@ -1437,6 +1459,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 133570961
       attribute: 1
@@ -1444,6 +1468,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3584267267
       attribute: 1
@@ -1451,6 +1477,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1792321702
       attribute: 1
@@ -1458,6 +1486,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2525312530
       attribute: 1
@@ -1465,6 +1495,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2249798654
       attribute: 1
@@ -1472,6 +1504,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4284003466
       attribute: 1
@@ -1479,6 +1513,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2046335175
       attribute: 1
@@ -1486,6 +1522,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1285457624
       attribute: 1
@@ -1493,6 +1531,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2142165560
       attribute: 1
@@ -1500,6 +1540,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3305292751
       attribute: 1
@@ -1507,6 +1549,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3038230245
       attribute: 1
@@ -1514,6 +1558,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1623876568
       attribute: 1
@@ -1521,6 +1567,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 147582868
       attribute: 1
@@ -1528,6 +1576,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4172830436
       attribute: 1
@@ -1535,6 +1585,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3601054294
       attribute: 1
@@ -1542,6 +1594,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3797523411
       attribute: 1
@@ -1549,6 +1603,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1034669453
       attribute: 1
@@ -1556,6 +1612,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2948864794
       attribute: 1
@@ -1563,6 +1621,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2237859324
       attribute: 1
@@ -1570,6 +1630,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4131530146
       attribute: 1
@@ -1577,6 +1639,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3369189869
       attribute: 1
@@ -1584,6 +1648,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 966352628
       attribute: 1
@@ -1591,6 +1657,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1991527184
       attribute: 1
@@ -1598,6 +1666,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 39220427
       attribute: 1
@@ -1605,6 +1675,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3605327905
       attribute: 1
@@ -1612,6 +1684,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3812120380
       attribute: 1
@@ -1619,6 +1693,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1374475062
       attribute: 1
@@ -1626,6 +1702,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1201137570
       attribute: 1
@@ -1633,6 +1711,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1369129285
       attribute: 1
@@ -1640,6 +1720,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 285622651
       attribute: 1
@@ -1647,6 +1729,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3941943566
       attribute: 1
@@ -1654,6 +1738,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3266659191
       attribute: 1
@@ -1661,6 +1747,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3615942789
       attribute: 1
@@ -1668,6 +1756,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3428139271
       attribute: 1
@@ -1675,6 +1765,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1209665074
       attribute: 4
@@ -1682,6 +1774,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1584011039
       attribute: 4
@@ -1689,6 +1783,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2194965828
       attribute: 4
@@ -1696,6 +1792,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4029080817
       attribute: 4
@@ -1703,6 +1801,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2504590926
       attribute: 4
@@ -1710,6 +1810,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3631726303
       attribute: 4
@@ -1717,6 +1819,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 133570961
       attribute: 4
@@ -1724,6 +1828,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3584267267
       attribute: 4
@@ -1731,6 +1837,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1792321702
       attribute: 4
@@ -1738,6 +1846,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2525312530
       attribute: 4
@@ -1745,6 +1855,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2249798654
       attribute: 4
@@ -1752,6 +1864,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4284003466
       attribute: 4
@@ -1759,6 +1873,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2046335175
       attribute: 4
@@ -1766,6 +1882,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1285457624
       attribute: 4
@@ -1773,6 +1891,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2142165560
       attribute: 4
@@ -1780,6 +1900,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3305292751
       attribute: 4
@@ -1787,6 +1909,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3038230245
       attribute: 4
@@ -1794,6 +1918,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1623876568
       attribute: 4
@@ -1801,6 +1927,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 147582868
       attribute: 4
@@ -1808,6 +1936,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4172830436
       attribute: 4
@@ -1815,6 +1945,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3601054294
       attribute: 4
@@ -1822,6 +1954,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3797523411
       attribute: 4
@@ -1829,6 +1963,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1034669453
       attribute: 4
@@ -1836,6 +1972,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2948864794
       attribute: 4
@@ -1843,6 +1981,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2237859324
       attribute: 4
@@ -1850,6 +1990,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4131530146
       attribute: 4
@@ -1857,6 +1999,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3369189869
       attribute: 4
@@ -1864,6 +2008,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 966352628
       attribute: 4
@@ -1871,6 +2017,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1991527184
       attribute: 4
@@ -1878,6 +2026,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 39220427
       attribute: 4
@@ -1885,6 +2035,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3605327905
       attribute: 4
@@ -1892,6 +2044,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3812120380
       attribute: 4
@@ -1899,6 +2053,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1374475062
       attribute: 4
@@ -1906,6 +2062,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1201137570
       attribute: 4
@@ -1913,6 +2071,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1369129285
       attribute: 4
@@ -1920,6 +2080,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 285622651
       attribute: 4
@@ -1927,6 +2089,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3941943566
       attribute: 4
@@ -1934,6 +2098,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3266659191
       attribute: 4
@@ -1941,6 +2107,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3615942789
       attribute: 4
@@ -1948,6 +2116,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3428139271
       attribute: 4
@@ -1955,6 +2125,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3412936721
       attribute: 2282272135
@@ -1962,6 +2134,8 @@ AnimationClip:
       typeID: 137
       customType: 22
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3110359974
       attribute: 2282272135
@@ -1969,6 +2143,8 @@ AnimationClip:
       typeID: 137
       customType: 22
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -1991,7 +2167,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2010,7 +2187,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2029,7 +2208,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2048,7 +2229,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2067,7 +2250,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2086,7 +2271,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2105,7 +2292,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2124,7 +2313,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2143,7 +2334,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2162,7 +2355,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2181,7 +2376,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2200,7 +2397,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2219,7 +2418,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2238,7 +2439,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2257,7 +2460,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2276,7 +2481,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2295,7 +2502,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2314,7 +2523,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2333,7 +2544,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2352,7 +2565,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2371,7 +2586,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2390,7 +2607,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2409,7 +2628,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2428,7 +2649,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2447,7 +2670,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2466,7 +2691,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2485,7 +2712,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2504,7 +2733,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2523,7 +2754,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2542,7 +2775,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2561,7 +2796,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2580,7 +2817,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2599,7 +2838,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2618,7 +2859,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2637,7 +2880,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2656,7 +2901,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2675,7 +2922,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2694,7 +2943,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2713,7 +2964,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2732,7 +2985,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2751,7 +3006,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2770,7 +3027,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2789,7 +3048,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2808,7 +3069,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2827,7 +3090,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2846,7 +3111,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2865,7 +3132,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2884,7 +3153,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2903,7 +3174,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2922,7 +3195,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2941,7 +3216,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2960,7 +3237,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2979,7 +3258,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2998,7 +3279,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3017,7 +3300,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3036,7 +3321,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3055,7 +3342,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3074,7 +3363,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3093,7 +3384,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3112,7 +3405,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3131,7 +3426,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3150,7 +3447,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3169,7 +3468,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3188,7 +3489,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3207,7 +3510,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3226,7 +3531,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3245,7 +3552,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3264,7 +3573,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3283,7 +3594,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3302,7 +3615,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3321,7 +3636,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3340,7 +3657,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3359,7 +3678,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3378,7 +3699,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3397,7 +3720,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3416,7 +3741,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3435,7 +3762,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3454,7 +3783,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3473,7 +3804,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3492,7 +3825,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3511,7 +3846,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3530,7 +3867,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3549,7 +3888,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3568,7 +3909,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3587,7 +3930,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3606,7 +3951,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3625,7 +3972,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3644,7 +3993,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3663,7 +4014,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3682,7 +4035,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3701,7 +4056,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3720,7 +4077,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3739,7 +4098,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3758,7 +4119,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3777,7 +4140,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3796,7 +4161,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3815,7 +4182,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3834,7 +4203,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3853,7 +4224,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3872,7 +4245,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3891,7 +4266,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3910,7 +4287,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3929,7 +4308,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3948,7 +4329,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3967,7 +4350,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3986,7 +4371,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4005,7 +4392,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4024,7 +4413,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4043,7 +4434,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4062,7 +4455,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4081,7 +4476,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4100,7 +4497,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4119,7 +4518,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4138,7 +4539,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4157,7 +4560,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4176,7 +4581,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4195,7 +4602,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4214,7 +4623,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4233,7 +4644,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4252,7 +4665,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4271,7 +4686,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4290,7 +4707,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4309,7 +4728,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4328,7 +4749,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4347,7 +4770,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4366,7 +4791,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4385,7 +4812,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4404,7 +4833,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4423,7 +4854,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4442,7 +4875,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4461,7 +4896,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4480,7 +4917,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4499,7 +4938,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4518,7 +4959,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4537,7 +4980,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4556,7 +5001,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4575,7 +5022,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4594,7 +5043,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4613,7 +5064,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4632,7 +5085,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4651,7 +5106,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4670,7 +5127,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4689,7 +5148,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4708,7 +5169,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4727,7 +5190,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4746,7 +5211,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4765,7 +5232,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4784,7 +5253,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4803,7 +5274,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4822,7 +5295,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4841,7 +5316,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4860,7 +5337,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4879,7 +5358,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4898,7 +5379,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4917,7 +5400,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4936,7 +5421,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4955,7 +5442,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4974,7 +5463,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4993,7 +5484,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5012,7 +5505,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5031,7 +5526,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5050,7 +5547,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5069,7 +5568,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5088,7 +5589,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5107,7 +5610,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5126,7 +5631,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5145,7 +5652,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5164,7 +5673,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5183,7 +5694,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5202,7 +5715,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5221,7 +5736,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5240,7 +5757,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5259,7 +5778,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5278,7 +5799,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5297,7 +5820,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5316,7 +5841,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5335,7 +5862,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5354,7 +5883,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5373,7 +5904,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5392,7 +5925,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5411,7 +5946,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5430,7 +5967,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5449,7 +5988,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5468,7 +6009,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5487,7 +6030,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5506,7 +6051,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5525,7 +6072,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5544,7 +6093,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5563,7 +6114,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5582,7 +6135,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5601,7 +6156,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5620,7 +6177,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5639,7 +6198,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5658,7 +6219,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5677,7 +6240,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5696,7 +6261,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5715,7 +6282,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5734,7 +6303,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5753,7 +6324,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5772,7 +6345,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5791,7 +6366,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5810,7 +6387,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5829,7 +6408,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5848,7 +6429,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5867,7 +6450,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5886,7 +6471,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5905,7 +6492,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5924,7 +6513,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5943,7 +6534,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5962,7 +6555,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5981,7 +6576,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6000,7 +6597,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6019,7 +6618,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6038,7 +6639,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6057,7 +6660,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6076,7 +6681,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6095,7 +6702,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6114,7 +6723,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6133,7 +6744,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6152,7 +6765,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6171,7 +6786,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6190,7 +6807,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6209,7 +6828,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6228,7 +6849,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6247,7 +6870,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6266,7 +6891,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6285,7 +6912,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6304,7 +6933,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6323,7 +6954,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6342,7 +6975,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6361,7 +6996,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6380,7 +7017,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6399,7 +7038,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6418,7 +7059,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6437,7 +7080,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6456,7 +7101,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6475,7 +7122,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6494,7 +7143,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6513,7 +7164,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6532,7 +7185,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6551,7 +7206,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6570,7 +7227,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6589,7 +7248,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6608,7 +7269,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6627,8 +7290,10 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/Hand
     classID: 137
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6638,7 +7303,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6648,7 +7315,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6658,7 +7327,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6668,7 +7339,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6678,7 +7351,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6688,7 +7363,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6698,7 +7375,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6708,7 +7387,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6718,7 +7399,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6728,7 +7411,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6738,7 +7423,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6748,7 +7435,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6758,7 +7447,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6768,7 +7459,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6778,7 +7471,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6788,7 +7483,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6798,7 +7495,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6808,7 +7507,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6818,7 +7519,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6828,7 +7531,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6838,7 +7543,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6848,7 +7555,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6858,7 +7567,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6868,7 +7579,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6878,7 +7591,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6888,7 +7603,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6898,7 +7615,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6908,7 +7627,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6918,7 +7639,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6928,7 +7651,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6938,7 +7663,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6948,7 +7675,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6958,7 +7687,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6968,7 +7699,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6978,7 +7711,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6988,7 +7723,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -6998,7 +7735,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7008,7 +7747,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7018,7 +7759,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7028,7 +7771,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7038,7 +7783,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7048,7 +7795,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7058,7 +7807,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7068,7 +7819,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7078,7 +7831,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7088,7 +7843,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7098,7 +7855,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7108,7 +7867,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7118,7 +7879,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7128,7 +7891,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7138,7 +7903,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7148,7 +7915,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7158,7 +7927,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7168,7 +7939,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7178,7 +7951,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7188,7 +7963,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7198,7 +7975,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7208,7 +7987,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7218,7 +7999,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7228,7 +8011,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7238,7 +8023,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7248,7 +8035,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7258,7 +8047,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7268,7 +8059,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7278,7 +8071,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7288,7 +8083,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7298,7 +8095,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7308,7 +8107,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7318,7 +8119,9 @@ AnimationClip:
     path: Placer/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7328,7 +8131,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7338,7 +8143,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7348,7 +8155,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7358,7 +8167,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7368,7 +8179,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7378,7 +8191,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7388,7 +8203,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7398,7 +8215,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7408,7 +8227,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7418,7 +8239,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7428,7 +8251,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7438,7 +8263,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7448,7 +8275,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7458,7 +8287,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7468,7 +8299,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7478,7 +8311,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7488,7 +8323,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7498,7 +8335,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7508,7 +8347,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7518,7 +8359,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7528,7 +8371,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7538,7 +8383,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7548,7 +8395,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7558,7 +8407,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7568,7 +8419,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7578,7 +8431,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7588,7 +8443,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7598,7 +8455,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7608,7 +8467,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7618,7 +8479,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7628,7 +8491,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7638,7 +8503,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7648,7 +8515,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7658,7 +8527,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7668,7 +8539,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7678,7 +8551,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7688,7 +8563,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7698,7 +8575,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7708,7 +8587,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7718,7 +8599,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7728,7 +8611,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7738,7 +8623,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7748,7 +8635,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7758,7 +8647,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7768,7 +8659,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7778,7 +8671,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7788,7 +8683,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7798,7 +8695,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7808,7 +8707,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7818,7 +8719,9 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7828,6 +8731,7 @@ AnimationClip:
     path: Speaker/human-hand-with-rig-fbx/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []

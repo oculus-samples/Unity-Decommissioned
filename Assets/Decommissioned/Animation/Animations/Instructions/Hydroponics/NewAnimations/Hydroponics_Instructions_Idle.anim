@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hydroponics_Instructions_Idle
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -1393,7 +1393,8 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1412,7 +1413,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1431,7 +1434,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1450,7 +1455,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1469,7 +1476,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1488,7 +1497,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1507,6 +1518,7 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/Hand
     classID: 137
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -1522,6 +1534,8 @@ AnimationClip:
       typeID: 137
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3131692964
       attribute: 3305885265
@@ -1529,6 +1543,8 @@ AnimationClip:
       typeID: 137
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1222197419
       attribute: 3305885265
@@ -1536,6 +1552,8 @@ AnimationClip:
       typeID: 137
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2174234887
       attribute: 1
@@ -1543,6 +1561,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 852401805
       attribute: 1
@@ -1550,6 +1570,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4153019792
       attribute: 1
@@ -1557,6 +1579,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 483648301
       attribute: 1
@@ -1564,6 +1588,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 342205669
       attribute: 1
@@ -1571,6 +1597,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2723373732
       attribute: 1
@@ -1578,6 +1606,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2807327686
       attribute: 1
@@ -1585,6 +1615,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3246449489
       attribute: 1
@@ -1592,6 +1624,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 661767793
       attribute: 1
@@ -1599,6 +1633,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 558481926
       attribute: 1
@@ -1606,6 +1642,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3053638130
       attribute: 1
@@ -1613,6 +1651,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2481640575
       attribute: 1
@@ -1620,6 +1660,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1547268448
       attribute: 1
@@ -1627,6 +1669,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2257626849
       attribute: 1
@@ -1634,6 +1678,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3305399227
       attribute: 1
@@ -1641,6 +1687,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2704040581
       attribute: 1
@@ -1648,6 +1696,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1501527847
       attribute: 1
@@ -1655,6 +1705,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 107399251
       attribute: 1
@@ -1662,6 +1714,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260298397
       attribute: 1
@@ -1669,6 +1723,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1364522737
       attribute: 1
@@ -1676,6 +1732,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3850708015
       attribute: 1
@@ -1683,6 +1741,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 918350418
       attribute: 1
@@ -1690,6 +1750,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 993892023
       attribute: 1
@@ -1697,6 +1759,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 350330848
       attribute: 1
@@ -1704,6 +1768,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3845961554
       attribute: 1
@@ -1711,6 +1777,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3958368814
       attribute: 1
@@ -1718,6 +1786,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3173007223
       attribute: 1
@@ -1725,6 +1795,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2445490997
       attribute: 1
@@ -1732,6 +1804,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2869262435
       attribute: 1
@@ -1739,6 +1813,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260253966
       attribute: 1
@@ -1746,6 +1822,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 11545782
       attribute: 1
@@ -1753,6 +1831,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4173324190
       attribute: 1
@@ -1760,6 +1840,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2584687906
       attribute: 1
@@ -1767,6 +1849,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4023222883
       attribute: 1
@@ -1774,6 +1858,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 842558136
       attribute: 1
@@ -1781,6 +1867,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 452549520
       attribute: 1
@@ -1788,6 +1876,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1396169067
       attribute: 1
@@ -1795,6 +1885,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2685265222
       attribute: 1
@@ -1802,6 +1894,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3822864020
       attribute: 1
@@ -1809,6 +1903,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2806885237
       attribute: 1
@@ -1816,6 +1912,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1412727286
       attribute: 1
@@ -1823,6 +1921,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 950505686
       attribute: 1
@@ -1830,6 +1930,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 884718563
       attribute: 1
@@ -1837,6 +1939,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2174234887
       attribute: 4
@@ -1844,6 +1948,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 852401805
       attribute: 4
@@ -1851,6 +1957,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4153019792
       attribute: 4
@@ -1858,6 +1966,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 483648301
       attribute: 4
@@ -1865,6 +1975,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 342205669
       attribute: 4
@@ -1872,6 +1984,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2723373732
       attribute: 4
@@ -1879,6 +1993,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2807327686
       attribute: 4
@@ -1886,6 +2002,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3246449489
       attribute: 4
@@ -1893,6 +2011,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 661767793
       attribute: 4
@@ -1900,6 +2020,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 558481926
       attribute: 4
@@ -1907,6 +2029,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3053638130
       attribute: 4
@@ -1914,6 +2038,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2481640575
       attribute: 4
@@ -1921,6 +2047,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1547268448
       attribute: 4
@@ -1928,6 +2056,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2257626849
       attribute: 4
@@ -1935,6 +2065,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3305399227
       attribute: 4
@@ -1942,6 +2074,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2704040581
       attribute: 4
@@ -1949,6 +2083,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1501527847
       attribute: 4
@@ -1956,6 +2092,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 107399251
       attribute: 4
@@ -1963,6 +2101,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260298397
       attribute: 4
@@ -1970,6 +2110,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1364522737
       attribute: 4
@@ -1977,6 +2119,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3850708015
       attribute: 4
@@ -1984,6 +2128,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 918350418
       attribute: 4
@@ -1991,6 +2137,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 993892023
       attribute: 4
@@ -1998,6 +2146,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 350330848
       attribute: 4
@@ -2005,6 +2155,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3845961554
       attribute: 4
@@ -2012,6 +2164,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3958368814
       attribute: 4
@@ -2019,6 +2173,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3173007223
       attribute: 4
@@ -2026,6 +2182,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2445490997
       attribute: 4
@@ -2033,6 +2191,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2869262435
       attribute: 4
@@ -2040,6 +2200,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260253966
       attribute: 4
@@ -2047,6 +2209,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 11545782
       attribute: 4
@@ -2054,6 +2218,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4173324190
       attribute: 4
@@ -2061,6 +2227,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2584687906
       attribute: 4
@@ -2068,6 +2236,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4023222883
       attribute: 4
@@ -2075,6 +2245,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 842558136
       attribute: 4
@@ -2082,6 +2254,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 452549520
       attribute: 4
@@ -2089,6 +2263,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1396169067
       attribute: 4
@@ -2096,6 +2272,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2685265222
       attribute: 4
@@ -2103,6 +2281,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3822864020
       attribute: 4
@@ -2110,6 +2290,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2806885237
       attribute: 4
@@ -2117,6 +2299,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1412727286
       attribute: 4
@@ -2124,6 +2308,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 950505686
       attribute: 4
@@ -2131,6 +2317,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 884718563
       attribute: 4
@@ -2138,6 +2326,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1222197419
       attribute: 2282272135
@@ -2145,6 +2335,8 @@ AnimationClip:
       typeID: 137
       customType: 22
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3131692964
       attribute: 2282272135
@@ -2152,6 +2344,8 @@ AnimationClip:
       typeID: 137
       customType: 22
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2953989265
       attribute: 2282272135
@@ -2159,6 +2353,8 @@ AnimationClip:
       typeID: 137
       customType: 22
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -2181,7 +2377,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2200,7 +2397,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2219,7 +2418,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2238,7 +2439,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2257,7 +2460,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2276,7 +2481,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2295,7 +2502,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2314,7 +2523,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2333,7 +2544,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2352,7 +2565,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2371,7 +2586,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2390,7 +2607,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2409,7 +2628,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2428,7 +2649,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2447,7 +2670,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2466,7 +2691,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2485,7 +2712,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2504,7 +2733,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2523,7 +2754,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2542,7 +2775,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2561,7 +2796,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2580,7 +2817,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2599,7 +2838,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2618,7 +2859,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2637,7 +2880,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2656,7 +2901,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2675,7 +2922,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2694,7 +2943,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2713,7 +2964,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2732,7 +2985,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2751,7 +3006,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2770,7 +3027,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2789,7 +3048,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2808,7 +3069,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2827,7 +3090,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2846,7 +3111,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2865,7 +3132,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2884,7 +3153,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2903,7 +3174,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2922,7 +3195,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2941,7 +3216,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2960,7 +3237,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2979,7 +3258,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2998,7 +3279,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3017,7 +3300,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3036,7 +3321,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3055,7 +3342,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3074,7 +3363,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3093,7 +3384,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3112,7 +3405,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3131,7 +3426,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3150,7 +3447,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3169,7 +3468,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3188,7 +3489,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3207,7 +3510,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3226,7 +3531,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3245,7 +3552,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3264,7 +3573,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3283,7 +3594,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3302,7 +3615,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3321,7 +3636,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3340,7 +3657,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3359,7 +3678,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3378,7 +3699,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3397,7 +3720,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3416,7 +3741,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3435,7 +3762,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3454,7 +3783,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3473,7 +3804,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3492,7 +3825,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3511,7 +3846,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3530,7 +3867,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3549,7 +3888,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3568,7 +3909,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3587,7 +3930,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3606,7 +3951,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3625,7 +3972,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3644,7 +3993,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3663,7 +4014,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3682,7 +4035,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3701,7 +4056,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3720,7 +4077,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3739,7 +4098,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3758,7 +4119,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3777,7 +4140,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3796,7 +4161,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3815,7 +4182,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3834,7 +4203,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3853,7 +4224,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3872,7 +4245,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3891,7 +4266,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3910,7 +4287,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3929,7 +4308,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3948,7 +4329,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3967,7 +4350,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3986,7 +4371,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4005,7 +4392,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4024,7 +4413,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4043,7 +4434,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4062,7 +4455,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4081,7 +4476,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4100,7 +4497,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4119,7 +4518,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4138,7 +4539,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4157,7 +4560,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4176,7 +4581,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4195,7 +4602,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4214,7 +4623,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4233,7 +4644,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4252,7 +4665,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4271,7 +4686,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4290,7 +4707,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4309,7 +4728,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4328,7 +4749,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4347,7 +4770,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4366,7 +4791,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4385,7 +4812,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4404,7 +4833,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4423,7 +4854,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4442,7 +4875,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4461,7 +4896,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4480,7 +4917,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4499,7 +4938,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4518,7 +4959,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4537,7 +4980,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4556,7 +5001,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4575,7 +5022,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4594,7 +5043,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4613,7 +5064,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4632,7 +5085,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4651,7 +5106,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4670,7 +5127,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4689,7 +5148,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4708,7 +5169,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4727,7 +5190,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4746,7 +5211,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4765,7 +5232,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4784,7 +5253,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4803,7 +5274,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4822,7 +5295,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4841,7 +5316,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4860,7 +5337,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4879,7 +5358,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4898,7 +5379,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4917,7 +5400,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4936,7 +5421,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4955,7 +5442,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4974,7 +5463,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4993,7 +5484,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5012,7 +5505,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5031,7 +5526,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5050,7 +5547,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5069,7 +5568,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5088,7 +5589,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5107,7 +5610,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5126,7 +5631,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5145,7 +5652,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5164,7 +5673,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5183,7 +5694,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5202,7 +5715,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5221,7 +5736,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5240,7 +5757,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5259,7 +5778,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5278,7 +5799,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5297,7 +5820,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5316,7 +5841,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5335,7 +5862,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5354,7 +5883,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5373,7 +5904,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5392,7 +5925,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5411,7 +5946,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5430,7 +5967,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5449,7 +5988,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5468,7 +6009,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5487,7 +6030,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5506,7 +6051,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5525,7 +6072,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5544,7 +6093,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5563,7 +6114,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5582,7 +6135,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5601,7 +6156,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5620,7 +6177,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5639,7 +6198,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5658,7 +6219,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5677,7 +6240,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5696,7 +6261,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5715,7 +6282,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5734,7 +6303,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5753,7 +6324,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5772,7 +6345,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5791,7 +6366,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5810,7 +6387,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5829,7 +6408,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5848,7 +6429,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5867,7 +6450,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5886,7 +6471,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5905,7 +6492,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5924,7 +6513,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5943,7 +6534,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5962,7 +6555,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5981,7 +6576,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6000,7 +6597,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6019,7 +6618,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6038,7 +6639,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6057,7 +6660,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6076,7 +6681,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6095,7 +6702,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6114,7 +6723,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6133,7 +6744,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6152,7 +6765,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6171,7 +6786,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6190,7 +6807,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6209,7 +6828,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6228,7 +6849,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6247,7 +6870,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6266,7 +6891,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6285,7 +6912,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6304,7 +6933,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6323,7 +6954,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6342,7 +6975,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6361,7 +6996,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6380,7 +7017,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6399,7 +7038,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6418,7 +7059,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6437,7 +7080,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6456,7 +7101,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6475,7 +7122,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6494,7 +7143,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6513,7 +7164,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6532,7 +7185,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6551,7 +7206,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6570,7 +7227,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6589,7 +7248,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6608,7 +7269,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6627,7 +7290,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6646,7 +7311,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6665,7 +7332,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6684,7 +7353,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6703,7 +7374,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6722,7 +7395,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6741,7 +7416,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6760,7 +7437,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6779,7 +7458,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6798,7 +7479,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6817,7 +7500,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6836,7 +7521,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6855,7 +7542,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6874,7 +7563,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6893,7 +7584,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6912,7 +7605,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6931,7 +7626,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6950,7 +7647,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6969,7 +7668,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6988,7 +7689,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7007,7 +7710,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7026,7 +7731,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7045,7 +7752,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7064,7 +7773,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7083,7 +7794,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7102,7 +7815,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7121,7 +7836,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7140,7 +7857,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7159,7 +7878,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7178,7 +7899,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/Hand
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7197,8 +7920,10 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/Hand
     classID: 137
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7208,7 +7933,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7218,7 +7945,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7228,7 +7957,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7238,7 +7969,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7248,7 +7981,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7258,7 +7993,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7268,7 +8005,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7278,7 +8017,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7288,7 +8029,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7298,7 +8041,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7308,7 +8053,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7318,7 +8065,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7328,7 +8077,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7338,7 +8089,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7348,7 +8101,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7358,7 +8113,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7368,7 +8125,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7378,7 +8137,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7388,7 +8149,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7398,7 +8161,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7408,7 +8173,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7418,7 +8185,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7428,7 +8197,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7438,7 +8209,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7448,7 +8221,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7458,7 +8233,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7468,7 +8245,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7478,7 +8257,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7488,7 +8269,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7498,7 +8281,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7508,7 +8293,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7518,7 +8305,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7528,7 +8317,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7538,7 +8329,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7548,7 +8341,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7558,7 +8353,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7568,7 +8365,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7578,7 +8377,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7588,7 +8389,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7598,7 +8401,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7608,7 +8413,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7618,7 +8425,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7628,7 +8437,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7638,7 +8449,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7648,7 +8461,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7658,7 +8473,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7668,7 +8485,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7678,7 +8497,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7688,7 +8509,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7698,7 +8521,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7708,7 +8533,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7718,7 +8545,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7728,7 +8557,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7738,7 +8569,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7748,7 +8581,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7758,7 +8593,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7768,7 +8605,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7778,7 +8617,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7788,7 +8629,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7798,7 +8641,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7808,7 +8653,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7818,7 +8665,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7828,7 +8677,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7838,7 +8689,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7848,7 +8701,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7858,7 +8713,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7868,7 +8725,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7878,7 +8737,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7888,7 +8749,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7898,7 +8761,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7908,7 +8773,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7918,7 +8785,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7928,7 +8797,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7938,7 +8809,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7948,7 +8821,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7958,7 +8833,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7968,7 +8845,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7978,7 +8857,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012/Bone.013
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7988,7 +8869,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -7998,7 +8881,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8008,7 +8893,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8018,7 +8905,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8028,7 +8917,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8038,7 +8929,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8048,7 +8941,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8058,7 +8953,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8068,7 +8965,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.001
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8078,7 +8977,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8088,7 +8989,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8098,7 +9001,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8108,7 +9013,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8118,7 +9025,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8128,7 +9037,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8138,7 +9049,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8148,7 +9061,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8158,7 +9073,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Sprayer_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8168,7 +9085,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8178,7 +9097,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8188,7 +9109,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008/Bone.009/Bone.010
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8198,7 +9121,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8208,7 +9133,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8218,7 +9145,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.001/Bone.014/Bone.015/Bone.016
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8228,7 +9157,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8238,7 +9169,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8248,7 +9181,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.019/Bone.008
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8258,7 +9193,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8268,7 +9205,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8278,7 +9217,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.017/Bone.011/Bone.012
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8288,7 +9229,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8298,7 +9241,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8308,7 +9253,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006/Bone.007
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8318,7 +9265,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8328,7 +9277,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8338,7 +9289,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8348,7 +9301,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8358,7 +9313,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8368,7 +9325,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005/Bone.006
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8378,7 +9337,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8388,7 +9349,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8398,7 +9361,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021/Bone.022/Bone.018/Bone.005
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8408,7 +9373,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8418,7 +9385,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8428,7 +9397,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root/Bone.021
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8438,7 +9409,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8448,7 +9421,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8458,7 +9433,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig/HandArmature/Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8468,7 +9445,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8478,7 +9457,9 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -8488,6 +9469,7 @@ AnimationClip:
     path: Hydroponics_Instructions_Pumper_01/human-hand-with-rig_01/HandArmature/Root/Bone.021/Bone.022/Bone.020/Bone.002/Bone.003/Bone.004
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
