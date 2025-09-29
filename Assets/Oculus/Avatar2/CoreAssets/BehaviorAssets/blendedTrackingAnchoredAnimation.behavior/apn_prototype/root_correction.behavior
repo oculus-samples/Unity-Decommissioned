@@ -12,8 +12,53 @@
             ],
             "nodes": [
                 {
-                    "name": "RootTransform",
+                    "name": "RootTransform_1",
                     "type": "makeTransform"
+                },
+                {
+                    "name": "RootAngleToRad_1",
+                    "type": "mathExpression",
+                    "members": {
+                        "expression": "ContRootAngle * (3.14159/180)"
+                    }
+                },
+                {
+                    "name": "RootAngleCorrectionVector_1",
+                    "type": "makeVec3"
+                },
+                {
+                    "name": "RootCorrectionQuaternion_1",
+                    "type": "eulerToQuat"
+                },
+                {
+                    "name": "RootTranslationCorrectionInput_1",
+                    "type": "getDynamicStoreValueVec3",
+                    "members": {
+                        "key": "avatarSDK_rootTranslationCorrection"
+                    }
+                },
+                {
+                    "name": "AdjustPositionByInverseScaleFactor",
+                    "type": "mathExpression",
+                    "members": {
+                        "expression": "rootPosition * inverseScaleFactor"
+                    }
+                },
+                {
+                    "name": "RootScaleCorrectionInput",
+                    "type": "getDynamicStoreValueCachedVec3",
+                    "members": {
+                        "key": "avatarSDK_rootScaleCorrection",
+                        "defaultValue": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    }
+                },
+                {
+                    "name": "getComponentOfVec",
+                    "type": "getComponentOfVec3"
                 },
                 {
                     "name": "RootAngleCorrectionInput",
@@ -23,52 +68,53 @@
                     }
                 },
                 {
-                    "name": "RootAngleToRad",
-                    "type": "mathExpression",
+                    "name": "uniformScale",
+                    "type": "constFloat",
                     "members": {
-                        "expression": "ContRootAngle * (3.14159/180)"
-                    }
-                },
-                {
-                    "name": "RootAngleCorrectionVector",
-                    "type": "makeVec3"
-                },
-                {
-                    "name": "RootCorrectionQuaternion",
-                    "type": "eulerToQuat"
-                },
-                {
-                    "name": "RootTranslationCorrectionInput",
-                    "type": "getDynamicStoreValueVec3",
-                    "members": {
-                        "key": "avatarSDK_rootTranslationCorrection"
+                        "value": 1.0
                     }
                 }
             ],
             "links": [
                 [
+                    "RootAngleToRad_1:value",
+                    "RootAngleCorrectionVector_1:inputY"
+                ],
+                [
+                    "RootAngleCorrectionVector_1:outputVec3",
+                    "RootCorrectionQuaternion_1:inputEuler"
+                ],
+                [
+                    "RootCorrectionQuaternion_1:outputQuat",
+                    "RootTransform_1:rotation"
+                ],
+                [
+                    "RootScaleCorrectionInput:outputValue",
+                    "getComponentOfVec:inputVec3"
+                ],
+                [
+                    "RootTranslationCorrectionInput_1:outputValue",
+                    "AdjustPositionByInverseScaleFactor:rootPosition"
+                ],
+                [
+                    "getComponentOfVec:outputY",
+                    "AdjustPositionByInverseScaleFactor:inverseScaleFactor"
+                ],
+                [
+                    "AdjustPositionByInverseScaleFactor:value",
+                    "RootTransform_1:position"
+                ],
+                [
                     "RootAngleCorrectionInput:outputValue",
-                    "RootAngleToRad:ContRootAngle"
+                    "RootAngleToRad_1:ContRootAngle"
                 ],
                 [
-                    "RootAngleToRad:value",
-                    "RootAngleCorrectionVector:inputY"
-                ],
-                [
-                    "RootAngleCorrectionVector:outputVec3",
-                    "RootCorrectionQuaternion:inputEuler"
-                ],
-                [
-                    "RootCorrectionQuaternion:outputQuat",
-                    "RootTransform:rotation"
-                ],
-                [
-                    "RootTransform:transform",
+                    "RootTransform_1:transform",
                     ":RootCorrectionTransformOut"
                 ],
                 [
-                    "RootTranslationCorrectionInput:outputValue",
-                    "RootTransform:position"
+                    "uniformScale:outputValue",
+                    "RootTransform_1:uniformScale"
                 ]
             ]
         }

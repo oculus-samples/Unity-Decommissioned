@@ -131,6 +131,7 @@ namespace Meta.Multiplayer.Avatar
             else
             {
                 _creationInfo.features &= ~ovrAvatar2EntityFeatures.Animation;
+                _creationInfo.features |= ovrAvatar2EntityFeatures.Preset_Remote;
 
                 SetInputManager(null);
                 SetFacePoseProvider(null);
@@ -200,9 +201,14 @@ namespace Meta.Multiplayer.Avatar
             }
 
             if (IsLocal)
+            {
                 info.features |= ovrAvatar2EntityFeatures.Animation;
+            }
             else
+            {
                 info.features &= ~ovrAvatar2EntityFeatures.Animation;
+                info.features |= ovrAvatar2EntityFeatures.Preset_Remote;
+            }
 
             return info;
         }

@@ -3,9 +3,14 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 
+#if USING_XR_MANAGEMENT && USING_XR_SDK_OCULUS && !OVRPLUGIN_UNSUPPORTED_PLATFORM
+#define USING_XR_SDK
+#endif
 
 #pragma warning disable IDE1006
 
+#nullable enable
+using System.Reflection;
 using Oculus.Avatar2;
 using Oculus.Interaction.Input;
 using UnityEngine;
@@ -15,6 +20,11 @@ namespace Oculus.Interaction.AvatarIntegration
 {
     public class HandTrackingInputManager : OvrAvatarInputManager
     {
+#if USING_XR_SDK
+        [SerializeField]
+        private OVRCameraRig? _ovrCameraRig = null;
+#endif
+        
         [SerializeField, Interface(typeof(IHmd))]
         private MonoBehaviour _hmd;
         private IHmd Hmd;
@@ -28,6 +38,16 @@ namespace Oculus.Interaction.AvatarIntegration
         private IHand RightHand;
 
         private bool _setupBodyTracking = false;
+        
+        public OvrAvatarBodyTrackingMode BodyTrackingMode
+        {
+            get => _bodyTrackingMode;
+            set
+            {
+                _bodyTrackingMode = value;
+                InitializeBodyTracking();
+            }
+        }
 
         protected void Awake()
         {
@@ -43,34 +63,50 @@ namespace Oculus.Interaction.AvatarIntegration
             Assert.IsNotNull(RightHand);
         }
 
+        protected override void OnTrackingInitialized()
+        {
+#if USING_XR_SDK
+        // On Oculus SDK version >= v46 Eye tracking and Face tracking need to be explicitly started by the application
+        // after permission has been requested.
+        OvrPluginInvoke("StartFaceTracking");
+        OvrPluginInvoke("StartEyeTracking");
+#endif
+
+            IOvrAvatarInputTrackingDelegate? inputTrackingDelegate = null;
+#if USING_XR_SDK
+            inputTrackingDelegate = new SampleInputTrackingDelegate(_ovrCameraRig);
+#endif // USING_XR_SDK
+            var inputControlDelegate = new SampleInputControlDelegate();
+
+            _inputTrackingProvider = new OvrAvatarInputTrackingDelegatedProvider(inputTrackingDelegate);
+            _inputControlProvider = new OvrAvatarInputControlDelegatedProvider(inputControlDelegate);
+        }
+#if USING_XR_SDK
+        // We use reflection here so that there are not compiler errors when using Oculus SDK v45 or below.
+        private static void OvrPluginInvoke(string method, params object[] args)
+        {
+            typeof(OVRPlugin).GetMethod(method, BindingFlags.Public | BindingFlags.Static)?.Invoke(null, args);
+        }
+#endif
+
         private void Update()
         {
-            if (!_setupBodyTracking)
+            if (_setupBodyTracking)
             {
-                if (BodyTrackingContext == null)
-                {
-                    return;
-                }
-
-                if (BodyTrackingContext is not OvrAvatarBodyTrackingContext ovrBodyTracking)
-                {
-                    return;
-                }
-
-                ovrBodyTracking.InputTrackingDelegate =
-                    new HandTrackingInputTrackingDelegate(transform, LeftHand, RightHand, Hmd);
-                ovrBodyTracking.HandTrackingDelegate = new HandTrackingDelegate(transform, LeftHand, RightHand);
-                _setupBodyTracking = true;
-
-                _inputTrackingProvider =
-                    new OvrAvatarInputTrackingDelegatedProvider(ovrBodyTracking
-                        .InputTrackingDelegate);
-                _handTrackingProvider =
-                    new OvrAvatarHandTrackingDelegatedProvider(ovrBodyTracking
-                        .HandTrackingDelegate);
-
-                InitializeBodyTracking();
+                return;
             }
+
+            if (BodyTrackingContext == null)
+            {
+                return;
+            }
+            if (BodyTrackingContext is not OvrAvatarBodyTrackingContext ovrBodyTracking)
+            {
+                return;
+            }
+            ovrBodyTracking.InputTrackingDelegate = new HandTrackingInputTrackingDelegate(transform, LeftHand, RightHand, Hmd);
+            ovrBodyTracking.HandTrackingDelegate = new HandTrackingDelegate(transform, LeftHand, RightHand);
+            _setupBodyTracking = true;
         }
 
         #region Inject

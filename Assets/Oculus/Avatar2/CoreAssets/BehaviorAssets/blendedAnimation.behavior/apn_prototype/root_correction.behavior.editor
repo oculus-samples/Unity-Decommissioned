@@ -1,56 +1,119 @@
 {
-    "graphs": {},
+    "@generated": true,
+    "graphs": {
+        "{main}": {
+            "comments": [],
+            "inputNodeId": "{main}||inputs",
+            "outputNodeId": "{main}||outputs"
+        }
+    },
     "nodes": {
-        "{main.RootTransform}": {
+        "{main.AddPivotOffsetToRoot}": {
             "position": {
-                "x": 1276.4375,
-                "y": 47.6640625
-            }
-        },
-        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||inputs": {
-            "position": {
-                "x": 1536.8125,
-                "y": 188.9921875
-            }
-        },
-        "{main.RootTranslationCorrectionInput}": {
-            "position": {
-                "x": 779.8489074707024,
-                "y": -24.343761444091798
+                "x": 1600.0,
+                "y": -150.0
             },
-            "macroName": null
+            "displayMode": "full"
         },
-        "{main.RootAngleToRad}": {
+        "{main.AdjustPositionByInverseScaleFactor}": {
             "position": {
-                "x": 393.3125,
-                "y": 133.328125
-            }
+                "x": 825.0,
+                "y": -175.0
+            },
+            "displayMode": "full"
         },
-        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||outputs": {
+        "{main.PivotOffset}": {
             "position": {
-                "x": 1536.8125,
-                "y": 75.6640625
-            }
+                "x": 950.0,
+                "y": -275.0
+            },
+            "displayMode": "full"
         },
         "{main.RootAngleCorrectionInput}": {
             "position": {
                 "x": 0.0,
-                "y": 151.328125
-            }
+                "y": 100.0
+            },
+            "displayMode": "full"
         },
         "{main.RootAngleCorrectionVector}": {
             "position": {
-                "x": 666.96875,
-                "y": 123.328125
-            }
+                "x": 650.0,
+                "y": 75.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootAngleToRad}": {
+            "position": {
+                "x": 375.0,
+                "y": 100.0
+            },
+            "displayMode": "full"
         },
         "{main.RootCorrectionQuaternion}": {
             "position": {
-                "x": 969.71875,
-                "y": 113.328125
-            }
+                "x": 975.0,
+                "y": 75.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootScaleCorrectionInput}": {
+            "position": {
+                "x": 225.0,
+                "y": -75.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootTransform}": {
+            "position": {
+                "x": 1900.0,
+                "y": -25.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootTranslationCorrectionInput}": {
+            "position": {
+                "x": 225.0,
+                "y": -175.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.getComponentOfVec}": {
+            "position": {
+                "x": 525.0,
+                "y": -75.0
+            },
+            "displayMode": "full"
+        },
+        "{main.rotateVector}": {
+            "position": {
+                "x": 1275.0,
+                "y": -275.0
+            },
+            "displayMode": "full"
+        },
+        "{main.uniformScale}": {
+            "position": {
+                "x": 1600.0,
+                "y": 25.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main}||inputs": {
+            "position": {
+                "x": 100.0,
+                "y": 200.0
+            },
+            "displayMode": "full"
+        },
+        "{main}||outputs": {
+            "position": {
+                "x": 2200.0,
+                "y": 75.0
+            },
+            "displayMode": "full"
         }
-    },
-    "edges": {},
-    "properties": {}
+    }
 }

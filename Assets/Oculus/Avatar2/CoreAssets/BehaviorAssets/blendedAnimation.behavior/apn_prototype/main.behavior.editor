@@ -1,6 +1,51 @@
 {
     "@generated": true,
     "graphs": {
+        "{AnkleOverride}": {
+            "comments": [],
+            "inputNodeId": "{AnkleOverride}||inputs",
+            "outputNodeId": "{AnkleOverride}||outputs"
+        },
+        "{BlendTrackingIntoAnimatedPose}": {
+            "comments": [],
+            "inputNodeId": "{BlendTrackingIntoAnimatedPose}||inputs",
+            "outputNodeId": "{BlendTrackingIntoAnimatedPose}||outputs"
+        },
+        "{CalcMaxArmLength}": {
+            "comments": [],
+            "inputNodeId": "{CalcMaxArmLength}||inputs",
+            "outputNodeId": "{CalcMaxArmLength}||outputs"
+        },
+        "{GenerateAnimatedPose}": {
+            "comments": [],
+            "inputNodeId": "{GenerateAnimatedPose}||inputs",
+            "outputNodeId": "{GenerateAnimatedPose}||outputs"
+        },
+        "{LimitStretchLeftArm}": {
+            "comments": [],
+            "inputNodeId": "{LimitStretchLeftArm}||inputs",
+            "outputNodeId": "{LimitStretchLeftArm}||outputs"
+        },
+        "{LimitStretchRightArm}": {
+            "comments": [],
+            "inputNodeId": "{LimitStretchRightArm}||inputs",
+            "outputNodeId": "{LimitStretchRightArm}||outputs"
+        },
+        "{OneToOneTrackingAdjustment}": {
+            "comments": [],
+            "inputNodeId": "{OneToOneTrackingAdjustment}||inputs",
+            "outputNodeId": "{OneToOneTrackingAdjustment}||outputs"
+        },
+        "{RotationalTrackingOffset}": {
+            "comments": [],
+            "inputNodeId": "{RotationalTrackingOffset}||inputs",
+            "outputNodeId": "{RotationalTrackingOffset}||outputs"
+        },
+        "{UpperBodyAnimationBlending}": {
+            "comments": [],
+            "inputNodeId": "{UpperBodyAnimationBlending}||inputs",
+            "outputNodeId": "{UpperBodyAnimationBlending}||outputs"
+        },
         "{main}": {
             "comments": [],
             "inputNodeId": "{main}||inputs",
@@ -8,223 +53,972 @@
         }
     },
     "nodes": {
-        "{main.appPoseFullOverride}": {
+        "{AnkleOverride.GetLeftAnkleJoint}": {
             "position": {
-                "x": 300.0,
-                "y": 325.0
+                "x": 375.0,
+                "y": -375.0
             },
             "displayMode": "full"
         },
-        "{main.arrayGet_animClone}": {
+        "{AnkleOverride.GetLeftGroundBallPivotJoint}": {
             "position": {
-                "x": 700.0,
-                "y": 600.0
+                "x": 375.0,
+                "y": -100.0
             },
             "displayMode": "full"
         },
-        "{main.arrayGet_animWithTrackingClone}": {
+        "{AnkleOverride.GetRightAnkleJoint}": {
             "position": {
-                "x": 1325.0,
-                "y": 475.0
+                "x": 1975.0,
+                "y": -325.0
             },
             "displayMode": "full"
         },
-        "{main.arrayGet_animWithTracking_2}": {
+        "{AnkleOverride.GetRightGroundBallPivotJoint}": {
             "position": {
-                "x": 1725.0,
-                "y": 375.0
+                "x": 1975.0,
+                "y": 25.0
             },
             "displayMode": "full"
         },
-        "{main.arrayGet_trackingClone}": {
+        "{AnkleOverride.ScaleLeftAnklePosition}": {
             "position": {
-                "x": 800.0,
-                "y": -150.0
+                "x": -175.0,
+                "y": -625.0
             },
             "displayMode": "full"
         },
-        "{main.arrayGet}": {
+        "{AnkleOverride.ScaleRightAnklePosition}": {
             "position": {
-                "x": 1325.0,
-                "y": 250.0
+                "x": 1425.0,
+                "y": -575.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SelectLeftAnkleJointByBool}": {
+            "position": {
+                "x": 1000.0,
+                "y": -450.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SelectLeftGroundBallPivotJointByBool}": {
+            "position": {
+                "x": 1000.0,
+                "y": -175.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SelectRightAnkleJointByBool}": {
+            "position": {
+                "x": 2600.0,
+                "y": -400.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SelectRightGroundBallPivotJointByBool}": {
+            "position": {
+                "x": 2600.0,
+                "y": -50.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SetLeftAnkleJoint}": {
+            "position": {
+                "x": 1300.0,
+                "y": -325.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SetLeftGroundBallPivotJoint}": {
+            "position": {
+                "x": 1575.0,
+                "y": -275.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SetRightAnkleJoint}": {
+            "position": {
+                "x": 2900.0,
+                "y": -275.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.SetRightGroundBallPivotJoint}": {
+            "position": {
+                "x": 3175.0,
+                "y": -225.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.avatarSDK_leftAnklePositionOverride}": {
+            "position": {
+                "x": -450.0,
+                "y": -625.0
             },
             "macroName": null,
             "displayMode": "full"
         },
-        "{main.clonePose_animWithTracking2}": {
+        "{AnkleOverride.avatarSDK_leftAnkleRotationOverride}": {
             "position": {
-                "x": 1325.0,
+                "x": -175.0,
+                "y": -475.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{AnkleOverride.avatarSDK_rightAnklePositionOverride}": {
+            "position": {
+                "x": 1150.0,
+                "y": -575.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.avatarSDK_rightAnkleRotationOverride}": {
+            "position": {
+                "x": 1425.0,
+                "y": -425.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.blendLeftAnkleTransform_1}": {
+            "position": {
+                "x": 700.0,
+                "y": -175.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.blendLeftAnkleTransform_2}": {
+            "position": {
+                "x": 2300.0,
+                "y": -475.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.blendLeftAnkleTransform_3}": {
+            "position": {
+                "x": 2300.0,
+                "y": -50.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.blendLeftAnkleTransform}": {
+            "position": {
+                "x": 700.0,
+                "y": -525.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{AnkleOverride.getEnableLeftAnkleOverride}": {
+            "position": {
+                "x": 700.0,
+                "y": -350.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.getEnableRightAnkleOverride}": {
+            "position": {
+                "x": 2300.0,
+                "y": -300.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.getLeftAnkleOverrideBlendFactor}": {
+            "position": {
+                "x": 375.0,
+                "y": -525.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{AnkleOverride.getRightAnkleOverrideBlendFactor}": {
+            "position": {
+                "x": 1975.0,
+                "y": -475.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.identityTransform_1}": {
+            "position": {
+                "x": 1975.0,
+                "y": -50.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.identityTransform}": {
+            "position": {
+                "x": 375.0,
+                "y": -175.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.makeTransform_1}": {
+            "position": {
+                "x": 1700.0,
+                "y": -500.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride.makeTransform}": {
+            "position": {
+                "x": 100.0,
+                "y": -550.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{AnkleOverride}||inputs": {
+            "position": {
+                "x": -750.0,
+                "y": -300.0
+            },
+            "displayMode": "full"
+        },
+        "{AnkleOverride}||outputs": {
+            "position": {
+                "x": 3450.0,
+                "y": -175.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.facialBlendFactor}": {
+            "position": {
+                "x": 400.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.featherBlend_headArms}": {
+            "position": {
+                "x": 1450.0,
+                "y": 700.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.leftArmBlendFactor}": {
+            "position": {
+                "x": 400.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.makeArray_headArmBlend}": {
+            "position": {
+                "x": 1050.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.makeObject_featherBlend_blendPoses_head}": {
+            "position": {
+                "x": 673.9999999999998,
+                "y": 50.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.makeObject_featherBlend_blendPoses_leftArm}": {
+            "position": {
+                "x": 675.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.makeObject_featherBlend_blendPoses_rightArm}": {
+            "position": {
+                "x": 675.0,
+                "y": 450.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose.rightArmBlendFactor}": {
+            "position": {
+                "x": 400.0,
+                "y": 525.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose}||inputs": {
+            "position": {
+                "x": 0.0,
+                "y": 675.0
+            },
+            "displayMode": "full"
+        },
+        "{BlendTrackingIntoAnimatedPose}||outputs": {
+            "position": {
+                "x": 1750.0,
+                "y": 725.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.BreakLeftShoulderTransform}": {
+            "position": {
+                "x": 875.0,
+                "y": 375.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.BreakLeftWristTransform}": {
+            "position": {
+                "x": 875.0,
+                "y": -25.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.CalcArmLength}": {
+            "position": {
+                "x": 1550.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.CalcArmVector}": {
+            "position": {
+                "x": 1250.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.GetLeftShoulderJoint}": {
+            "position": {
+                "x": 575.0,
+                "y": 400.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.GetLeftWristJoint}": {
+            "position": {
+                "x": 575.0,
+                "y": 0.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength.getDynamicStoreValueFloat}": {
+            "position": {
+                "x": 1250.0,
+                "y": 425.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength}||inputs": {
+            "position": {
+                "x": 100.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{CalcMaxArmLength}||outputs": {
+            "position": {
+                "x": 1875.0,
+                "y": 350.0
+            },
+            "displayMode": "full"
+        },
+        "{GenerateAnimatedPose.appPoseFullOverride}": {
+            "position": {
+                "x": 375.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{GenerateAnimatedPose.rootCorrectionSetJoint}": {
+            "position": {
+                "x": 650.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{GenerateAnimatedPose}||inputs": {
+            "position": {
+                "x": 100.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{GenerateAnimatedPose}||outputs": {
+            "position": {
+                "x": 925.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.BreakLeftShoulderTransform}": {
+            "position": {
+                "x": 75.0,
+                "y": 850.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.BreakLeftWristTransform}": {
+            "position": {
+                "x": 75.0,
+                "y": 450.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.CalcArmLength}": {
+            "position": {
+                "x": 1125.0,
+                "y": 925.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.CalcArmVector}": {
+            "position": {
+                "x": 475.0,
+                "y": 750.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.ClampArmLength}": {
+            "position": {
+                "x": 1450.0,
+                "y": 950.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.CreateNewWristTransform}": {
+            "position": {
+                "x": 2050.0,
+                "y": 475.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.GetLeftShoulderJoint}": {
+            "position": {
+                "x": -225.0,
+                "y": 875.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.GetLeftWristJoint}": {
+            "position": {
+                "x": -225.0,
+                "y": 475.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.NormalizeVector}": {
+            "position": {
+                "x": 800.0,
+                "y": 725.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.SetLeftWristJoint}": {
+            "position": {
+                "x": 2350.0,
+                "y": 650.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm.UpdateWristPosition}": {
+            "position": {
+                "x": 1750.0,
+                "y": 850.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm}||inputs": {
+            "position": {
+                "x": -675.0,
+                "y": 650.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchLeftArm}||outputs": {
+            "position": {
+                "x": 2650.0,
+                "y": 675.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.BreakRightShoulderTransform}": {
+            "position": {
+                "x": 675.0,
+                "y": 400.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.BreakRightWristTransform}": {
+            "position": {
+                "x": 675.0,
+                "y": 0.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.CalcArmLength}": {
+            "position": {
+                "x": 1725.0,
+                "y": 475.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.CalcArmVector}": {
+            "position": {
+                "x": 1075.0,
+                "y": 300.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.ClampArmLength}": {
+            "position": {
+                "x": 2050.0,
+                "y": 500.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.CreateNewWristTransform}": {
+            "position": {
+                "x": 2650.0,
+                "y": 25.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.GetRightShoulderJoint}": {
+            "position": {
+                "x": 375.0,
+                "y": 425.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.GetRightWristJoint}": {
+            "position": {
+                "x": 375.0,
+                "y": 25.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.NormalizeVector}": {
+            "position": {
+                "x": 1400.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.SetRightWristJoint}": {
+            "position": {
+                "x": 2950.0,
+                "y": 200.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm.UpdateWristPosition}": {
+            "position": {
+                "x": 2350.0,
+                "y": 400.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm}||inputs": {
+            "position": {
+                "x": -25.0,
+                "y": 200.0
+            },
+            "displayMode": "full"
+        },
+        "{LimitStretchRightArm}||outputs": {
+            "position": {
+                "x": 3275.0,
+                "y": 225.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.ScaleLeftWristVector}": {
+            "position": {
+                "x": 1125.0,
+                "y": -225.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.ScaleRightWristVector}": {
+            "position": {
+                "x": 1100.0,
+                "y": 350.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.featherBlend_trackedWristPoses}": {
+            "position": {
+                "x": 3050.0,
+                "y": 175.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.getComponentOfTransform_1}": {
+            "position": {
+                "x": 800.0,
+                "y": 350.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.getComponentOfTransform}": {
+            "position": {
+                "x": 825.0,
+                "y": -225.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.getLeftWristJoint}": {
+            "position": {
+                "x": 550.0,
+                "y": -250.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.getRightWristJoint}": {
+            "position": {
+                "x": 525.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.leftArmBlendFactor}": {
+            "position": {
+                "x": 2000.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.makeArray_trackedWristPoses}": {
+            "position": {
+                "x": 2725.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.makeObject_featherBlendLeftTrackedWrist}": {
+            "position": {
+                "x": 2300.0,
+                "y": -25.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.makeObject_featherBlendRightTrackedWrist}": {
+            "position": {
+                "x": 2300.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.makeTransform_1}": {
+            "position": {
+                "x": 1425.0,
+                "y": 425.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.makeTransform}": {
+            "position": {
+                "x": 1450.0,
+                "y": -150.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.rightArmBlendFactor}": {
+            "position": {
+                "x": 2000.0,
+                "y": 425.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.setJointTransform_1}": {
+            "position": {
+                "x": 1775.0,
+                "y": 525.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment.setJointTransform}": {
+            "position": {
+                "x": 1800.0,
+                "y": -50.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment}||inputs": {
+            "position": {
+                "x": 0.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{OneToOneTrackingAdjustment}||outputs": {
+            "position": {
+                "x": 3325.0,
+                "y": 225.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.SelectByBool}": {
+            "position": {
+                "x": 2825.0,
+                "y": 425.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.applyOffsetToPelvisJoint}": {
+            "position": {
+                "x": 2525.0,
+                "y": 550.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.avatarSDK_enableRotationalTrackingOffset}": {
+            "position": {
+                "x": 2525.0,
+                "y": 350.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.getPelvisAnimatedPosition}": {
+            "position": {
+                "x": 950.0,
+                "y": 400.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.getPelvisAnimated}": {
+            "position": {
+                "x": 450.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.getPelvisHorizontalDiff}": {
+            "position": {
+                "x": 1700.0,
+                "y": 375.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.getPelvisTrackingPosition}": {
+            "position": {
+                "x": 950.0,
+                "y": 225.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.getPelvisTracking}": {
+            "position": {
+                "x": 450.0,
+                "y": 225.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.makeHorizontalDiffVector}": {
+            "position": {
+                "x": 1975.0,
+                "y": 400.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.makePelvisDiffTransform}": {
+            "position": {
+                "x": 2250.0,
+                "y": 475.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset.pelvisDiff}": {
+            "position": {
+                "x": 1425.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset}||inputs": {
+            "position": {
+                "x": 100.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{RotationalTrackingOffset}||outputs": {
+            "position": {
+                "x": 3100.0,
+                "y": 500.0
+            },
+            "displayMode": "full"
+        },
+        "{UpperBodyAnimationBlending.ShouldUpperBodyBlend}": {
+            "position": {
+                "x": 1225.0,
                 "y": 350.0
             },
             "macroName": null,
             "displayMode": "full"
         },
-        "{main.clonePose_animWithTracking_2}": {
+        "{UpperBodyAnimationBlending.featherBlend_upperBody}": {
             "position": {
-                "x": 1725.0,
-                "y": 250.0
+                "x": 900.0,
+                "y": 275.0
             },
             "displayMode": "full"
         },
-        "{main.clonePose_animWithTracking}": {
+        "{UpperBodyAnimationBlending.getEnableUpperBodyBlend}": {
             "position": {
-                "x": 1325.0,
-                "y": 125.0
+                "x": 925.0,
+                "y": 150.0
             },
             "displayMode": "full"
         },
-        "{main.clonePose_anim}": {
+        "{UpperBodyAnimationBlending.makeArray_upperBodyBlend}": {
             "position": {
-                "x": 700.0,
-                "y": 475.0
-            },
-            "displayMode": "full"
-        },
-        "{main.clonePose_tracking}": {
-            "position": {
-                "x": 325.0,
-                "y": -150.0
-            },
-            "displayMode": "full"
-        },
-        "{main.defaultPose}": {
-            "position": {
-                "x": 0.0,
-                "y": 325.0
-            },
-            "displayMode": "full"
-        },
-        "{main.facialBlendFactor}": {
-            "position": {
-                "x": 1750.0,
-                "y": 725.0
-            },
-            "macroName": null,
-            "displayMode": "full"
-        },
-        "{main.featherBlend_head}": {
-            "position": {
-                "x": 2675.0,
-                "y": 375.0
-            },
-            "displayMode": "full"
-        },
-        "{main.featherBlend_leftArm}": {
-            "position": {
-                "x": 2675.0,
-                "y": 575.0
-            },
-            "displayMode": "full"
-        },
-        "{main.featherBlend_rightArm}": {
-            "position": {
-                "x": 2675.0,
-                "y": 750.0
-            },
-            "displayMode": "full"
-        },
-        "{main.featherBlend}": {
-            "position": {
-                "x": 1025.0,
-                "y": 125.0
-            },
-            "displayMode": "full"
-        },
-        "{main.leftArmBlendFactor}": {
-            "position": {
-                "x": 1725.0,
-                "y": 1000.0
-            },
-            "displayMode": "full"
-        },
-        "{main.makeArray_hipBlend}": {
-            "position": {
-                "x": 650.0,
+                "x": 600.0,
                 "y": 175.0
             },
             "displayMode": "full"
         },
-        "{main.makeArray_leftArm_1}": {
+        "{UpperBodyAnimationBlending.makeObject_featherBlend_blendPoses_upperBody}": {
             "position": {
-                "x": 2225.0,
-                "y": 675.0
+                "x": 325.0,
+                "y": 75.0
             },
             "displayMode": "full"
         },
-        "{main.makeArray_leftArm}": {
+        "{UpperBodyAnimationBlending.upperBodyBlendFactor}": {
             "position": {
-                "x": 2225.0,
-                "y": 1000.0
+                "x": 50.0,
+                "y": 125.0
             },
             "displayMode": "full"
         },
-        "{main.makeArray_rightArm}": {
+        "{UpperBodyAnimationBlending}||inputs": {
             "position": {
-                "x": 2225.0,
-                "y": 1325.0
+                "x": 0.0,
+                "y": 275.0
             },
             "displayMode": "full"
         },
-        "{main.makeObject_featherBlend_blendPoses_head}": {
+        "{UpperBodyAnimationBlending}||outputs": {
             "position": {
-                "x": 2225.0,
-                "y": 475.0
+                "x": 1525.0,
+                "y": 400.0
             },
             "displayMode": "full"
         },
-        "{main.makeObject_featherBlend_blendPoses_hip}": {
+        "{main.AnkleOverride}": {
             "position": {
-                "x": 650.0,
-                "y": -25.0
+                "x": 1850.0,
+                "y": 300.0
             },
+            "macroName": null,
             "displayMode": "full"
         },
-        "{main.makeObject_featherBlend_blendPoses_leftArm}": {
+        "{main.BlendTrackingIntoAnimatedPose}": {
             "position": {
-                "x": 2225.0,
-                "y": 800.0
+                "x": 374.7,
+                "y": 150.0
             },
+            "macroName": null,
             "displayMode": "full"
         },
-        "{main.makeObject_featherBlend_blendPoses_rightArm}": {
-            "position": {
-                "x": 2225.0,
-                "y": 1125.0
-            },
-            "displayMode": "full"
-        },
-        "{main.rightArmBlendFactor}": {
-            "position": {
-                "x": 1725.0,
-                "y": 1150.0
-            },
-            "displayMode": "full"
-        },
-        "{main.rootCorrectionSetJoint}": {
+        "{main.BlendUpperBodyTrackingIntoAnimatedPose}": {
             "position": {
                 "x": 675.0,
-                "y": 325.0
+                "y": 150.0
             },
             "displayMode": "full"
         },
-        "{main.trackingBlendWeight}": {
+        "{main.CalcMaxArmLength}": {
             "position": {
-                "x": 125.0,
-                "y": 200.0
+                "x": 950.0,
+                "y": 25.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.GenerateAnimatedPose}": {
+            "position": {
+                "x": -175.0,
+                "y": 125.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.GetRootScaleCorrection}": {
+            "position": {
+                "x": 100.0,
+                "y": 275.0
+            },
+            "displayMode": "full"
+        },
+        "{main.LimitStretchLeftArm}": {
+            "position": {
+                "x": 1250.0,
+                "y": 125.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.LimitStretchRightArm}": {
+            "position": {
+                "x": 1525.0,
+                "y": 125.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.OneToOneTrackingAdjustment}": {
+            "position": {
+                "x": 950.0,
+                "y": 175.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.RotationalTrackingOffset}": {
+            "position": {
+                "x": 100.0,
+                "y": 125.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.SelectByBool}": {
+            "position": {
+                "x": 2000.0,
+                "y": -100.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.avatarSDK_enableLocalAnimationPlayback}": {
+            "position": {
+                "x": 1725.0,
+                "y": -100.0
+            },
+            "macroName": null,
+            "displayMode": "full"
+        },
+        "{main.defaultPose}": {
+            "position": {
+                "x": -475.0,
+                "y": 50.0
+            },
+            "displayMode": "full"
+        },
+        "{main.getComponentOfVec}": {
+            "position": {
+                "x": 375.0,
+                "y": 275.0
             },
             "displayMode": "full"
         },
         "{main}||inputs": {
             "position": {
-                "x": 0.0,
-                "y": -25.0
+                "x": -475.0,
+                "y": -50.0
             },
             "displayMode": "full"
         },
         "{main}||outputs": {
             "position": {
-                "x": 3075.0,
-                "y": 150.0
+                "x": 2325.0,
+                "y": -25.0
             },
             "displayMode": "full"
         }

@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8568763}
   - component: {fileID: 8568765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 124659364}
   - component: {fileID: 124659366}
   - component: {fileID: 124659365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280922026}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: InfoMsgContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 564619664}
   - component: {fileID: 564619666}
   - component: {fileID: 564619665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ErrorText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1373615842}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ErrorMsgContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383095893}
   - component: {fileID: 1383095894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -980,7 +980,7 @@ GameObject:
   - component: {fileID: 1461607839}
   - component: {fileID: 1461607841}
   - component: {fileID: 1461607840}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: loading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1592,7 +1592,8 @@ GameObject:
   - component: {fileID: 1884297996}
   - component: {fileID: 1884297995}
   - component: {fileID: 1884297994}
-  m_Layer: 0
+  - component: {fileID: 1884297998}
+  m_Layer: 3
   m_Name: App Message Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1680,8 +1681,36 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 1.5}
-  m_SizeDelta: {x: 6, y: 6}
+  m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1884297998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884297993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableMipmapping: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 1884297997}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  expensive: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  overlayType: 1
+  _overlayEnabled: 1
 --- !u!1 &1910398544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1722,7 @@ GameObject:
   - component: {fileID: 1910398545}
   - component: {fileID: 1910398547}
   - component: {fileID: 1910398546}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: InfoText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2169,6 +2198,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1616422432036317664, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
+      propertyPath: _bodyTrackingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2016093158744788640, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2193,6 +2226,10 @@ PrefabInstance:
       propertyPath: _hand
       value: 
       objectReference: {fileID: 517727928}
+    - target: {fileID: 3275417137298671066, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294966775
+      objectReference: {fileID: 0}
     - target: {fileID: 3379902332079723313, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
       propertyPath: _hand
       value: 
@@ -2217,6 +2254,14 @@ PrefabInstance:
       propertyPath: _rightHand
       value: 
       objectReference: {fileID: 204910532}
+    - target: {fileID: 3521671696188230363, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
+      propertyPath: _ovrCameraRig
+      value: 
+      objectReference: {fileID: 535940023}
+    - target: {fileID: 3521671696188230363, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
+      propertyPath: _bodyTrackingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3988992931913074538, guid: 2e9ef258a16a2b24684d95d68d7117f8, type: 3}
       propertyPath: dynamicResolutionVersion
       value: 1

@@ -1,56 +1,96 @@
 {
-    "graphs": {},
+    "@generated": true,
+    "graphs": {
+        "{main}": {
+            "comments": [],
+            "inputNodeId": "{main}||inputs",
+            "outputNodeId": "{main}||outputs"
+        }
+    },
     "nodes": {
-        "{main.RootTransform}": {
+        "{main.AdjustPositionByInverseScaleFactor}": {
             "position": {
-                "x": 1276.4375,
-                "y": 47.6640625
-            }
-        },
-        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||inputs": {
-            "position": {
-                "x": 1536.8125,
-                "y": 188.9921875
-            }
-        },
-        "{main.RootTranslationCorrectionInput}": {
-            "position": {
-                "x": 779.8489074707024,
-                "y": -24.343761444091798
+                "x": 750.0,
+                "y": 25.0
             },
-            "macroName": null
-        },
-        "{main.RootAngleToRad}": {
-            "position": {
-                "x": 393.3125,
-                "y": 133.328125
-            }
-        },
-        "76f0eaa5-52e7-40cb-a127-ded7ca295ecb||outputs": {
-            "position": {
-                "x": 1536.8125,
-                "y": 75.6640625
-            }
+            "displayMode": "full"
         },
         "{main.RootAngleCorrectionInput}": {
             "position": {
-                "x": 0.0,
-                "y": 151.328125
-            }
+                "x": -25.0,
+                "y": 375.0
+            },
+            "displayMode": "full"
         },
-        "{main.RootAngleCorrectionVector}": {
+        "{main.RootAngleCorrectionVector_1}": {
             "position": {
-                "x": 666.96875,
-                "y": 123.328125
-            }
+                "x": 575.0,
+                "y": 300.0
+            },
+            "displayMode": "full"
         },
-        "{main.RootCorrectionQuaternion}": {
+        "{main.RootAngleToRad_1}": {
             "position": {
-                "x": 969.71875,
-                "y": 113.328125
-            }
+                "x": 300.0,
+                "y": 325.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootCorrectionQuaternion_1}": {
+            "position": {
+                "x": 875.0,
+                "y": 300.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootScaleCorrectionInput}": {
+            "position": {
+                "x": 150.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootTransform_1}": {
+            "position": {
+                "x": 1200.0,
+                "y": 200.0
+            },
+            "displayMode": "full"
+        },
+        "{main.RootTranslationCorrectionInput_1}": {
+            "position": {
+                "x": 150.0,
+                "y": 25.0
+            },
+            "displayMode": "full"
+        },
+        "{main.getComponentOfVec}": {
+            "position": {
+                "x": 450.0,
+                "y": 125.0
+            },
+            "displayMode": "full"
+        },
+        "{main.uniformScale}": {
+            "position": {
+                "x": 875.0,
+                "y": 225.0
+            },
+            "displayMode": "full"
+        },
+        "{main}||inputs": {
+            "position": {
+                "x": 100.0,
+                "y": 250.0
+            },
+            "displayMode": "full"
+        },
+        "{main}||outputs": {
+            "position": {
+                "x": 1500.0,
+                "y": 75.0
+            },
+            "displayMode": "full"
         }
-    },
-    "edges": {},
-    "properties": {}
+    }
 }
