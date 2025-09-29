@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 361053804400328495}
   - component: {fileID: 361053804400328494}
   - component: {fileID: 361053804400328481}
-  - component: {fileID: 5571438719590053520}
   - component: {fileID: 4052733480793537037}
   - component: {fileID: 3724501371365651171}
   m_Layer: 0
@@ -28,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361053804400328480}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &361053804400328494
 MonoBehaviour:
@@ -193,27 +192,6 @@ MonoBehaviour:
   m_KickEventCode: 130
   m_RegionOverride: 
   m_UsePrivateRoom: 0
---- !u!114 &5571438719590053520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361053804400328480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17737e0516da2445b9b0077ae2bd9b4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Visible: 0
-  m_MaxRefreshRate: 30
-  <CustomStyleSheet>k__BackingField: {fileID: 0}
-  <PanelSettingsOverride>k__BackingField: {fileID: 0}
-  <Position>k__BackingField:
-    <OverridePosition>k__BackingField: 1
-    m_PositionLeftToRight: 0
-    m_PositionTopToBottom: 0
-  <Configuration>k__BackingField: {fileID: 11400000, guid: c77caa0588da21a49873bffdcf9b6831, type: 2}
 --- !u!114 &4052733480793537037
 MonoBehaviour:
   m_ObjectHideFlags: 0

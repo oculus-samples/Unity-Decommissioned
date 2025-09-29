@@ -96,7 +96,7 @@ namespace Meta.Decommissioned.Game.MiniGames
         {
             if (!IsOwner) { return; }
             m_netTransform.Teleport(m_respawnPoint.Value, Quaternion.identity, transform.localScale);
-            m_rb.velocity = Vector3.zero;
+            m_rb.linearVelocity = Vector3.zero;
         }
 
         public void SetItemColor(Color color, bool setValue = false)

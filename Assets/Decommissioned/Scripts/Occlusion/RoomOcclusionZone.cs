@@ -91,7 +91,7 @@ namespace Meta.Decommissioned.Occlusion
 
         private void FindAllRenderersInZone()
         {
-            var allRenderers = FindObjectsOfType<Renderer>(true);
+            var allRenderers = FindObjectsByType<Renderer>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
             foreach (var renderer in allRenderers)
             {
@@ -111,7 +111,7 @@ namespace Meta.Decommissioned.Occlusion
 
         private void FindAllOccludableComponentsInZone()
         {
-            var allComponents = FindObjectsOfType<MonoBehaviour>(true);
+            var allComponents = FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
             foreach (var component in allComponents)
             {
@@ -129,7 +129,7 @@ namespace Meta.Decommissioned.Occlusion
 
             if (m_occludeAudioSources)
             {
-                var allAudioSources = FindObjectsOfType<AudioSource>();
+                var allAudioSources = FindObjectsByType<AudioSource>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
                 foreach (var audioSource in allAudioSources)
                 {
@@ -146,7 +146,7 @@ namespace Meta.Decommissioned.Occlusion
 
         private void ValidateAllRenderersInZone()
         {
-            var allRenderers = FindObjectsOfType<Renderer>(true);
+            var allRenderers = FindObjectsByType<Renderer>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
             foreach (var renderer in m_renderersInZone)
             {
@@ -204,7 +204,7 @@ namespace Meta.Decommissioned.Occlusion
 
         private void ValidateAllComponentsInZone()
         {
-            var allComponents = FindObjectsOfType<MonoBehaviour>(true);
+            var allComponents = FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None);
             foreach (var component in m_occludableComponentsInZone)
             {
                 if (component == null)
@@ -264,7 +264,7 @@ namespace Meta.Decommissioned.Occlusion
 
             if (m_occludeAudioSources)
             {
-                var allAudioSources = FindObjectsOfType<AudioSource>();
+                var allAudioSources = FindObjectsByType<AudioSource>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
                 foreach (var audioSource in m_occludableAudioInZone)
                 {

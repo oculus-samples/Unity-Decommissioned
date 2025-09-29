@@ -151,9 +151,9 @@ namespace Meta.Decommissioned
         }
         internal IEnumerator FadeOnPlayerInitialized()
         {
-            yield return new WaitUntil(() => FindObjectOfType<AvatarEntity>() != null);
+            yield return new WaitUntil(() => FindFirstObjectByType<AvatarEntity>() != null);
 
-            var playerEntity = FindObjectOfType<AvatarEntity>();
+            var playerEntity = FindFirstObjectByType<AvatarEntity>();
             if (playerEntity == null)
             {
                 Debug.LogWarning("Unable to get the local player entity to monitor fade out! Fading out normally...");

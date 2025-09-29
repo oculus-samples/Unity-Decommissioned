@@ -33,9 +33,9 @@ namespace Meta.Decommissioned
 
         private IEnumerator WaitForAvatarLoadToEnableMenu()
         {
-            yield return new WaitUntil(() => FindObjectOfType<AvatarEntity>() != null);
+            yield return new WaitUntil(() => FindFirstObjectByType<AvatarEntity>() != null);
 
-            var avatarEntity = FindObjectOfType<AvatarEntity>();
+            var avatarEntity = FindFirstObjectByType<AvatarEntity>();
 
             yield return new WaitUntil(() => Application.Instance.IsAvatarEntityReady(avatarEntity));
 

@@ -29,7 +29,7 @@ namespace Meta.Decommissioned.Game
         private new void Awake()
         {
             base.Awake();
-            m_gamePositions = FindObjectsOfType<GamePosition>();
+            m_gamePositions = FindObjectsByType<GamePosition>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         }
 
         public void InvokeOnPlayerJoinedRoom(NetworkObject playerObject, MiniGameRoom room) =>

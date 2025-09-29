@@ -156,7 +156,7 @@ namespace Meta.Utilities
             {
                 array.AddNoResize(value);
             }
-            return array;
+            return array.AsArray();
         }
 
         public static bool IsNullOrEmpty(this string str) => string.IsNullOrEmpty(str);

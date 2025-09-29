@@ -74,6 +74,13 @@ namespace Meta.Utilities.WatchWindow
 
             m_dataObject = new SerializedObject(m_data);
             this.Bind(m_dataObject);
+
+            RegisterCallback<GeometryChangedEvent>(OnGeometryChanged, TrickleDown.NoTrickleDown);
+        }
+
+        private void OnGeometryChanged(GeometryChangedEvent evt)
+        {
+            OnGeometryChanged();
         }
 
         private void OnSelectObjectClicked()
@@ -130,22 +137,8 @@ namespace Meta.Utilities.WatchWindow
         public void OnDisable()
         {
             m_valueContainer.onGUIHandler -= OnValueGUI;
+            UnregisterCallback<GeometryChangedEvent>(OnGeometryChanged);
         }
-
-        public override void HandleEvent(EventBase evt)
-        {
-            switch (evt)
-            {
-                case GeometryChangedEvent:
-                    OnGeometryChanged();
-                    break;
-                default:
-                    // Debug.Log(evt);
-                    base.HandleEvent(evt);
-                    break;
-            }
-        }
-
         private void OnGeometryChanged()
         {
             EditorApplication.delayCall += () =>

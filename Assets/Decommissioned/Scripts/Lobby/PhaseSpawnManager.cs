@@ -64,7 +64,7 @@ namespace Meta.Decommissioned.Lobby
 
         private void Start()
         {
-            m_allNightSpawnPoints = FindObjectsOfType<GamePosition>().Where(spawn => !spawn.IsInitialSpawnPoint).ToArray();
+            m_allNightSpawnPoints = FindObjectsByType<GamePosition>(FindObjectsInactive.Include, FindObjectsSortMode.None).Where(spawn => !spawn.IsInitialSpawnPoint).ToArray();
 
             var roomName = AndroidHelpers.GetStringIntentExtra("miniGameRoom");
             if (roomName != null)

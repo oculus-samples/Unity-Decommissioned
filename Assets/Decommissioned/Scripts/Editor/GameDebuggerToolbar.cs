@@ -28,13 +28,13 @@ namespace Meta.Decommissioned.Editor
 
             if (GUILayout.Button(EditorGUIUtility.IconContent("P4_CheckOutRemote"), new GUIStyle(GUI.skin.button) { margin = ZeroRectOffset }))
             {
-                var button = Object.FindObjectOfType<ReadyUpButton>();
+                var button = Object.FindFirstObjectByType<ReadyUpButton>();
                 button?.RaiseReadyEvent();
             }
 
             if (GUILayout.Button(EditorGUIUtility.IconContent("PlayButton On"), new GUIStyle(GUI.skin.button) { margin = ZeroRectOffset }))
             {
-                var button = Object.FindObjectOfType<StartGameButton>();
+                var button = Object.FindFirstObjectByType<StartGameButton>();
                 button?.OnButtonPressed();
             }
 

@@ -148,7 +148,7 @@ namespace Meta.Decommissioned.Game.MiniGames
 
             // This RPC is required to sync the transform for clients because the network transform isn't always synced exactly to this position on the belt when it lands
             m_networkTransform.Teleport(transform.position, transform.rotation, transform.lossyScale);
-            Teleport_ServerRpc(transform.position, transform.rotation, m_rigidbody.velocity, m_rigidbody.angularVelocity);
+            Teleport_ServerRpc(transform.position, transform.rotation, m_rigidbody.linearVelocity, m_rigidbody.angularVelocity);
         }
 
         [ServerRpc]
@@ -166,7 +166,7 @@ namespace Meta.Decommissioned.Game.MiniGames
             }
 
             transform.SetPositionAndRotation(position, rotation);
-            m_rigidbody.velocity = velocity;
+            m_rigidbody.linearVelocity = velocity;
             m_rigidbody.angularVelocity = angularVelocity;
         }
 
@@ -292,7 +292,7 @@ namespace Meta.Decommissioned.Game.MiniGames
         {
             transform.position = SpawnPosition.position;
             transform.rotation = Quaternion.Euler(m_spawnRotation);
-            m_rigidbody.velocity = Vector3.zero;
+            m_rigidbody.linearVelocity = Vector3.zero;
             m_rigidbody.angularVelocity = Vector3.zero;
             m_rigidbody.isKinematic = false;
             m_meshRenderer.enabled = true;
@@ -327,7 +327,7 @@ namespace Meta.Decommissioned.Game.MiniGames
                 ActiveBelt = null;
             }
 
-            m_rigidbody.velocity = m_rigidbody.angularVelocity = Vector3.zero;
+            m_rigidbody.linearVelocity = m_rigidbody.angularVelocity = Vector3.zero;
             m_rigidbody.isKinematic = true;
             m_meshRenderer.enabled = false;
             transform.position = m_despawnedPosition;

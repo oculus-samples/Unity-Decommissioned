@@ -383,7 +383,7 @@ Shader "Universal Render Pipeline/Clear Detailed Lit"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/OculusMotionVectorCore.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ObjectMotionVectors.hlsl"
 
             #pragma vertex vert
             #pragma fragment frag
