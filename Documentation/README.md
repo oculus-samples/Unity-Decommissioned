@@ -1,10 +1,11 @@
 # Documentation
-Here you will find additional documentation to help you navigate through this project's code.
 
-|Document|Description|
-|-|-|
-|[Armbands](./Armbands.md)|How the player's armbands are fitted to their Avatars.|
-|[Avatars](./Avatars.md)|How we implemented the Meta Avatar SDK.|
-|[Code Structure](./CodeStructure.md)|Highlights the key elements of the code and additional information on their functionalities. This is a good starting point.|
-|[Configuration](./Configuration.md)|How to configure the project to be functional, including Photon and Application settings.|
-|[Multiplayer](./Multiplayer.md)|Provides an overview of Decommissioned's online multiplayer functionality.|
+This section provides additional documentation to help you navigate this project's code.
+
+| Document | Description |
+| - | - |
+| [Armbands](./Armbands.md) | Details on fitting player armbands to Avatars. |
+| [Avatars](./Avatars.md) | Implementation of the Meta Avatar SDK. |
+| [Code Structure](./CodeStructure.md) | Key code elements and their functionalities. A good starting point. |
+| [Configuration](./Configuration.md) | Steps to configure the project, including Photon and Application settings. |
+| [Multiplayer](./Multiplayer.md) | Overview of Decommissioned's online multiplayer functionality. |

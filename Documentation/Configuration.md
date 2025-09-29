@@ -1,17 +1,20 @@
 # Project Configuration
-In order for this project to be functional in editor and on device there is some initial setup that needs to be done.
+
+To make this project functional in both the editor and on a device, some initial setup is required.
 
 ## Application Configuration
-In order to run the project and use the platform services we need to create an application on the [Meta Quest Developer Center](https://developers.meta.com/horizon/).
 
-To run on device you will need a Quest application, and to run in editor you will need a Rift application. The following sections will describe the configuration required for the application to run.
+To run the project and use platform services, create an application on the [Meta Quest Developer Center](https://developers.meta.com/horizon/).
+
+For device operation, you need a Quest application. For editor operation, you need a Rift application. The following sections describe the necessary configuration for the application to run.
 
 ### Data Use Checkup
-To use the features from the Platform we need to request which kind of data is required for the application. This can be found in the _Data Use Checkup_ section of the application.
+
+To use platform features, request the necessary data for the application in the _Data Use Checkup_ section.
 
 <img alt="Data use Checkup" src="./Media/dashboard/datausecheckup.png" height="400px" />
 
-And configure the required Data Usage:
+Configure the required Data Usage:
 
 * **User Id**: Avatars, Destinations, Multiplayer, Oculus Username, Friends Invites, User Invite Others
 * **User Profile**: Avatars
@@ -21,13 +24,14 @@ And configure the required Data Usage:
 * **Invites**: Multiplayer, Friends Invite, User Invite Others
 
 ### Destinations
-This application uses Destination configuration to enable users to invite friends in the same arenas and launch the application together.
 
-First we need to open the Destinations from the Platform Services:
+This application uses Destination configuration to let users invite friends to the same arenas and launch the application together.
 
-<img alt="Platform Services Destinations" src="./Media/dashboard/dashboard_destinations_platformservices.png" width="400px" />
+First, open the Destinations under the Engagement section:
 
-Then we need to setup the different destinations. Here is a table for destinations settings:
+![Platform Services Destinations](./Media/dashboard/dashboard_destinations_platformservices.png "Platform Services Destinations")
+
+Then, set up the different destinations. Here is a table for destination settings:
 
 <table>
 <tr>
@@ -53,49 +57,42 @@ Then we need to setup the different destinations. Here is a table for destinatio
 </table>
 
 ### Set the Application ID
-We then need to the set the application ID in our project in Unity.
 
-The identifier (**App ID**) can be found in the _API_ section.
+Set the application ID in your Unity project.
 
-<img alt="Application API" src="./Media/dashboard/dashboard_api.png" width="400px" />
+Find the identifier (**App ID**) in the _API_ section.
 
-Then it needs to be placed in the [OculusPlatformSettings](../Assets/Resources/OculusPlatformSettings.asset).
+![Application API](./Media/dashboard/dashboard_api.png "Application API")
 
-<img alt="Oculus Platform Settings Menu" src="./Media/editor/oculusplatformsettings_menu.png" width="400px" />
+Place it in [Assets/Resources/OculusPlatformSettings.asset](../Assets/Resources/OculusPlatformSettings.asset).
 
-<img alt="Oculus Platform Settings" src="./Media/editor/oculusplatformsettings.png" width="400px" />
+![Oculus Platform Settings Menu](./Media/editor/oculusplatformsettings_menu.png "Oculus Platform Settings Menu")
+
+![Oculus Platform Settings](./Media/editor/oculusplatformsettings.png "Oculus Platform Settings")
 
 ## Photon Configuration
 
-To get the sample working, you will need to configure Photon with your own account and applications. The Photon base plan is free.
+To get the sample working, configure Photon with your account and applications. The Photon base plan is free.
+- Visit [photonengine.com](https://www.photonengine.com) and [create an account](https://doc.photonengine.com/realtime/current/getting-started/obtain-your-app-id).
+- From your Photon dashboard, click "Create A New App."
+  - Create 2 apps: "Realtime" and "Voice."
+- Fill out the form, setting the type to "Photon Realtime," then click Create.
+- Fill out the form, setting the type to "Photon Voice," then click Create.
 
-* Visit [photonengine.com](https://www.photonengine.com) and [create an account](https://doc.photonengine.com/en-us/realtime/current/getting-started/obtain-your-app-id)
-* From your Photon dashboard, click "Create A New App"
-  * We will create 2 apps, "Realtime" and "Voice"
-* First fill out the form making sure to set type to "Photon Realtime". Then click Create.
-* Second fill out the form making sure to set type to "Photon Voice". Then click Create.
+Your new app will now appear on your Photon dashboard. Click the App ID to reveal the full string and copy the value for each app.
 
-Your new app will now show on your Photon dashboard. Click the App ID to reveal the full string and copy the value for each app.
+Open your Unity project and paste your Realtime App ID in [Assets/Photon/Resources/PhotonAppSettings.asset](../Assets/Photon/Resources/PhotonAppSettings.asset).
 
-Open your unity project and paste your Realtime App ID in [PhotonAppSettings](../Assets/Photon/Resources/PhotonAppSettings.asset).
+![Photon App Settings Location](./Media/editor/photonappsettings_location.png "Photon App Settings Location")
 
-<table>
- <tr>
-  <td>
-   <img alt="Photon App Settings Location" src="./Media/editor/photonappsettings_location.png" width="400px" />
-  </td>
-  <td>
-   <img alt="Photon App Settings" src="./Media/editor/photonappsettings.png" width="400px" />
-  </td>
- </tr>
-</table>
+![Photon App Settings](./Media/editor/photonappsettings.png "Photon App Settings")
 
-Set the Voice App Id on the [VoiceRecorder](../Assets/Decommissioned/Prefabs/Audio/VoipRecorder.prefab) prefab:
+Set the Voice App ID on the [Assets/Decommissioned/Prefabs/Audio/VoipRecorder.prefab](../Assets/Decommissioned/Prefabs/Audio/VoipRecorder.prefab).
 
-<img alt="Photon Voice Settings" src="./Media/editor/photonvoicesetting.png" width="400px" />
+![Photon Voice Settings](./Media/editor/photonvoicesetting.png "Photon Voice Settings")
 
-## Upload to release channel
-To use the platform features, you will first need to upload an initial build to a release channel.
-For instructions you can go to the [developer center](https://developers.meta.com/horizon/resources/publish-release-channels-upload/). Then to be able to test with other users you will need to add them to the channel, more information in the [Add Users to Release Channel](https://developers.meta.com/horizon/resources/publish-release-channels-add-users/) topic.
+## Upload to Release Channel
 
-Once the initial build is uploaded you will be able to use any development build with the same application Id, no need to upload every build to test local changes.
+To use platform features, upload an initial build to a release channel. For instructions, visit the [developer center](https://developers.meta.com/horizon/resources/publish-release-channels-upload/). To test with other users, add them to the channel. More information is available in the [Add Users to Release Channel](https://developers.meta.com/horizon/resources/publish-release-channels-add-users/) topic.
+
+Once the initial build is uploaded, you can use any development build with the same application ID. There's no need to upload every build to test local changes.

@@ -1,14 +1,13 @@
 # Avatars
-To have a greater sense of self and engage more of a social feeling we integrated the Meta Avatars in this project.
-Being able to reuse the platform Avatar creates a continuity on the platform where users can recognize each other between different applications.
 
-You will find the Meta Avatar SDK in the [Assets/Oculus/Avatar2](../Assets/Oculus/Avatar2/) directory. It was downloaded on the [developer website](https://developer.oculus.com/downloads/package/meta-avatars-sdk).
+We integrated Meta Avatars into this project to enhance user identity and social interaction. Reusing the platform Avatar ensures continuity, allowing users to recognize each other across different applications.
 
-For the integration, we followed the information highlighted on the [developer website](https://developer.oculus.com/documentation/unity/meta-avatars-overview/). The [AvatarEntity.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/AvatarEntity.cs) implementation is where you will see how we setup the Avatar for body, lipsync, face and eye tracking. This setup is also associated with the [PlayerAvatarEntity Prefab](../Assets/Decommissioned/Prefabs/Player/AvatarEntity.prefab), which contains all the behaviours and settings on how we use the Avatar in game. To keep the avatar in sync with the user position, we track the Camera Rig root.
+The Meta Avatar SDK is located in the [Assets/Oculus/Avatar2](../Assets/Oculus/Avatar2/) directory, downloaded from the [developer website](https://developers.meta.com/horizon/downloads/package/meta-avatars-sdk/).
 
-More information on Face and Eye tracking can be found [here](https://developer.oculus.com/documentation/unity/meta-avatars-face-eye-pose/).
+For integration, we followed the guidelines on the [developer website](https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/). The [AvatarEntity.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/AvatarEntity.cs) file shows how we set up the Avatar for body, lipsync, face, and eye tracking. This setup is linked to the [PlayerAvatarEntity Prefab](../Assets/Decommissioned/Prefabs/Player/AvatarEntity.prefab), which includes all behaviors and settings for in-game Avatar use. We track the Camera Rig root to keep the avatar synchronized with the user's position.
+
+More information on face and eye tracking is available [here](https://developers.meta.com/horizon/documentation/unity/meta-avatars-face-eye-pose/).
 
 ## Networking
-Since we are building a multiplayer game, it is necessary that we implement a networking solution for the Avatar.
-This is done in [PhotonVoiceAvatarNetworking.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/PhotonVoiceAvatarNetworking.cs). In this implementation we use the `RecordStreamData` function on the avatar entity to get the data to stream over the network. We then send it via rpc, which is then received by each other clients.
-On the receiving end, we apply the data using the `ApplyStreamData` function which will properly apply the state of the Avatar. Additionally, we implemented a frequency to send different level of details (LOD) so that we can reduce the bandwidth while still keeping a good fidelity of the Avatar motion.
+
+For our multiplayer game, we implemented a networking solution for the Avatar. This is handled in [PhotonVoiceAvatarNetworking.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/PhotonVoiceAvatarNetworking.cs). We use the `RecordStreamData` function on the avatar entity to stream data over the network. The data is sent via RPC and received by other clients. On the receiving end, the `ApplyStreamData` function applies the Avatar's state. We also implemented a frequency to send different levels of detail (LOD) to reduce bandwidth while maintaining Avatar motion fidelity.
