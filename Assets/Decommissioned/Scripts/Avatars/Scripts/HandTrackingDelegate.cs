@@ -55,7 +55,7 @@ namespace Oculus.Interaction.AvatarIntegration
                 handData.wristPosRight = InteractionAvatarConversions.PoseToAvatarTransformFlipZ(wristPose.GetTransformedBy(worldToRootPose));
             }
             // joint rotations
-            var sourceOffset = (int)HandJointId.HandThumb0;
+            var sourceOffset = (int)HandJointId.HandStart;
             var destOffset = 0;
             CopyJointRotations(_leftHand, sourceOffset, handData.boneRotations, destOffset);
 
