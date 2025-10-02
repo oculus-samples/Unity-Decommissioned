@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Welcome
+  m_EditorClassIdentifier: 
+  m_displayName: Welcome
+  m_hierarchyName: Welcome
+  m_context: {fileID: 11400000, guid: bff032500e4600d4b954d9e90bc004ba, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: '# Decommissioned
+
+
+    Decommissioned is a social deduction
+    VR game that showcases the use of the <a href="https://developers.meta.com/horizon/downloads/package/meta-xr-core-sdk/">Meta
+    XR SDK</a>, the <a href="https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/">Meta
+    Interaction SDK</a>, and the <a href="https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/">Meta
+    Avatars SDK</a> to create a social VR gaming experience.
+
+
+    This codebase
+    serves as a reference and template for multiplayer VR games. You can play it
+    on Meta Quest via the <a href="https://www.meta.com/en-gb/experiences/decommissioned/5756827011021749/">Horizon
+    Store - Decommissioned</a>.
+
+
+
+    ## Project Description
+
+
+    This project
+    is a social deduction game for Meta Quest devices, playable with friends or strangers.
+    It demonstrates how to connect users in random games or private rooms and invite
+    friends to matches using the <a href="https://developers.meta.com/horizon/documentation/unity/ps-platform-intro/">Meta
+    Platform SDK</a>.
+
+
+    Players use <a href="https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/">Meta
+    Avatars</a> to represent their VR personas, and <a href="https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518">Photon
+    Voice</a> for communication. The game uses <a href="https://developers.meta.com/horizon/documentation/unity/unity-asw/">Application
+    SpaceWarp</a> to maintain a stable framerate.
+
+
+
+    ## Dependencies
+
+
+    This
+    project uses the following plugins and software:
+
+
+    - <a href="https://unity.com/download">Unity</a>
+    6000.0.50f1 or newer
+
+    - <a href="https://assetstore.unity.com/packages/tools/integration/meta-avatars-sdk-271958">Meta
+    Avatars SDK</a>
+
+    - <a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-audio-sdk-264557">Meta
+    XR Audio SDK</a>
+
+    - <a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169">Meta
+    XR Core</a>
+
+    - <a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014">Meta
+    XR Integration SDK</a>
+
+    - <a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-platform-sdk-262366">Meta
+    XR Platform SDK</a>
+
+    - <a href="https://developers.meta.com/horizon/documentation/unity/unity-asw/#how-to-enable-appsw-in-app">Unity
+    Universal Render Pipeline (ASW fork)</a>
+
+    - <a href="https://github.com/brogan89/ParrelSync">ParrelSync</a>
+
+    -
+    <a href="https://github.com/Unity-Technologies/multiplayer-community-contributions/tree/main/Transports/com.community.netcode.transport.photon-realtime">Photon
+    Realtime for Netcode</a>
+
+    - <a href="https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518">Photon
+    Voice 2</a>
+
+    - <a href="https://github.com/Unity-Technologies/com.unity.netcode.gameobjects">Unity
+    Netcode for GameObjects</a>
+
+    - <a href="https://github.com/marijnz/unity-toolbar-extender.git">Unity
+    Toolbar Extender</a>
+
+    - <a href="https://github.com/DanielEverland/ScriptableObject-Architecture">ScriptableObject-Architecture</a>
+
+    -
+    <a href="https://github.com/dbrizov/NaughtyAttributes">NaughtyAttributes</a>
+
+
+    To
+    test this project within Unity, you need:
+
+
+    - <a href="https://www.meta.com/quest/setup/">The
+    Meta Quest App</a>
+
+
+
+    ## Documentation
+
+
+    More information is available
+    in the <a href="./Documentation">Documentation</a> section of this project.
+
+
+    -
+    <a href="./Documentation/Armbands.md">Armbands</a>
+
+    - <a href="./Documentation/Avatars.md">Avatars</a>
+
+    -
+    <a href="./Documentation/CodeStructure.md">Code Structure</a>
+
+    - <a href="./Documentation/Configuration.md">Configuration</a>
+
+    -
+    <a href="./Documentation/Multiplayer.md">Multiplayer</a>
+
+
+    Custom Packages:
+
+
+    -
+    <a href="./Packages/com.meta.utilities/">Meta Utilities</a> - General utilities
+    for game development.
+
+    - <a href="./Packages/com.meta.utilities.input/">Meta
+    Input Utilities</a> - XR FPS Simulator and other input-related utilities.
+
+    -
+    <a href="./Packages/com.meta.multiplayer.netcode-photon/">Meta Multiplayer for
+    Netcode and Photon</a> - Components for easily bootstrapping a multiplayer VR
+    game, including networked Avatars.
+
+    - <a href="./Packages/com.meta.utilities.watch-window/">Watch
+    Window</a> - Editor tool to help track and visualize data while in Play or Edit
+    mode.
+
+
+'
+  m_overrideMarkdownRoot: ./

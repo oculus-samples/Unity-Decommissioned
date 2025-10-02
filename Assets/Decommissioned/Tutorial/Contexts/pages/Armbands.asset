@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Armbands
+  m_EditorClassIdentifier: 
+  m_displayName: Armbands
+  m_hierarchyName: Armbands
+  m_context: {fileID: 11400000, guid: 6381c589e6d558d47aab8d0a99b4e0a3, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: "# Player Armbands\r\n\r\n## Implementation Overview\r\n\r\nThis
+    project introduces a diegetic method for users to adjust settings and perform
+    tasks typically found in a user menu. We implemented an armband that automatically
+    fits any user's avatar and contains necessary settings. This armband integrates
+    user settings into an interactable object on the avatar, eliminating traditional
+    UI menus and enhancing user immersion.\r\n\r\n## Involved Scripts\r\n\r\n- **[PlayerArmband.cs](../Assets/Decommissioned/Scripts/Player/PlayerArmband.cs):**
+    Manages armband functionality, scaling to the user's avatar, and handling interactions
+    with settings.\r\n- **[ExternallyScaledObject.cs](../Assets/Decommissioned/Scripts/Utilities/ExternallyScaledObject.cs):**
+    Manages the scaling of armband straps, using external transforms to scale the
+    strap to always touch the given position.\r\n- **[AvatarMeshCache.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/AvatarMeshUtils/AvatarMeshCache.cs):**
+    Handles avatar data, recording vertices, skeleton, and vertex weights, crucial
+    for armband scaling.\r\n- **[AvatarMeshQuery.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/AvatarMeshUtils/AvatarMeshQuery.cs):**
+    Provides methods to retrieve values from an avatar mesh, including vertices,
+    joint transforms, and arm plane points for armband positioning.\r\n- **[AvatarMeshArmInfo.cs](../Packages/com.meta.multiplayer.netcode-photon/Avatar/AvatarMeshUtils/AvatarMeshArmInfo.cs):**
+    Offers extension methods for AvatarMeshQuery to obtain accurate arm mesh values
+    for armband scaling.\r\n\r\n## How We Use The Avatar Mesh\r\n\r\nHere's how the
+    mesh is captured and used for the armband:\r\n\r\n- **AvatarMeshCache** listens
+    for the __OnAvatarMeshLoaded__ event, triggered when an avatar's mesh loads via
+    OvrAvatarManager. This event provides the __OvrAvatarPrimitive__, which offers
+    bone weights and mesh data, stored internally for later access.\r\n- The user
+    and armband are created, attempting to scale with the avatar mesh. If no avatar
+    exists, default scale values for a grey avatar are used. Otherwise, the armband
+    disables avatar tracking temporarily to request arm mesh details via __AvatarMeshArmInfo__.
+    It uses upper and lower arm points and arm radius at two locations.\r\n  - Upper
+    arm points and radius position and rotate the armband to match arm positioning
+    and curvature. Lower arm points scale the straps to fit without clipping or being
+    oversized.\r\n- Previous values are saved into NetworkVariables, synced to other
+    clients, and updated to reflect new scale and positioning. Avatar tracking is
+    then re-enabled.\r\n\r\n### Why Is The Avatar's Tracking Disabled During Scaling?\r\n\r\nInitially,
+    avatar tracking wasn't disabled during scaling, causing inconsistencies. For
+    example, if a user raised their hand while scaling, the armband would misalign.
+    Disabling tracking forces the avatar into bind pose, aligning with mesh capture
+    and resolving scaling issues.\r\n\r\n## Armband Interactions\r\n\r\nThe armband
+    features two interaction types for player settings and actions, replacing a flat
+    2D menu:\r\n\r\n- **Buttons:** Trigger actions like opening/closing armband shutters
+    (similar to using a keyboard key to open a pause menu), accessing help tablets,
+    and leaving the game.\r\n- **Sliders:** Control sound channel volumes, including
+    Music, Sound, and Voice.\r\n\r\n### Armband Shutters\r\n\r\nArmband shutters
+    indicate whether the armband is \"activated\" or \"deactivated.\" Pressing the
+    open button animates the shutters open, enabling interactions. Pressing again
+    closes them, disabling interactions. Shutter states are networked via a NetworkVariable,
+    allowing other clients to see changes. Interactions are disabled when closed
+    to prevent accidental button presses, such as unintentionally leaving the game.
+    The leave game button is disabled once the game starts to prevent mid-match exits
+    to avoid degrading the state of the game for the other players.\r\n\r\n### How
+    Do The Sliders Work?\r\n\r\nArmband sliders lock local Y and Z positions, allowing
+    movement along the X axis, stopping it at a certain point. The X position sets
+    the volume. Once released, the setting is saved in Unity PlayerPrefs and loaded
+    when the armband initializes, setting the slider to the correct position.\r\n\r\n##
+    The Challenge Of Interactables On The Arm\r\n\r\nPlacing interactable objects
+    on the user's virtual arm presents challenges. Moving a slider with hand tracking
+    can obscure the other hand, causing tracking issues. To address this, grabbing
+    a slider locks the user's wrist pose, improving hand tracking accuracy and stabilizing
+    the arm during adjustments.\r\n"
+  m_overrideMarkdownRoot: .\Documentation/

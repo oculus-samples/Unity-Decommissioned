@@ -15,7 +15,7 @@ Players use [Meta Avatars](https://developers.meta.com/horizon/documentation/uni
 ## How to Run the Project in Unity
 
 1. [Configure the project](./Documentation/Configuration.md) with Meta Quest and Photon.
-2. Use *Unity 2022.3.32f1* or newer.
+2. Use *Unity 6000.0.50f1* or newer.
 3. Load the [Assets/Decommissioned/Scenes/Startup](./Assets/Decommissioned/Scenes/Startup.unity) scene.
 4. To test in the Editor, choose one of the following:
 
@@ -40,7 +40,7 @@ Players use [Meta Avatars](https://developers.meta.com/horizon/documentation/uni
 
 This project uses the following plugins and software:
 
-- [Unity](https://unity.com/download) 6000.0.50f1
+- [Unity](https://unity.com/download) 6000.0.50f1 or newer
 - [Meta Avatars SDK](https://assetstore.unity.com/packages/tools/integration/meta-avatars-sdk-271958)
 - [Meta XR Audio SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-audio-sdk-264557)
 - [Meta XR Core](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169)

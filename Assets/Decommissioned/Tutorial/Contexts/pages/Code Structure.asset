@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Code Structure
+  m_EditorClassIdentifier: 
+  m_displayName: Code Structure
+  m_hierarchyName: Code Structure
+  m_context: {fileID: 11400000, guid: 5b8289920e838664f9976cef8088ac5b, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1004
+  m_overrideMarkdownText: '# Code Structure
+
+    
+
+    This project consists of
+    two main structures. The first is the [Meta Multiplayer for Netcode and Photon](../Packages/com.meta.multiplayer.netcode-photon)
+    package, which provides core reusable code for starting a new multiplayer game
+    project with similar configurations. The second is the [Decommissioned](../Assets/Decommissioned)
+    app, which builds on the Meta Multiplayer base to implement specific game logic.
+
+    
+
+    We
+    also have a package of common utility functions that accelerated our project
+    implementation. These utilities are located in [Packages/com.meta.utilities](../Packages/com.meta.utilities).
+
+    
+
+    To
+    extend Photon Realtime for Netcode, we copied the package to [Packages/com.community.netcode.transport.photon-realtime](https://github.com/oculus-samples/Unity-UltimateGloveBall/tree/main/Packages/com.community.netcode.transport.photon-realtime%40b28923aa5d).
+
+    
+
+    #
+    Meta Multiplayer for Netcode and Photon
+
+    
+
+    This package contains project-agnostic
+    logic reusable in any networked multiplayer project. It includes key features
+    from our Platform Social API.
+
+    
+
+    - [BlockUserManager.cs](../Packages/com.meta.multiplayer.netcode-photon/Core/BlockUserManager.cs)
+    implements the blocking flow API.
+
+    - [GroupPresenceState.cs](../Packages/com.meta.multiplayer.netcode-photon/Core/GroupPresenceState.cs)
+    manages group presence API usage, enabling easy player collaboration.
+
+    -
+    [NetworkLayer.cs](../Packages/com.meta.multiplayer.netcode-photon/Networking/NetworkLayer.cs)
+    handles client/host connection flow, disconnection, and host migration.
+
+    
+
+    The
+    networked Avatar implementation is crucial for integrating personality into a
+    project and demonstrates how avatars can be easily integrated ([Avatars](../Packages/com.meta.multiplayer.netcode-photon/Avatar)).
+
+    
+
+    #
+    Decommissioned
+
+    
+
+    This section covers the game''s specific implementation.
+    Key components and systems are highlighted, but exploring the code is recommended
+    for a comprehensive understanding.
+
+    
+
+    ## Application
+
+    
+
+    The
+    [Application.Core](../Assets/Decommissioned/Scripts/App/Application.Core.cs)
+    and [Application.Oculus.cs](../Assets/Decommissioned/Scripts/App/Application.Oculus.cs)
+    scripts set the app''s initial state at launch. This includes initializing the
+    Oculus Platform (user account, avatar, guardian boundary checks), group presences,
+    and connecting to lobbies if the app starts via an invitation.
+
+    
+
+    ##
+    Main Menu
+
+    
+
+    The [MainMenu.cs](../Assets/Decommissioned/Scripts/App/MainMenu.cs)
+    script provides API calls to control the app''s user flow, used in the [MainMenu
+    scene](../Assets/Decommissioned/Scenes/MainMenu.unity) post-startup. It includes
+    methods for launching a new match, joining an existing one, or exiting the application.
+
+    
+
+    ##
+    Game
+
+    
+
+    The [Game directory](../Assets/Decommissioned/Scripts/Game)
+    contains gameplay logic for matches in the [Lobby scene](../Assets/Decommissioned/Scenes/Lobby.unity).
+    Key systems and components are highlighted below.
+
+    
+
+    ### Game Manager
+
+    
+
+    The
+    [GameManager](../Assets/Decommissioned/Scripts/Game/GameManager/GameManager.cs)
+    singleton manages the game''s current state, including player limits, round count,
+    victory conditions, and match progression.
+
+    
+
+    ### Game Phases
+
+    
+
+    A
+    match progresses through four [phases](../Assets/Decommissioned/Scripts/Game/GamePhase/GamePhase.cs),
+    each with specific objectives. The [GamePhase directory](../Assets/Decommissioned/Scripts/Game/GamePhase)
+    manages and updates the current game phase.
+
+    
+
+    ### Role Manager
+
+    
+
+    During
+    a match, each player receives a [PlayerRole](../Assets/Decommissioned/Scripts/Player/PlayerRole.cs)
+    defining their goals. The [RoleManager](../Assets/Decommissioned/Scripts/Game/GameManager/RoleManager.cs)
+    singleton assigns roles and adjusts player role thresholds.
+
+    
+
+    ###
+    Voting
+
+    
+
+    Players vote to assign others to Mini Games. The [Voting
+    directory](../Assets/Decommissioned/Scripts/Game/Voting) manages and stores vote
+    states.
+
+    
+
+    ### Mini Games
+
+    
+
+    Decommissioned features six
+    unique Mini Games, each with distinct tasks per round. The [Minigames directory](../Assets/Decommissioned/Scripts/Game/Minigames)
+    contains related scripts.
+
+    
+
+    The [Minigame](../Assets/Decommissioned/Scripts/Game/Minigames/MiniGame.cs)
+    script manages each minigame''s configuration and state, found in all [Minigame
+    Prefabs](../Assets/Decommissioned/Prefabs/Game/Minigames).
+
+    
+
+    ### Location
+    Manager
+
+    
+
+    Players move to specific [GamePositions](../Assets/Decommissioned/Scripts/Lobby/GamePosition.cs)
+    as the game progresses. The [LocationManager](../Assets/Decommissioned/Scripts/Game/GameManager/LocationManager.cs)
+    component stores these locations and provides access methods.
+
+    
+
+    ##
+    Player
+
+    
+
+    The [Player directory](../Assets/Decommissioned/Scripts/Player)
+    contains logic for managing players in a match. Key components are highlighted
+    below.
+
+    
+
+    ### Player Status
+
+    
+
+    The [PlayerStatus](../Assets/Decommissioned/Scripts/Player/PlayerStatus.cs)
+    component tracks a player''s status, determining if they are the current Commander.
+
+    
+
+    ###
+    Player Spawns
+
+    
+
+    Players are linked to a specific GamePosition during
+    matches. The [PlayerSpawns](../Assets/Decommissioned/Scripts/Player/PlayerSpawns.cs)
+    component stores and accesses player locations.
+
+    
+
+    ### Player Voip
+
+    
+
+    The
+    [PlayerVoip](../Assets/Decommissioned/Scripts/Player/PlayerVoip.cs) component
+    manages voice chat, allowing players to be muted or unmuted.
+
+    
+
+    ##
+    Player Armband
+
+    
+
+    Upon match connection, each player receives a color-coded
+    armband for audio settings, help menus, and quitting the game. The [PlayerArmband](../Assets/Decommissioned/Scripts/Player/PlayerArmband.cs)
+    component manages its appearance and functionality.
+
+'
+  m_overrideMarkdownRoot: .\Documentation/
