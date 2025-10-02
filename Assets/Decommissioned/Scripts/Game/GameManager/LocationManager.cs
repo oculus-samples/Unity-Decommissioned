@@ -11,6 +11,7 @@ using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Game
     /// This singleton manages the movement of players from place to place during the game; from here, we can access what
     /// players are in which rooms and move them between specific <see cref="GamePosition"/>s.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class LocationManager : NetworkSingleton<LocationManager>
     {
         private GamePosition[] m_gamePositions = Array.Empty<GamePosition>();

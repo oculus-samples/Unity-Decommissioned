@@ -5,6 +5,7 @@
 using System;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Surveillance;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Interactables
     /// A button that, when pressed, causes the <see cref="SurveillanceSystem"/> to display the associated
     /// <see cref="MiniGameRoom"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class RoomSelectButton : MonoBehaviour
     {
         [SerializeField] private MeshRenderer m_button;

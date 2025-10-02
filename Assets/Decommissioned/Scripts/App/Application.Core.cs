@@ -11,6 +11,7 @@ using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Core;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using Oculus.Platform;
 using Oculus.Platform.Models;
@@ -368,6 +369,7 @@ namespace Meta.Decommissioned
                 routine.Cancel();
         }
 
+        [MetaCodeSample("Decommissioned")]
         public class Routine : IEnumerator
         {
             public IEnumerator Inner;

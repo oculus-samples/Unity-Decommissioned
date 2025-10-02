@@ -6,6 +6,7 @@ using System;
 using System.Linq;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Occlusion
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Occlusion
     /// <summary>
     /// Manages all <see cref="RoomOcclusionZone"/>s in the scene to occlude and un-occlude them when a player enters a new room.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class RoomOcclusionZoneManager : Singleton<RoomOcclusionZoneManager>
     {
         private const MiniGameRoom DEFAULT_ROOM = MiniGameRoom.Commander;

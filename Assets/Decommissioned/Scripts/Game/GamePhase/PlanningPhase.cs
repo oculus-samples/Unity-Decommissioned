@@ -2,8 +2,11 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
+
 namespace Meta.Decommissioned.Game
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlanningPhase : GamePhase
     {
         public override Phase Phase => Phase.Planning;

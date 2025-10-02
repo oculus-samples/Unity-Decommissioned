@@ -7,11 +7,13 @@ using System.Linq;
 using Meta.Decommissioned.Player;
 using Meta.Decommissioned.Voting;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game
 {
+    [MetaCodeSample("Decommissioned")]
     public class VotePhase : GamePhase
     {
         public override Phase Phase => Phase.Voting;

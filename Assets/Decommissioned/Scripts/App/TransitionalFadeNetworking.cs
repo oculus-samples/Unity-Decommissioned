@@ -9,6 +9,7 @@ using Meta.Decommissioned.Game.MiniGames;
 using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Netcode.Transports.PhotonRealtime;
 using Unity.Netcode;
 using UnityEngine;
@@ -16,6 +17,7 @@ using UnityEngine.SceneManagement;
 
 namespace Meta.Decommissioned
 {
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(TransitionalFade))]
     public class TransitionalFadeNetworking : MonoBehaviour
     {

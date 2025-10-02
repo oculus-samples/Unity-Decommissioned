@@ -4,12 +4,14 @@
 
 using System.Collections;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     public class ChemistryCleanerMachine : MonoBehaviour
     {
 

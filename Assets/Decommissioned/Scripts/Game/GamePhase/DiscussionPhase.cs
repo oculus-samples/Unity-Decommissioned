@@ -4,10 +4,12 @@
 
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Player;
+using Meta.XR.Samples;
 using Unity.Netcode;
 
 namespace Meta.Decommissioned.Game
 {
+    [MetaCodeSample("Decommissioned")]
     public class DiscussionPhase : GamePhase
     {
         public override Phase Phase => Phase.Discussion;

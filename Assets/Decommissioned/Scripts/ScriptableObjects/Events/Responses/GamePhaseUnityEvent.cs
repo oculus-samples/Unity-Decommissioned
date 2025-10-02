@@ -3,10 +3,12 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using UnityEngine.Events;
 
 namespace Meta.Decommissioned.ScriptableObjects
 {
+    [MetaCodeSample("Decommissioned")]
     [System.Serializable]
     public sealed class GamePhaseUnityEvent : UnityEvent<GamePhase>
     {

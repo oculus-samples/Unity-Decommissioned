@@ -6,12 +6,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlayAudioClipForLongestDuration : PlayAudioClip
     {
         [SerializeField] private AudioClipSelector m_clipSelector;

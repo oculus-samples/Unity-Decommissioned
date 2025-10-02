@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.ScriptableObjects
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.ScriptableObjects
      * Simple class for playing the appropriate audio based on the readying player's
      * new "Ready" status.
      */
+    [MetaCodeSample("Decommissioned")]
     public class ReadyUpAudioManager : MonoBehaviour
     {
         [SerializeField, AutoSetFromChildren] private AudioSource m_readyUpAudio;

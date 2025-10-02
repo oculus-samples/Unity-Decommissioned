@@ -4,6 +4,7 @@
 
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Unity.Netcode;
 using UnityEngine;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Game
     /// (i.e. Crew/Mole victory) and invokes events depending on this reason in order to allow components to update their
     /// values and state appropriately.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public partial class GameEnd : NetworkBehaviour
     {
         [SerializeField] private EnumDictionary<GameEndReason, UnityEvent> m_onGameEnd = new();

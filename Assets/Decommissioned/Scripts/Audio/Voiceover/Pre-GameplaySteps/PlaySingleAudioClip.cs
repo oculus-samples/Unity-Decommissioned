@@ -3,11 +3,13 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlaySingleAudioClip : PlayAudioClip
     {
         [SerializeField] private AudioClip m_clip;

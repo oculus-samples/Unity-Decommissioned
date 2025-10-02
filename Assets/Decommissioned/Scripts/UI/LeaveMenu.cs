@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.UI
     /// <summary>
     /// Handles the logic for the free-floating leave game menu.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class LeaveMenu : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI m_timerText;

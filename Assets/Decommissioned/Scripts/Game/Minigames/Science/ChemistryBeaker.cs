@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -19,6 +20,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * <seealso cref="ChemistryMiniGame"/>
      * <seealso cref="BeakerFillVisual"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class ChemistryBeaker : MonoBehaviour
     {
         [Tooltip("Reference to the recipe used to check our solution.")]

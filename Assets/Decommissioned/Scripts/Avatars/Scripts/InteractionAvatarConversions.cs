@@ -7,10 +7,12 @@
 #pragma warning disable IDE1006
 
 using Oculus.Avatar2;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Oculus.Interaction.AvatarIntegration
 {
+    [MetaCodeSample("Decommissioned")]
     public class InteractionAvatarConversions
     {
         public static CAPI.ovrAvatar2Transform PoseToAvatarTransform(Pose pose)

@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game.MiniGames;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.ScriptableObjects
@@ -10,6 +11,7 @@ namespace Meta.Decommissioned.ScriptableObjects
     /// <summary>
     /// A scriptable object containing values determining the attributes and behavior of a MiniGame.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Mini-Game Configuration Object")]
     public class MiniGameConfig : ScriptableObject
     {

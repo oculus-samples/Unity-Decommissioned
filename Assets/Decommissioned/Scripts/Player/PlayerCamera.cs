@@ -5,10 +5,12 @@
 using System.Linq;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Multiplayer.Core
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlayerCamera : Singleton<PlayerCamera>
     {
         protected void Start()

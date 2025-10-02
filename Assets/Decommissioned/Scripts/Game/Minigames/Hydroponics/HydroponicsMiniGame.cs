@@ -6,6 +6,7 @@ using System.Linq;
 using Meta.Decommissioned.Lobby;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -19,6 +20,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * <seealso cref="HydroponicsMoistureManager"/>
      * <seealso cref="HydroponicsMoistureObject"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsMiniGame : NetworkBehaviour
     {
         [SerializeField] private HydroponicsMoistureManager m_moistureManager;

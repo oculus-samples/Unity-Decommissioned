@@ -9,6 +9,7 @@ using Meta.Decommissioned.Interactables;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -31,6 +32,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// A small sister script that handles the asteroid objects for the "Asteroids" MiniGame.
     /// Most of this logic is client-sided to keep it responsive for the player.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class AsteroidObject : NetworkBehaviour
     {
         /// <summary>

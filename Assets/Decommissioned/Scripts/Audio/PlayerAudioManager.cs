@@ -7,11 +7,13 @@ using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlayerAudioManager : MonoBehaviour
     {
         public bool EnableLogging;

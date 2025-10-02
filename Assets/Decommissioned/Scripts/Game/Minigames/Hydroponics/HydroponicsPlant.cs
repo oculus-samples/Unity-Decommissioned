@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /**
      * Class for managing and tracking the state of a plant in the hydroponics station.
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsPlant : NetworkBehaviour
     {
         /// <summary>

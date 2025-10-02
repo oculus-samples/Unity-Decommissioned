@@ -4,10 +4,12 @@
 
 using System;
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.UI
 {
+    [MetaCodeSample("Decommissioned")]
     public class MipAdjustment : MonoBehaviour
     {
         [SerializeField] private List<Adjustment> m_textureAdjustments;

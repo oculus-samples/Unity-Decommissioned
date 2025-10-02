@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Utils
     /// Allows us to set additional behavior upon an object entering a collision (i.e. playing sound effects).
     /// Can be configured to execute this behavior only when certain tags are detected.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class CollisionEnterBehavior : MonoBehaviour
     {
         [SerializeField] protected bool m_onlyInvokeOnTag;

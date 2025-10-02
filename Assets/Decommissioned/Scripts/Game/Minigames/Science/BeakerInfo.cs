@@ -4,12 +4,14 @@
 
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     public class BeakerInfo : MonoBehaviour
     {
         [field: SerializeField, AutoSet] public ChemistryBeaker Logic { private set; get; }

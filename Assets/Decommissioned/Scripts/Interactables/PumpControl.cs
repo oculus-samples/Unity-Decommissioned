@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using Unity.Netcode;
 using UnityEngine;
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Interactables
     /// <p>This component is one of two used to create a pump object; for implementation of an interactable handle, see
     /// the <see cref="PumpTransformer"/> script.</p>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PumpControl : MonoBehaviour
     {
         [SerializeField, Tooltip("A reference to the handle that this pump uses.")]

@@ -3,11 +3,13 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 
 namespace Meta.Decommissioned.UI
 {
+    [MetaCodeSample("Decommissioned")]
     public class ConnectionDots : MonoBehaviour
     {
         [SerializeField] private TMP_Text m_dotsText;

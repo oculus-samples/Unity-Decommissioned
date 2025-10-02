@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Oculus.Interaction;
 using Unity.Netcode;
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Interactables
     /// <summary>
     /// Class for managing the behavior of a poke-able button.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PokeButton : MonoBehaviour
     {
         [SerializeField, AutoSetFromChildren] private PokeInteractable m_buttonObject;

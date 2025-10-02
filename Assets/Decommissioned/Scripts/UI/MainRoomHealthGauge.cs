@@ -5,6 +5,7 @@
 using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using TMPro;
 using Unity.Mathematics;
 using Unity.Netcode;
@@ -13,6 +14,7 @@ using UnityEngine.Events;
 
 namespace Meta.Decommissioned.UI
 {
+    [MetaCodeSample("Decommissioned")]
     public class MainRoomHealthGauge : Multiton<MainRoomHealthGauge>
     {
         [Tooltip("The task room that this gauge will keep track of.")]

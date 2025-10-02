@@ -5,6 +5,7 @@
 using System.Linq;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Interactables
     /// Represents a button used to select a player to assign to a specific <see cref="MiniGame"/>, chosen
     /// by first pressing an <see cref="MiniGameAssignmentButton"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerSelectButton : MonoBehaviour
     {
         [Header("Rendering")]

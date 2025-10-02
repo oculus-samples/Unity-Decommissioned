@@ -13,6 +13,7 @@ using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.Core;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Unity.Netcode;
 using UnityEngine;
@@ -23,6 +24,7 @@ namespace Meta.Decommissioned.Lobby
     /// Class representing a specific position in the game that may or may not be currently occupied by a player during the
     /// game. Players are moved between these positions by a <see cref="LocationManager"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class GamePosition : NetworkBehaviour
     {
         [field: Header("Game Location Options")]

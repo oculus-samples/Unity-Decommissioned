@@ -9,6 +9,7 @@ using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Game
     /// Component responsible for managing the various roles available to players during the game.
     /// Assigns and retrieves information about the roles of players in a given match.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class RoleManager : NetworkSingleton<RoleManager>
     {
         [SerializeField] private int m_maxMolePlayerThreshold = 6;

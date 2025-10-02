@@ -7,6 +7,7 @@ using System.Linq;
 using Meta.Decommissioned.Lobby;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * inside the beaker.
      * <seealso cref="ChemistryBeaker"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class BeakerFillVisual : NetworkBehaviour
     {
         [Tooltip("The renderer of the fill visual; we use this to change liquid color.")]

@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// Class representing a display monitor; changes appearance and audio based on input from a
     /// moisture component (<see cref="HydroponicsMoistureObject"/>).
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsMoistureThresholdDisplay : MonoBehaviour
     {
         [SerializeField] private TMP_Text m_thresholdDisplayText;

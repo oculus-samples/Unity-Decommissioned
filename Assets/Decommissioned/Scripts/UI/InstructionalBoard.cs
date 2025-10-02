@@ -8,6 +8,7 @@ using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.UI
     /// <summary>
     /// A class for handling an automated instructional board for displaying instructions or information to the player.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class InstructionalBoard : NetworkBehaviour
     {
         /// <summary>

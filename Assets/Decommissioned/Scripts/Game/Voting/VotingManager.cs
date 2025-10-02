@@ -7,6 +7,7 @@ using Meta.Decommissioned.Game;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Voting
     /// Manages the status of votes for each player during a <see cref="VotePhase"/>. From here, we can initiate or cancel
     /// votes, access which players voted, who they voted for, and which candidate has the most votes in their favor.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class VotingManager : Singleton<VotingManager>
     {
         public enum VoteStatus

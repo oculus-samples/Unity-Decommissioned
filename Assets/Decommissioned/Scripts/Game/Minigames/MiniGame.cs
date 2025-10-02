@@ -9,6 +9,7 @@ using System.Linq;
 using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.Networking;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Unity.Netcode;
 using UnityEngine;
@@ -19,6 +20,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// Defines an object as a MiniGame object. This means the object will receive and send the data necessary for the MiniGame to be completed.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(NetworkObject))]
     public class MiniGame : NetworkMultiton<MiniGame>
     {

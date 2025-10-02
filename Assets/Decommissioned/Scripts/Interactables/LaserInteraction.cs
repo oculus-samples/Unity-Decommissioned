@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Input;
 using Meta.Utilities.Input;
+using Meta.XR.Samples;
 using Oculus.Interaction.Input;
 using Oculus.Interaction.PoseDetection;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Interactables
     /// Encapsulates configuration and values for a laser fired from the player's hand. Determines whether or
     /// not a laser is fired based on the hand's current pose.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class LaserInteraction : MonoBehaviour
     {
         public bool LeftHandInLaserPose { get; private set; }

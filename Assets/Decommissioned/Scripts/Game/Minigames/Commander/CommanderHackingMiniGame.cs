@@ -4,6 +4,7 @@
 
 using System.Collections;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using TMPro;
 using Unity.Netcode;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// Defines the logic for the "hacking" mini game. This mini game is meant for the commander only.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(NetworkObject))]
     public class CommanderHackingMiniGame : NetworkBehaviour
     {

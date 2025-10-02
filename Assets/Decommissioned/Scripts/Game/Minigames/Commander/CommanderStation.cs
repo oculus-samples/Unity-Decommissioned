@@ -10,6 +10,7 @@ using Meta.Decommissioned.Player;
 using Meta.Decommissioned.Surveillance;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /**
      * Class for managing data and input/output for the Commander station.
      */
+    [MetaCodeSample("Decommissioned")]
     public class CommanderStation : NetworkBehaviour
     {
         private NetworkVariable<bool> m_isHelping = new(true);

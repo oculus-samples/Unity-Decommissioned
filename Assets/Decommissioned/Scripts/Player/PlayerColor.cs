@@ -6,6 +6,7 @@ using System.Linq;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Player
     /// Manages the color assigned to each player when they join a game. This color is used to distinguish players
     /// in various contexts during a match.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerColor : NetworkMultiton<PlayerColor>
     {
         private readonly NetworkVariable<GameColor> m_currentColor = new();

@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
     /**
      * Pre-gameplay step for playing a countdown before starting a round.
      */
+    [MetaCodeSample("Decommissioned")]
     public class PlayCountdown : PreGameplayStep
     {
         [SerializeField, AutoSet] private AudioSource m_audioSource;

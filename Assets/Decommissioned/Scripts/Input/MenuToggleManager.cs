@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Input
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Input
     /**
      * Class for managing a menu that can be shown and hidden using hand gestures.
      */
+    [MetaCodeSample("Decommissioned")]
     public class MenuToggleManager : MonoBehaviour
     {
         [SerializeField] private GameObject[] m_menus;

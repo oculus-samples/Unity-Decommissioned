@@ -9,6 +9,7 @@ using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using Unity.Netcode;
 using UnityEngine;
@@ -17,6 +18,7 @@ using UnityEngine.VFX;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     public class SatelliteArms : NetworkBehaviour
     {
         [SerializeField] internal Renderer m_satelliteHand_L;

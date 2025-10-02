@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Linq;
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Timers
     /// Class representing a clock tracking the current time left in a phase. Provides a string showing the time remaining
     /// in each phase, as well as the number of rounds that have passed since the start of the game.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PhaseClock : NetworkBehaviour
     {
         [SerializeField] private bool m_startClockOnAllPhases;

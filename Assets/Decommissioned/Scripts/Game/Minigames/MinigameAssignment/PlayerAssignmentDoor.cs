@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// Defines the assignment door for the <see cref="PlayerAssignmentInterface"/> that animates open and closed.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerAssignmentDoor : MonoBehaviour
     {
         [SerializeField] private AnimationCurve m_doorRotationCurve = new();

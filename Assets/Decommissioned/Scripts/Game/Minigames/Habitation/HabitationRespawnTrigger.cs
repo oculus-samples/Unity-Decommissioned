@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// Small class that controls the respawning of a <see cref="HabitationObject"/> when it touches a specific trigger.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class HabitationRespawnTrigger : MonoBehaviour
     {
         private void OnCollisionEnter(Collision coll)

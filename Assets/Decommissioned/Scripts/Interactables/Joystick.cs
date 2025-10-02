@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Interactables
     /// A class that controls a joystick object. Player interaction with this joystick can be
     /// drive other values with directional input.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [DefaultExecutionOrder(-1)]
     public class Joystick : MonoBehaviour, ITransformer
     {

@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Tutorials
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Tutorials
     /// <summary>
     ///  A scriptable object storing editable instructions, which can be retrieved and shown to the player.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/MiniGame Instructions")]
     public class MiniGameInstructions : ScriptableObject
     {

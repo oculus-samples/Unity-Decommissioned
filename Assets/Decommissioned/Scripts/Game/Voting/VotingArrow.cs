@@ -7,6 +7,7 @@ using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using Unity.Mathematics;
 using UnityEngine;
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Voting
     /// VotingArrow manages and updates a visual that indicates who each player is voting for and whether or
     /// not their vote is locked in.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class VotingArrow : MonoBehaviour
     {
         [SerializeField, AutoSetFromParent] private VotingBehavior m_votingBehavior;

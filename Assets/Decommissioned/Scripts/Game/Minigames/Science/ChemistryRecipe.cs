@@ -4,6 +4,7 @@
 
 using System;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using ScriptableObjectArchitecture;
 using UnityEngine;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * This object represents the recipe that the player must match in order to complete the Chemistry MiniGame.
      * Generates and stores the values changed by each interaction to be accessed and evaluated.
      */
+    [MetaCodeSample("Decommissioned")]
     public class ChemistryRecipe : MonoBehaviour
     {
         [Tooltip("How many, in total, of all chemicals can a recipe require?")]

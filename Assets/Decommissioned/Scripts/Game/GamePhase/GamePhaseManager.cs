@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using ScriptableObjectArchitecture;
 using UnityEngine;
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Game
     /// <summary>
     /// Class for managing the phases of the game; manages phase changes, phase timers, and prefab spawns.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class GamePhaseManager : NetworkSingleton<GamePhaseManager>
     {
         [SerializeField] private EnumDictionary<Phase, GamePhase> m_phases;

@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Tutorials
@@ -32,6 +33,7 @@ namespace Meta.Decommissioned.Tutorials
     /// <seealso cref="InstructionsLibraryKey"/>
     /// <seealso cref="MiniGameInstructions"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Instructions Library")]
     public class InstructionsLibrary : ScriptableObject
     {

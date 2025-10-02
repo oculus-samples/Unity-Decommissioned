@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * This class represents an object that, when activated, increases and displays the current
      * temperature of the beaker.
      */
+    [MetaCodeSample("Decommissioned")]
     public class ChemistryBurner : MonoBehaviour
     {
         [Tooltip("Text component showing the beaker's current temperature.")]

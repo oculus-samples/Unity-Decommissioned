@@ -8,6 +8,7 @@ using System.Linq;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using ScriptableObjectArchitecture;
 using TMPro;
@@ -21,6 +22,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// Defines behaviour for the "Habitation" mini game. 
     /// </summary>
     /// TODO: Eliminate ClientRPCs
+    [MetaCodeSample("Decommissioned")]
     public class HabitationMiniGame : NetworkBehaviour
     {
         [SerializeField] private HabitationPlacementPoint[] m_placementPoints;

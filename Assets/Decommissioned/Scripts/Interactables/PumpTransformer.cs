@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Interactables
     /// <p>This component is one of two used to create a pump object; for implementation of a constrained rod, see
     /// the <see cref="PumpControl"/> script.</p>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PumpTransformer : MonoBehaviour, ITransformer
     {
         [SerializeField] private float m_maxPushDistance = 0.5f;

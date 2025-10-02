@@ -10,6 +10,7 @@ using Meta.Decommissioned.UI;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Tutorials
     /// <seealso cref="MiniGameInstructions"/>
     /// <seealso cref="InstructionsLibrary"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class InstructionsLibraryBrowser : MonoBehaviour
     {
         [SerializeField, AutoSet] protected InstructionalBoard m_instructionalBoard;

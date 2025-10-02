@@ -8,6 +8,7 @@ using System.Linq;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Game
     /// <see cref="DiscussionPhase"/>
     /// and <see cref="NightPhase"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public abstract class GamePhase : NetworkSingleton<GamePhase>
     {
         [SerializeField] protected PhaseConfig m_config;

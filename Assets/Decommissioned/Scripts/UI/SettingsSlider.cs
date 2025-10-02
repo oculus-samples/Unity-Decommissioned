@@ -6,6 +6,7 @@ using System.Collections;
 using Meta.Decommissioned.Player;
 using Meta.Utilities;
 using Meta.Utilities.Input;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Oculus.Interaction;
 using Oculus.Interaction.Input;
@@ -24,6 +25,7 @@ namespace Meta.Decommissioned.UI
     /// <summary>
     /// Defines a grabbable slider that behaves to interface with a specified player setting.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class SettingsSlider : GrabFreeTransformer, ITransformer
     {
         [SerializeField] private string m_settingName = "";

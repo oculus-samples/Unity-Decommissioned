@@ -7,6 +7,7 @@ using System.Collections;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -21,6 +22,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * <seealso cref="ChemistryRecipe"/>
      * <seealso cref="ChemistryBurner"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class ChemistryMiniGame : NetworkBehaviour
     {
         [SerializeField, AutoSet] private MiniGame m_miniGame;

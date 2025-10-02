@@ -9,6 +9,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.UI;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
      * A PreGameplayStep object that plays clips in sequence depending on the current condition of all active
      * minigames in the game.
      */
+    [MetaCodeSample("Decommissioned")]
     public class HealthCalloutAudio : PreGameplayStep
     {
         [SerializeField, AutoSet] private AudioSource m_audioSource;

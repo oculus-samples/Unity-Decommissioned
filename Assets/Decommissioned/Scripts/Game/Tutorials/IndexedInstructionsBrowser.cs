@@ -5,6 +5,7 @@
 using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Tutorials
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Tutorials
     /// <seealso cref="MiniGameInstructions"/>
     /// <seealso cref="MiniGameInstructions"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class IndexedInstructionsBrowser : InstructionsLibraryBrowser
     {
         [SerializeField] private MiniGameInstructions[] m_indexedInstructions;

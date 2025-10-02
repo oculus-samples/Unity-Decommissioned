@@ -3,12 +3,14 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Meta.Decommissioned.Utils
 {
+    [MetaCodeSample("Decommissioned")]
     public class TriggerEnterBehavior : MonoBehaviour
     {
         [SerializeField] private bool m_onlyInvokeOnTag;

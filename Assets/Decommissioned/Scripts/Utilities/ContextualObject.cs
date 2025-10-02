@@ -4,6 +4,7 @@
 
 using System.Linq;
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Utils
     /**
      * Class for managing a game object that shows or hide based on specified criteria.
      */
+    [MetaCodeSample("Decommissioned")]
     public class ContextualObject : NetworkBehaviour
     {
         [SerializeField] private bool m_onlyShowForHost;

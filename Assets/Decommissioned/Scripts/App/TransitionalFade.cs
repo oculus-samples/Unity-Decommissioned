@@ -7,12 +7,14 @@ using System.Collections;
 using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Meta.Decommissioned
 {
+    [MetaCodeSample("Decommissioned")]
     public class TransitionalFade : Singleton<TransitionalFade>
     {
         [SerializeField] private float m_fadeSpeed = .01f;

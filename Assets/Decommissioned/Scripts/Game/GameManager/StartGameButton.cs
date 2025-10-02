@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Audio;
 using Meta.Decommissioned.Lobby;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using ScriptableObjectArchitecture;
 using TMPro;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Game
     /// <summary>
     /// Class encapsulating behavior for the "Start Game" button.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class StartGameButton : MonoBehaviour
     {
         [SerializeField, Required] private Renderer m_buttonMaterial;

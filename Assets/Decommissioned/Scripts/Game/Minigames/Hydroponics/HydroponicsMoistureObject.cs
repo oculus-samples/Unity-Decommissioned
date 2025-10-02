@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using Meta.Decommissioned.Lobby;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      * Pressure value decays overtime at a specified rate.
      * <seealso cref="HydroponicsMiniGame"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsMoistureObject : NetworkBehaviour
     {
         [SerializeField] private GamePosition m_pumpPlayerPosition;

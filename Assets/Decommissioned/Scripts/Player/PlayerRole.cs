@@ -7,6 +7,7 @@ using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Player
     /// Class for managing a specific player's role; this allows us to determine what "team" players are on
     /// during the game and change the behavior or appearance of other components accordingly.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerRole : NetworkMultiton<PlayerRole>
     {
         [SerializeField] private NetworkVariable<Role> m_currentRole = new(Role.Unknown);

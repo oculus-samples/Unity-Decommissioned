@@ -4,11 +4,13 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlaySelectedAudioClip : PlayAudioClip
     {
         [SerializeField] private AudioClipSelector m_clipSelector;

@@ -4,6 +4,7 @@
 
 
 using System.Collections;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,7 @@ using UnityEngine.SceneManagement;
 namespace Meta.Decommissioned.UI
 {
     /** Handles the Leave Button interaction. */
+    [MetaCodeSample("Decommissioned")]
     public class LeaveButtonHandler : MonoBehaviour
     {
         [SerializeField] private int m_secondsBeforeLeaving = 3;

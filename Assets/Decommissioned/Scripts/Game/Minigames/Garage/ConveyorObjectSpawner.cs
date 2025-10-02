@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <seealso cref="ConveyorMiniGame"/>
     /// <seealso cref="ConveyorObject"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class ConveyorObjectSpawner : NetworkBehaviour
     {
         [SerializeField] private Transform m_initialObjectDestination;

@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Tutorials
     /// <summary>
     /// Manages the sequence of animations used for tutorials in-game.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class TutorialQueueingManager : MonoBehaviour
     {
         [SerializeField] private List<ManagedAnimation> m_managedAnimations;

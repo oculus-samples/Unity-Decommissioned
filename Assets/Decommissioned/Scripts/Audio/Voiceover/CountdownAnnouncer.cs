@@ -4,10 +4,12 @@
 
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     public class CountdownAnnouncer : MonoBehaviour
     {
         private int? m_lastCount;

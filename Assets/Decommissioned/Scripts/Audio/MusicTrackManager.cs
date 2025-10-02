@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Audio
     /// <summary>
     /// Contains all of the logic for the dynamic in-game music player 
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class MusicTrackManager : Singleton<MusicTrackManager>
     {
         /// <summary>

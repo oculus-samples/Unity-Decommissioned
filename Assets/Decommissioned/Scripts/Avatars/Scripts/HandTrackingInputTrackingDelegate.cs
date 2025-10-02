@@ -7,11 +7,13 @@
 #pragma warning disable IDE1006
 
 using Oculus.Avatar2;
+using Meta.XR.Samples;
 using Oculus.Interaction.Input;
 using UnityEngine;
 
 namespace Oculus.Interaction.AvatarIntegration
 {
+    [MetaCodeSample("Decommissioned")]
     public class HandTrackingInputTrackingDelegate : OvrAvatarInputTrackingDelegate
     {
         private Transform _root;

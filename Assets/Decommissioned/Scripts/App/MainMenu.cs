@@ -7,6 +7,7 @@ using Meta.Decommissioned.UI;
 using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Oculus.Interaction;
 using TMPro;
@@ -14,6 +15,7 @@ using UnityEngine;
 
 namespace Meta.Decommissioned
 {
+    [MetaCodeSample("Decommissioned")]
     public class MainMenu : MonoBehaviour
     {
         [SerializeField] private PokeInteractable m_createLobbyButton;

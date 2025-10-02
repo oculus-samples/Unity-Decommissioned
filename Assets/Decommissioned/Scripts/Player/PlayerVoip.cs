@@ -4,6 +4,7 @@
 
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Photon.Voice.Unity;
 using Unity.Netcode;
 using UnityEngine;
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Player
     /// Manages user voice chat; allows us to retrieve and set the state (mute / unmute) of voice for
     /// the receiving player(s).
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerVoip : Multiton<PlayerVoip>
     {
         [SerializeField, AutoSet] protected Speaker m_voipSpeaker;

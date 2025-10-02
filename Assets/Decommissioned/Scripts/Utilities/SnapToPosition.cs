@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Utils
     /**
      * Class representing a position we can "snap" a specified object to when within a certain distance.
      */
+    [MetaCodeSample("Decommissioned")]
     public class SnapToPosition : MonoBehaviour
     {
         [SerializeField] private GameObject m_snappableObject;

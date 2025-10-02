@@ -4,11 +4,13 @@
 
 using System.Collections;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     public class ChemistrySubmitMachine : MonoBehaviour
     {
         [SerializeField] private ChemistryMiniGame m_miniGameLogic;

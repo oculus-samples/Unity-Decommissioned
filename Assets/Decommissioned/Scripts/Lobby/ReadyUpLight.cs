@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Lobby
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Lobby
      * Simple class for managing a light that indicates whether a player spawned at a certain posiiton
      * has readied up or not.
      */
+    [MetaCodeSample("Decommissioned")]
     public class ReadyUpLight : MonoBehaviour
     {
         [SerializeField] private GamePosition m_associatedPlayerPosition;

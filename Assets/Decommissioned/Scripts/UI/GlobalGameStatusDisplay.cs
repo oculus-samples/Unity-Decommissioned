@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.UI
     /// The GameGlobalStatusIndicator is a UI object (diegetic or otherwise) that displays important information about the
     /// match as it proceeds, such as how many moles there are and how many stations they must destroy in order to win.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class GlobalGameStatusDisplay : MonoBehaviour
     {
         [Tooltip("The role to display on this indicator for counting.")]

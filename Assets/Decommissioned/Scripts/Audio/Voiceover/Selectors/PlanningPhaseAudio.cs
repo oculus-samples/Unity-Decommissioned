@@ -5,10 +5,12 @@
 using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Audio/Planning Phase VO")]
     public class PlanningPhaseAudio : AudioClipSelector
     {

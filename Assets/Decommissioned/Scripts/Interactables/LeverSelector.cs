@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Interactables
     /// A class that controls an interactable lever object. By moving this lever up or down, the player can use it
     /// to choose between two different behaviours/options specified within the associated Unity Events.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [DefaultExecutionOrder(-1)]
     public class LeverSelector : MonoBehaviour
     {

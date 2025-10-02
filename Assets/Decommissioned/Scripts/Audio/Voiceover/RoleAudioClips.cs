@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Linq;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
      * Scriptable Object containing a unique audio clips for each role in the game: allows us to more easily retrieve
      * specific clips based on the player's role when necessary.
      */
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Audio/Role Audio Clips")]
     public class RoleAudioClips : ScriptableObject
     {

@@ -6,6 +6,7 @@ using System;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Game
     /// The GameManager is responsible for tracking and managing the overall state of the game; stores and advances the current
     /// round, updates and raises events for game state changes, and regularly checks for match win conditions.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class GameManager : NetworkSingleton<GameManager>
     {
         public static GamePhaseManager PhaseManager => GamePhaseManager.Instance;

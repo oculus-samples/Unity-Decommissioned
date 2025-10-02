@@ -5,6 +5,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Meta.Utilities;
+using Meta.XR.Samples;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     ///   Handles all minigames communications between the client and the server, and manages the minigames system to update minigames
     ///   completions and report info to other parts of the game.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class MiniGameManager : Singleton<MiniGameManager>
     {
         /// <summary>

@@ -8,6 +8,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Player;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
     /**
      * Pre-gameplay step for calling out the player that won the Commander vote during the VOTE phase.
      */
+    [MetaCodeSample("Decommissioned")]
     public class CommanderResultCallout : PreGameplayStep
     {
         [SerializeField, AutoSet] private AudioSource m_audioSource;

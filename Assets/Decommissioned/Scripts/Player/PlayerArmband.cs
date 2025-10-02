@@ -7,6 +7,7 @@ using Meta.Decommissioned.Utils;
 using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using Oculus.Interaction;
 using Unity.Burst;
@@ -16,6 +17,7 @@ using static Oculus.Avatar2.CAPI;
 
 namespace Meta.Decommissioned.Player
 {
+    [MetaCodeSample("Decommissioned")]
     [BurstCompile]
     public class PlayerArmband : NetworkBehaviour
     {

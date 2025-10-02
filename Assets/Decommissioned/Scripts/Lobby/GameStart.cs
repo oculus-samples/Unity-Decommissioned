@@ -7,6 +7,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Lobby
     /// GameStart is a class for managing the state of the match before it officially starts. When certain
     /// conditions are met (i.e. all players Ready), the actual match can be started from here.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(ReadyUp))]
     public class GameStart : NetworkBehaviour
     {

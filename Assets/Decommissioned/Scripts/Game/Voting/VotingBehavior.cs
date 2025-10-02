@@ -9,6 +9,7 @@ using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Voting
     /// Class for managing the flow for player voting; controls when a vote is initiated,
     /// how long it will take before the vote is actually confirmed, and vote cancelling.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class VotingBehavior : NetworkMultiton<VotingBehavior>
     {
         public struct VoterState : INetworkSerializeByMemcpy

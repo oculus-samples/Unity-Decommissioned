@@ -3,10 +3,12 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Audio/First Round Different")]
     public class DifferentClipForFirstRound : AudioClipSelector
     {

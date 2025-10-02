@@ -8,6 +8,7 @@ using Meta.Decommissioned.UI;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// Defines the logic of the "Asteroids" MiniGame. V2 of the "Satellite Uplink" MiniGame.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class AsteroidsMiniGame : NetworkBehaviour
     {
         /// <summary>

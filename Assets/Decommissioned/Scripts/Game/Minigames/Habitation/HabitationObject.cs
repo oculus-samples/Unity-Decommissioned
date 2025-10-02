@@ -6,12 +6,14 @@ using Meta.Multiplayer.Core;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     public class HabitationObject : NetworkBehaviour
     {
         internal readonly NetworkVariable<bool> m_isInPosition = new(false, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);

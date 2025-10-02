@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Player
@@ -10,6 +11,7 @@ namespace Meta.Decommissioned.Player
     /// <summary>
     /// Stores and manages persistent user settings and their values.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class UserSettings : Singleton<UserSettings>
     {
         private void OnDestroy() => PlayerPrefs.Save();

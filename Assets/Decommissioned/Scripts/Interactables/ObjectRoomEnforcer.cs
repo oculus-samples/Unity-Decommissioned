@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Interactables
     /// <summary>
     /// A script that will enforce objects to their original rooms when phases are transitioned.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class ObjectRoomEnforcer : MonoBehaviour
     {
         private Vector3 m_originalPosition;

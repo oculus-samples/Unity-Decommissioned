@@ -4,12 +4,14 @@
 
 using System.Collections;
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.ScriptableObjects
 {
+    [MetaCodeSample("Decommissioned")]
     public class RaiseScriptableObjectEvent : PreGameplayStep
     {
         [SerializeField] private GameEvent m_gameEvent;

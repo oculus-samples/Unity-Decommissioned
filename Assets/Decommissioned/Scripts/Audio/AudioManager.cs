@@ -5,6 +5,7 @@
 using System.Collections;
 using Meta.Decommissioned.Player;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -22,6 +23,7 @@ namespace Meta.Decommissioned.Audio
     /**
      * Singleton for managing all audio (sound effects, music, and voice chat) in the game.
      */
+    [MetaCodeSample("Decommissioned")]
     public class AudioManager : Singleton<AudioManager>
     {
         [SerializeField] private AudioMixer m_mixer;

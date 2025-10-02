@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.UI
      * Class representing a progress bar indicating the amount of rounds ("days")
      * passed since the start of the game.
      */
+    [MetaCodeSample("Decommissioned")]
     public class GameRoundCounter : MonoBehaviour
     {
         [SerializeField] private Transform m_currentRoundSlider;

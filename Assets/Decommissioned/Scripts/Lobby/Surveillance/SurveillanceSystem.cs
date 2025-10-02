@@ -8,6 +8,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Occlusion;
 using Meta.Multiplayer.Networking;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Oculus.Avatar2;
 using Unity.Netcode;
@@ -15,6 +16,7 @@ using UnityEngine;
 
 namespace Meta.Decommissioned.Surveillance
 {
+    [MetaCodeSample("Decommissioned")]
     public class SurveillanceSystem : NetworkSingleton<SurveillanceSystem>
     {
         private NetworkVariable<MiniGameRoom> m_currentTargetRoom = new();

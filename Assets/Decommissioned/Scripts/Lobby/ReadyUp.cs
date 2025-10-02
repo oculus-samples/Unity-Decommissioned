@@ -6,11 +6,13 @@ using System;
 using Meta.Decommissioned.Game;
 using Meta.Decommissioned.ScriptableObjects;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Lobby
 {
+    [MetaCodeSample("Decommissioned")]
     public class ReadyUp : MonoBehaviour
     {
         [SerializeField] private PlayerReadyUpEvent m_onPlayerReadyUp;

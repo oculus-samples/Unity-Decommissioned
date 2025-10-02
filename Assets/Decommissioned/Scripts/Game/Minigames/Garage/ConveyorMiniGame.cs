@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <seealso cref="ConveyorObject"/>
     /// <seealso cref="ConveyorBelt"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class ConveyorMiniGame : NetworkBehaviour
     {
         [SerializeField, AutoSetFromParent]

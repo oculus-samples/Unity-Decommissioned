@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Game.MiniGames
         NoReceptacle
     }
 
+    [MetaCodeSample("Decommissioned")]
     public class ConveyorReceptacle : MonoBehaviour
     {
         public Receptacles ReceptacleType

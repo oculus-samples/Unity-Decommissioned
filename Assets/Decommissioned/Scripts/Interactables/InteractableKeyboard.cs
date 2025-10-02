@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.Events;
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Interactables
     /// <summary>
     /// Small class storing configuration and values for a key on a virtual keyboard.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [Serializable]
     public class KeyboardKey
     {

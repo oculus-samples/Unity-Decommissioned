@@ -4,6 +4,7 @@
 
 using System.Linq;
 using Meta.Decommissioned.Game;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Lobby
@@ -12,6 +13,7 @@ namespace Meta.Decommissioned.Lobby
      * Class representing a phase indicator light; on Game state change, this light
      * toggles on or off depending on the states assigned to it.
      **/
+    [MetaCodeSample("Decommissioned")]
     public class PhaseLight : MonoBehaviour
     {
         [SerializeField] private MeshRenderer m_lightMeshRenderer;

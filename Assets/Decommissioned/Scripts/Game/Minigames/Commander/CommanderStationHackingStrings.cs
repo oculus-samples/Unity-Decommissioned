@@ -4,10 +4,12 @@
 
 using System;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game.MiniGames
 {
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Commander Hacking String")]
     public class CommanderStationHackingStrings : ScriptableObject
     {

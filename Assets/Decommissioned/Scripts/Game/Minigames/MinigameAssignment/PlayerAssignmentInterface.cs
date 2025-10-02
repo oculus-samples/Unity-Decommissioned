@@ -13,6 +13,7 @@ using Meta.Decommissioned.Utils;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -22,6 +23,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// Class representing an object for controlling player assignments. Through this component, we provide a user interface
     /// through which the Commander can assign players to <see cref="MiniGame"/>s.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerAssignmentInterface : MonoBehaviour
     {
         public Animator Animator;

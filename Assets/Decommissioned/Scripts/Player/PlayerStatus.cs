@@ -10,6 +10,7 @@ using Meta.Decommissioned.Lobby;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Player
     /// PlayerStatus allows us to access the player's current "sub-role" in the game; this determines their role and
     /// unique tasks during the night phase.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerStatus : NetworkMultiton<PlayerStatus>
     {
         public enum Status

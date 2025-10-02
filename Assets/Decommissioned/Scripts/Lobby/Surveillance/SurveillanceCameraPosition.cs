@@ -5,10 +5,12 @@
 using System.Linq;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Surveillance
 {
+    [MetaCodeSample("Decommissioned")]
     public class SurveillanceCameraPosition : Multiton<SurveillanceCameraPosition>
     {
         [SerializeField]

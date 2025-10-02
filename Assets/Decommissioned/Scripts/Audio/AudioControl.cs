@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Audio
     /// <summary>
     /// Provides programmatic control over a specific audio mixer group.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class AudioControl : MonoBehaviour
     {
         [SerializeField] private AudioType m_audioType = AudioType.None;

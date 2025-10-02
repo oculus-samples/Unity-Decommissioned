@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.Player;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.UI
      * Component that spawns a floating text object in the scene.
      * <seealso cref="FloatingHealthChangeText"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class FloatingHealthTextSpawner : NetworkBehaviour
     {
         [SerializeField, Required] private GameObject m_floatingTextPrefab;

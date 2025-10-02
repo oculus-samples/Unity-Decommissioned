@@ -10,6 +10,7 @@ using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -18,6 +19,7 @@ namespace Meta.Decommissioned.Lobby
     /// <summary>
     /// Manages player spawns based on the different phases of the game.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PhaseSpawnManager : NetworkSingleton<PhaseSpawnManager>
     {
         private GamePosition[] m_allNightSpawnPoints;

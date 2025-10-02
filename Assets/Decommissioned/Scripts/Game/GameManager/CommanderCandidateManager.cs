@@ -8,11 +8,13 @@ using System.Linq;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Game
 {
+    [MetaCodeSample("Decommissioned")]
     public class CommanderCandidateManager : NetworkSingleton<CommanderCandidateManager>
     {
         protected struct CommanderData : INetworkSerializeByMemcpy

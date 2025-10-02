@@ -3,11 +3,13 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 
 namespace Meta.Decommissioned.ScriptableObjects
 {
+    [MetaCodeSample("Decommissioned")]
     [CreateAssetMenu(menuName = "Decommissioned/Player Color Config")]
     public class PlayerColorConfig : ScriptableObject
     {

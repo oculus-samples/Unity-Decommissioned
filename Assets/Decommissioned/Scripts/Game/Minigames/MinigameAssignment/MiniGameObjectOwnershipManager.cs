@@ -5,6 +5,7 @@
 using Meta.Decommissioned.Lobby;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /**
      * Class for managing ownership of an object based on the player currently occupying a specific position.
      * */
+    [MetaCodeSample("Decommissioned")]
     public class MiniGameObjectOwnershipManager : NetworkBehaviour
     {
         [Tooltip("The position that will be tracked. When the player at this position changes, so does the ownership of this object.")]

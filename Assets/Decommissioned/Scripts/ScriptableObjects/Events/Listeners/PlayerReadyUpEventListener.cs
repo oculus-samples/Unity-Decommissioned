@@ -3,10 +3,12 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Lobby;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 
 namespace Meta.Decommissioned.ScriptableObjects
 {
+    [MetaCodeSample("Decommissioned")]
     public class PlayerReadyUpEventListener :
         BaseGameEventListener<ReadyUp.ReadyStatus, PlayerReadyUpEvent, PlayerReadyUpUnityEvent>
     { }

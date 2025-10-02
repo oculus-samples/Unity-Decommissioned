@@ -7,11 +7,13 @@ using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.UI
 {
+    [MetaCodeSample("Decommissioned")]
     public class HealthGaugeOccupyingLights : MonoBehaviour
     {
         [SerializeField] private MeshRenderer[] m_meshRenderers;

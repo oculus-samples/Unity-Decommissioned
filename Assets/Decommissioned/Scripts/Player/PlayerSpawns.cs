@@ -7,6 +7,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Player
     /// Multiton that stores a player's current position, as well as their "Main Spawn", a position they can be returned
     /// to from anywhere.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerSpawns : Multiton<PlayerSpawns>
     {
         private int m_mainSpawnIndex = -1;

@@ -2,11 +2,13 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 
 namespace Meta.Decommissioned.UI
 {
+    [MetaCodeSample("Decommissioned")]
     public class StationHealthChangeDisplay : MonoBehaviour
     {
         [SerializeField] private TMP_Text m_healthChangeReadOutText;

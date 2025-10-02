@@ -5,10 +5,12 @@
 using System.Collections;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(AudioSource))]
     public abstract class PlayAudioClip : PreGameplayStep
     {

@@ -15,12 +15,14 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using Meta.Utilities;
+using Meta.XR.Samples;
 
 namespace Meta.Decommissioned.Occlusion
 {
     /// <summary>
     /// Defines a zone where all renderers and specific components contained within the zone will be occluded when the room is not occupied, and vice versa.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class RoomOcclusionZone : Multiton<RoomOcclusionZone>
     {
         /// <summary>

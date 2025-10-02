@@ -4,6 +4,7 @@
 
 using System.Linq;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using Oculus.Interaction.Throw;
 using UnityEngine;
@@ -14,6 +15,7 @@ namespace Meta.Decommissioned.Interactables
     /// <summary>
     /// A component that, when attached to an object, allows us to detect if the user is shaking it.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [RequireComponent(typeof(InteractableGroupView))]
     public class ShakeableObject : MonoBehaviour
     {

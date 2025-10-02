@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using Meta.Decommissioned.Lobby;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Utils
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Utils
     /// Child class of <see cref="CollisionEnterBehavior"/> that only executes collision behavior for the player occupying a
     /// specific <see cref="GamePosition"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PositionSensitiveCollisionEnterBehavior : CollisionEnterBehavior
     {
         [SerializeField]

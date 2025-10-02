@@ -6,6 +6,7 @@ using System.Collections;
 using Meta.Multiplayer.Core;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Oculus.Interaction;
 using ScriptableObjectArchitecture;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <seealso cref="ConveyorObjectSpawner"/>
     /// <seealso cref="ConveyorMiniGame"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class ConveyorObject : NetworkBehaviour
     {
         [SerializeField, AutoSet] private ClientNetworkTransform m_networkTransform;

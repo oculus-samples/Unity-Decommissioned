@@ -7,6 +7,7 @@ using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Interactables;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEditor;
 using UnityEngine;
@@ -14,6 +15,7 @@ using UnityToolbarExtender;
 
 namespace Meta.Decommissioned.Editor
 {
+    [MetaCodeSample("Decommissioned")]
     [ExecuteInEditMode]
     public class GameDebuggerToolbar
     {

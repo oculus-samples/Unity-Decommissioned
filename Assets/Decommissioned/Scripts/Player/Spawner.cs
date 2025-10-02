@@ -2,11 +2,13 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Player
 {
+    [MetaCodeSample("Decommissioned")]
     public class Spawner : MonoBehaviour
     {
         public NetworkObject PlayerPrefab;

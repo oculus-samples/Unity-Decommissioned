@@ -3,11 +3,13 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Utils
 {
+    [MetaCodeSample("Decommissioned")]
     public class PokeRadius : MonoBehaviour
     {
         [SerializeField]

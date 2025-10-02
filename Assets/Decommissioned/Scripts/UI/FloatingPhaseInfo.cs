@@ -7,6 +7,7 @@ using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Game.MiniGames;
 using Meta.Multiplayer.Avatar;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using TMPro;
 using UnityEngine;
@@ -16,6 +17,7 @@ namespace Meta.Decommissioned.UI
     /**
      * Class for managing a bit of floating text that is shown for a short time during a specific phase before being destroyed.
      */
+    [MetaCodeSample("Decommissioned")]
     public class FloatingPhaseInfo : MonoBehaviour
     {
         [SerializeField] private TextMeshPro m_textComponent;

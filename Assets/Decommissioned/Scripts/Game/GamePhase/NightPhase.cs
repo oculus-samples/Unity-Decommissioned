@@ -6,10 +6,12 @@ using Meta.Decommissioned.Game.MiniGames;
 using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Core;
+using Meta.XR.Samples;
 using Unity.Netcode;
 
 namespace Meta.Decommissioned.Game
 {
+    [MetaCodeSample("Decommissioned")]
     public class NightPhase : GamePhase
     {
         public override Phase Phase => Phase.Night;

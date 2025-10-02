@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
@@ -11,6 +12,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
     /// Base class for audio-clip selection logic.
     /// </summary>
     /// <remarks></remarks>
+    [MetaCodeSample("Decommissioned")]
     public abstract class AudioClipSelector : ScriptableObject
     {
         public abstract bool TrySelectClip(out int clipIndex);

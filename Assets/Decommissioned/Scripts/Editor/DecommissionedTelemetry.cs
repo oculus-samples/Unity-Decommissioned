@@ -2,6 +2,7 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
+using Meta.XR.Samples;
 using UnityEditor;
 
 namespace Meta.Decommissioned.Editor
@@ -9,6 +10,7 @@ namespace Meta.Decommissioned.Editor
     /// <summary>
     /// This class helps us track the usage of this showcase
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     [InitializeOnLoad]
     public static class DecommissionedTelemetry
     {

@@ -4,11 +4,13 @@
 
 using System.Collections.Generic;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Logging
 {
+    [MetaCodeSample("Decommissioned")]
     public class ApplicationLog : Singleton<ApplicationLog>
     {
         private const int MAX_CONSOLE_LINES = 15;

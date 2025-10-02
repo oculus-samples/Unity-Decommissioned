@@ -4,6 +4,7 @@
 
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Unity.Netcode;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /**
      * Object representing a light indicating what nutrient the assigned plant needs.
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsNutrientLight : MonoBehaviour
     {
         [SerializeField, Required] private MeshRenderer m_lightMeshRenderer;

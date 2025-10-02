@@ -4,6 +4,7 @@
 
 using System.Collections;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using Unity.Netcode;
 using UnityEngine;
@@ -24,6 +25,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /**
      * Class for changing and tracking the state of the hose on the hydroponics station.
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsHoseManager : NetworkBehaviour
     {
         [SerializeField] private float m_delayBeforeNewPumpNeeded = 1f;

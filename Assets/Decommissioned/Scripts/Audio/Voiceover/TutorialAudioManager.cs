@@ -10,6 +10,7 @@ using Meta.Decommissioned.Lobby;
 using Meta.Decommissioned.Player;
 using Meta.Multiplayer.Networking;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using Unity.Netcode;
 using UnityEngine;
@@ -20,6 +21,7 @@ namespace Meta.Decommissioned.Audio.Voiceover
      * Class for managing tutorial audio clips for mini games. Allows us to play them at certain times,
      * and determine if and when they should be repeated.
      */
+    [MetaCodeSample("Decommissioned")]
     public class TutorialAudioManager : MonoBehaviour
     {
         [SerializeField, AutoSet] private AudioSource m_tutorialAudioSource;

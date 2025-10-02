@@ -8,6 +8,7 @@ using Meta.Decommissioned.Player;
 using Meta.Decommissioned.UI;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
@@ -19,6 +20,7 @@ namespace Meta.Decommissioned.Interactables
     /// will change the visual state of one or multiple lights indicating which specific players have been assigned to its
     /// associated <see cref="MiniGame"/>.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class MiniGameAssignmentButton : MonoBehaviour
     {
         [Header("Rendering")]

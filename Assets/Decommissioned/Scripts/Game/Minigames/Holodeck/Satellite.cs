@@ -7,6 +7,7 @@ using System.Linq;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Game.MiniGames
     /// <summary>
     /// A small sister script that handles the satellite for the "Asteroids" mini game.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class Satellite : NetworkBehaviour
     {
         /// <summary>

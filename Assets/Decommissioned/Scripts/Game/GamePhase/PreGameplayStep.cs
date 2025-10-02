@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-Decommissioned/tree/main/Assets/Decommissioned/LICENSE
 
 using System.Collections;
+using Meta.XR.Samples;
 using Unity.Netcode;
 
 namespace Meta.Decommissioned.Game
@@ -10,6 +11,7 @@ namespace Meta.Decommissioned.Game
     /// <summary>
     /// A network behavior for a component with behavior that is executed before a <see cref="GamePhase"/> begins.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public abstract class PreGameplayStep : NetworkBehaviour
     {
         protected bool IsComplete { get; set; }

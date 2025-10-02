@@ -5,6 +5,7 @@
 using Meta.Decommissioned.Game;
 using Meta.Decommissioned.Lobby;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using TMPro;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Interactables
     /// A button that, when pressed, toggles the player's readiness state.
     /// <seealso cref="ReadyUp.PlayerStatus"/>
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class ReadyUpButton : MonoBehaviour
     {
         [SerializeField, AutoSetFromChildren] private TMP_Text m_buttonText;

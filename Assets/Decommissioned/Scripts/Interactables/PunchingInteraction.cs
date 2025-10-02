@@ -5,6 +5,7 @@
 using System.Collections;
 using Meta.Decommissioned.Input;
 using Meta.Utilities.Input;
+using Meta.XR.Samples;
 using Oculus.Interaction.Input;
 using Oculus.Interaction.PoseDetection;
 using UnityEngine;
@@ -17,6 +18,7 @@ namespace Meta.Decommissioned.Interactables
     /// or hand tracking) and moves it at a certain velocity, we can detect it as a punching motion and have
     /// objects respond accordingly.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PunchingInteraction : MonoBehaviour
     {
         public bool LeftHandIsInPunchPose { get; private set; }

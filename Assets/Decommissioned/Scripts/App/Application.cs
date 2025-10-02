@@ -8,6 +8,7 @@ using Meta.Decommissioned.Game;
 using Meta.Multiplayer.Avatar;
 using Meta.Multiplayer.Core;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
@@ -15,6 +16,7 @@ using UnityEngine.Events;
 
 namespace Meta.Decommissioned
 {
+    [MetaCodeSample("Decommissioned")]
     public partial class Application : Singleton<Application>
     {
         public const string STARTUP_SCENE = "Startup";

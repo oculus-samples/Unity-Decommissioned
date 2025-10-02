@@ -10,6 +10,7 @@ using Meta.Decommissioned.Utils;
 using Meta.Multiplayer.Networking;
 using Meta.Multiplayer.PlayerManagement;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using NaughtyAttributes;
 using TMPro;
 using Unity.Netcode;
@@ -21,6 +22,7 @@ namespace Meta.Decommissioned.UI
     /// Class for managing the text and appearance of a nameplate. Displays the name, role, color,
     /// and current status of players in the relevant <see cref="GamePosition"/> to relevant clients.
     /// </summary>
+    [MetaCodeSample("Decommissioned")]
     public class PlayerNameplate : NetworkBehaviour
     {
         [SerializeField, Required] private GamePosition m_associatedPlayerPosition;

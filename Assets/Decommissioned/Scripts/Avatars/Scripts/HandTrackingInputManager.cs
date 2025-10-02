@@ -11,6 +11,7 @@
 
 #nullable enable
 using System.Reflection;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using Oculus.Interaction.Input;
 using UnityEngine;
@@ -18,6 +19,7 @@ using UnityEngine.Assertions;
 
 namespace Oculus.Interaction.AvatarIntegration
 {
+    [MetaCodeSample("Decommissioned")]
     public class HandTrackingInputManager : OvrAvatarInputManager
     {
 #if USING_XR_SDK

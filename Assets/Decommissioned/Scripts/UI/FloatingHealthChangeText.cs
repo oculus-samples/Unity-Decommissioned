@@ -4,6 +4,7 @@
 
 using System;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using ScriptableObjectArchitecture;
 using TMPro;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.UI
      * a FloatingTextSpawner.
      * <seealso cref="FloatingHealthTextSpawner"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class FloatingHealthChangeText : MonoBehaviour
     {
         [SerializeField, AutoSetFromChildren] private TMP_Text m_healthChangeText;

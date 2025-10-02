@@ -4,6 +4,7 @@
 
 using System.Collections;
 using System.Linq;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +16,7 @@ namespace Meta.Decommissioned.Game.MiniGames
      *
      * <seealso cref="HydroponicsMoistureObject"/>
      */
+    [MetaCodeSample("Decommissioned")]
     public class HydroponicsMoistureManager : MonoBehaviour
     {
         [SerializeField] private HydroponicsMoistureObject[] m_moistures = new HydroponicsMoistureObject[3];

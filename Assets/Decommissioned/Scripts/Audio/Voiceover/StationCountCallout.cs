@@ -6,11 +6,13 @@ using System.Collections;
 using System.Linq;
 using Meta.Decommissioned.Game;
 using Meta.Utilities;
+using Meta.XR.Samples;
 using Unity.Netcode;
 using UnityEngine;
 
 namespace Meta.Decommissioned.Audio.Voiceover
 {
+    [MetaCodeSample("Decommissioned")]
     public class StationCountCallout : PreGameplayStep
     {
         private enum StationsRemainingCounts
