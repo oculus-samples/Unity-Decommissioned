@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Main Menu Walkthrough
+  m_EditorClassIdentifier: 
+  m_displayName: Main Menu Walkthrough
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: 896d9d56b0efcdb4fafacfc616a3faf7, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: MainMenu Scene
+    Description: This scene loads after Startup.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 7b90d36af45fa6d41942ed8215470996, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: StartMenuArcade
+    Description: Contains the MainMenu.cs script, which provides API calls to control
+      the app's user flow, used in the MainMenu scene post-startup. It includes methods
+      for launching a new match, joining an existing one, or exiting the application.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 7b90d36af45fa6d41942ed8215470996, type: 3}
+      m_name: StartMenuArcade
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: AvatarEntity-MainMenu
+    Description: The Avatar Entity has been adapted to fit the control requirements
+      for navigating the Main Menu scene.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 7b90d36af45fa6d41942ed8215470996, type: 3}
+      m_name: AvatarEntity-MainMenu
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: InstructionalTablet
+    Description: Automates instructional board for displaying instructions or information
+      to the player.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 7b90d36af45fa6d41942ed8215470996, type: 3}
+      m_name: InstructionalTablet
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Project Walkthrough
+  m_EditorClassIdentifier: 
+  m_displayName: Project Walkthrough
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: 3e90e8325553650448df96a34baac990, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: Decommissioned
+    Description: This is where all the project specific code and assets are located.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 8874267d62633284088e9b442c3861fd, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Prefabs
+    Description: Prefabs used in Decommissioned can be found here.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 84b1b757d4ad9be4899c41058b770114, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Scenes
+    Description: "Scenes are located here. \r"
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 158ca8ea5e5e27c4787aa2ca5119d6e2, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Player
+    Description: The Player directory contains logic for managing players in a match.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 71bd22fac20f1db469d3c81a8776701e, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PlayerStatus
+    Description: The PlayerStatus component tracks a player's status, determining
+      if they are the current Commander.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 11500000, guid: 53abdaa2eb4713541a65881a6872daa3, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PlayerSpawns
+    Description: Players are linked to a specific GamePosition during matches. The
+      PlayerSpawns component stores and accesses player locations.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 11500000, guid: 48105a341bcab5248a43797d258ec77e, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PlayerVoip
+    Description: The PlayerVoip component manages voice chat, allowing players to
+      be muted or unmuted.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 11500000, guid: df72b399a1bc1f94f80e929323157888, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PlayerArmband
+    Description: Upon match connection, each player receives a color-coded armband
+      for audio settings, help menus, and quitting the game. The PlayerArmband component
+      manages its appearance and functionality.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 11500000, guid: bb90f2bc8fb2dce42b6262b37fe15387, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

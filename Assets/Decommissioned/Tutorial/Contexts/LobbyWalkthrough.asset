@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee262462c8042e840a3146c602914c9a, type: 3}
+  m_Name: LobbyWalkthrough
+  m_EditorClassIdentifier: 
+  m_title: Lobby Walkthrough
+  m_priority: 1013
+  m_tutorialConfig: {fileID: 11400000, guid: c113f46900ca18f408d22211d8585d79, type: 2}
+  m_showBanner: 0
+  m_references:
+  - Header: Lobby Scene
+    Description: The Lobby scene manages all game logic for Decommissioned. You enter
+      this scene after entering or hosting a match from the MainMenu.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: df2172ca90500c5428fbce29dd2fba67, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Game
+    Description: This folder gameplay logic for matches in the Lobby scene.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: dbf1b111808860a43819ff585992765f, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: GameManager
+    Description: This manages the game's current state, including player limits,
+      round count, victory conditions, and match progression.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: df2172ca90500c5428fbce29dd2fba67, type: 3}
+      m_name: GameManager
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: GamePhase
+    Description: A match progresses through four phases, each with specific objectives.
+      The GamePhase directory manages and updates the current game phase.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 41645218d12547d8bdf4195033a86bec, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: RoleManager
+    Description: During a match, each player receives a PlayerRole defining their
+      goals. The RoleManager assigns roles and adjusts player role thresholds.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: df2172ca90500c5428fbce29dd2fba67, type: 3}
+      m_name: RoleManager
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Voting
+    Description: Players vote to assign others to Mini Games. The Voting directory
+      manages and stores vote states
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 565e9d4349da33f44abe6ceec7430232, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Minigames
+    Description: 'Decommissioned features six unique Mini Games, each with distinct
+      tasks per round. The Minigames directory contains related scripts.
+
+      
+
+      The
+      Minigame script manages each minigame''s configuration and state, found in
+      all Minigame Prefabs.'
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: cfced110dac58db4ab97b4a91f03d309, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: LocationManager
+    Description: Players move to specific GamePositions as the game progresses. The
+      LocationManager component stores these locations and provides access methods.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: df2172ca90500c5428fbce29dd2fba67, type: 3}
+      m_name: LocationManager
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
