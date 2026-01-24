@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 01/23/2025
+### Update
+* Update to Unity 6000.0.59f2
+
 ## 09/24/2025
 ### Update
 * Update to Unity 6000.0.50f1
